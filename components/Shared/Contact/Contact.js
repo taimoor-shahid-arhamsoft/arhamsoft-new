@@ -16,7 +16,6 @@ import "./Contact.css";
 import { countryDropdownConfig, emailRegex, tokenRefreshTime } from "@/config";
 import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
 import { useToken } from "@/app/context/tokenContext";
-import ManualWorkAuditForm from "@/components/Services/ManualWorkAuditForm/ManualWorkAuditForm";
 const { defaultCountry, preferredCountries, separateDialCode } =
   countryDropdownConfig;
 
@@ -47,6 +46,9 @@ const options = [
   { value: "3", label: "Dedicated Teams" },
   { value: "4", label: "Fixed Project" },
   { value: "5", label: "Career Opportunity" },
+  { value: "6", label: "Manual Work Audit" },
+  { value: "7", label: "AI Product Readiness Review" },
+  { value: "8", label: "AI Beyond The Demo" },
 ];
 
 export default function Contact() {
@@ -61,11 +63,6 @@ export default function Contact() {
   });
   const params = useParams();
   const pathname = usePathname();
-  const isCommonServiceForm = [
-    "/manual-work-audit",
-    "/ai-product-readiness-review",
-    "/ai-beyond-the-demo",
-  ].includes(pathname);
 
   const [toggleForm, setToggleForm] = useState(false);
   const [isChecked, setIsChecked] = useState(false);
@@ -319,9 +316,6 @@ export default function Contact() {
             </div>
           </Col>
           <Col lg={6} id="contact-us">
-            {isCommonServiceForm ? (
-              <ManualWorkAuditForm />
-            ) : (
             <div className="share-section contact-section">
               <div className="heading-block position-relative pt-0 text-white">
                 <h3>
@@ -514,7 +508,6 @@ export default function Contact() {
                 </Row>
               </Form>
             </div>
-            )}
           </Col>
         </Row>
       </Container>
