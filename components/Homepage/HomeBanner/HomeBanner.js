@@ -42,18 +42,18 @@ export default function HomeBanner() {
         afterChange: (current) => setCurrentSlide(current),
     };
     const subHeadings = [
+        "Intelligent Business Solutions",
         "Innovative, Scalable Solutions",
         "Optimize Operations, Automate Processes",
-        "Intelligent Business Solutions",
         "Future-Proof Your Operations",
         "Greater Agility & Efficiency",
         "Elevate Performance & Scalability",
         "Powerful Data-Centric Solutions",
     ];
     const mainHeadings = [
+        { title: "AI", highlight: "Development" },
         { title: "Custom", highlight: "Development" },
         { title: "Enterprise", highlight: "Solutions" },
-        { title: "AI", highlight: "Development" },
         { title: "Cloud", highlight: "Enablement" },
         { title: "Dev", highlight: "Ops" },
         { title: "Agile", highlight: "Transformation" },
