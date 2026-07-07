@@ -1,6 +1,6 @@
 .how-we-do-block{background:#FAFAFA;border-radius:16px;padding:40px 20px;font-size:20px;line-height:30px;font-weight:300;height: 100%;}
 .how-we-do-block .icon-holder{width:89px;margin:0 0 25px;}
-.how-we-do-block h3{font-size:32px;line-height:35px;margin:0 0 25px;font-weight: 500;}
+.how-we-do-block h3{font-size:31px;line-height:35px;margin:0 0 25px;font-weight: 500;}
 .how-we-do-block .key-points{font-size:20px;line-height:24px;font-weight:300;}
 .how-we-do-block .key-points li{margin:0 0 15px;padding:0 0 0 20px;}
 .how-we-do-block .key-points li:before{content:"";width:8px;height:8px;border-radius:50%;position:absolute;left:0;top:8px;background:#F07700;}

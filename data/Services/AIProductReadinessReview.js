@@ -1,22 +1,22 @@
-import { Images } from "@/assets/assets";
+import { Images, cloudinaryImages } from "@/assets/assets";
 
 const bannerHeading = <h1>Find Where Your AI Cracks First</h1>;
 const bannerText = <p>Your prototype works because you're the only user. We find the weak points before your users do.</p>;
 const howWeDos = [
     {
-        icon: Images.AiWhatOne,
+        icon: cloudinaryImages.AiReviewOne,
         boxColor: "orange",
         title: "Retrieval & Data",
         description: "How your system handles messy real-world data, and whether retrieval finds the right document, measured properly.",
     },
     {
-        icon: Images.AiWhatTwo,
+        icon: cloudinaryImages.AiReviewTwo,
         boxColor: "blue",
         title: "Evaluation & Guardrails",
         description: "The checks that catch the failing 5% before users do, plus the guardrails and security around them.",
     },
     {
-        icon: Images.AiWhatThree,
+        icon: cloudinaryImages.AiReviewThree,
         boxColor: "farozi",
         title: "Cost & Monitoring",
         description: "Latency and cost as architecture, monitoring after launch, and the escalation path to a human.",
@@ -27,44 +27,44 @@ const howWeDoText = [
 ];
 const fourBoxesContent = [
     {
-        iconDefault: Images.AiProcessOne,
+        iconDefault: cloudinaryImages.AiReviewFour,
         title: "Share One Worry",
         description: "Tell us the one thing you're not sure will hold at scale."
     },
     {
-        iconDefault: Images.AiProcessTwo,
+        iconDefault: cloudinaryImages.AiReviewFive,
         title: "System Review",
         description: "We go through architecture, retrieval, evaluation, guardrails and monitoring."
     },
     {
-        iconDefault: Images.AiProcessThree,
+        iconDefault: cloudinaryImages.AiReviewSix,
         title: "Straight Read",
         description: "You learn what breaks first and what to fix before it does."
     },
     {
-        iconDefault: Images.AiProcessFour,
+        iconDefault: cloudinaryImages.AiReviewSeven,
         title: "Fix & Harden",
         description: "We help you build the missing pieces before your users find them."
     },
 ];
 const howWeDosIt = [
     {
-        icon: Images.AiAreaOne,
+        icon: cloudinaryImages.AiReviewEight,
         title: "Junk Input",
         description: "Real users paste 4,000 words of garbage and ask three things at once. We test what happens when input is junk."
     },
     {
-        icon: Images.AiAreaTwo,
+        icon: cloudinaryImages.AiReviewNine,
         title: "Silent Failures",
         description: "Answers that sound right and aren't. We build evaluation sets that measure quality instead of guessing at it."
     },
     {
-        icon: Images.AiAreaThree,
+        icon: cloudinaryImages.AiReviewTen,
         title: "Runaway Cost",
         description: "Context stuffing and unbounded calls quietly triple your bill. We design cost ceilings into the architecture."
     },
     {
-        icon: Images.AiAreaFour,
+        icon: cloudinaryImages.AiReviewEleven,
         title: "Drift & Scale",
         description: "Quality that slips after launch, load that triples overnight. We set up the monitoring that catches both."
     }

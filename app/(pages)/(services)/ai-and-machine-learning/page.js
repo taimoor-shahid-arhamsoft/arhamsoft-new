@@ -22,7 +22,11 @@ export async function generateMetadata() {
 	return {
 		title: "AI Consulting Services & Machine Learning Consulting Company | DataOnMatrix",
 		description: "Most AI gets bought and never used. DataOnMatrix builds AI that changes how work gets done: workflow automation, custom models and production-ready systems. Get a free consultation.",
-		keywords: ["AI & Machine Learning Services"],
+		keywords: [
+			"AI & Machine Learning Services",
+			"ai and machine learning development services",
+			"custom ai development services"
+		],
 		alternates: {
 			canonical: "https://www.dataonmatrix.com/ai-and-machine-learning",
 		}

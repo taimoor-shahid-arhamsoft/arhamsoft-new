@@ -1,4 +1,4 @@
-import { Images } from "@/assets/assets";
+import { cloudinaryImages } from "@/assets/assets";
 import PageBanner from "@/components/Shared/PageBanner/PageBanner";
 import LetsDiscuss from "@/components/Shared/LetsDiscuss/LetsDiscuss";
 import WorkSlider from "@/components/Shared/WorkSlider/WorkSlider";
@@ -38,7 +38,7 @@ export default function AIBeyondTheDemo() {
 				text={bannerText}
 				buttonText="Start With One Workflow"
 				buttonLink="#contact-us"
-				bannerImage={Images.AIBeyondTheDemo}
+				bannerImage={cloudinaryImages.AIBeyondTheDemo}
 				bannerClass="right-side-page-banner"
 				bannerImgAlt="AI Beyond The Demo"
 			/>

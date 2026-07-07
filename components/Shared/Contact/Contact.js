@@ -46,9 +46,9 @@ const options = [
   { value: "3", label: "Dedicated Teams" },
   { value: "4", label: "Fixed Project" },
   { value: "5", label: "Career Opportunity" },
-  { value: "6", label: "Manual Work Audit" },
   { value: "7", label: "AI Product Readiness Review" },
   { value: "8", label: "AI Beyond The Demo" },
+  { value: "6", label: "Manual Work Audit" },
 ];
 
 export default function Contact() {

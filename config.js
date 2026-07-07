@@ -15,6 +15,7 @@ const reCaptchaSiteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY
 const reCaptchaSecretKey = process.env.RECAPTCHA_SECRET_KEY
 const reCaptchaVerifyUrl = process.env.RECAPTCHA_VERIFY_URL
 const companyLogo = "https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1735815701/white-logo_fl6lwj.png"
+const cloudinaryBaseUrl = process.env.NEXT_PUBLIC_CLOUDINARY_BASE_URL;
 const companyEmailId = "info@dataonmatrix.com"
 const companySalesEmailId = "sales@dataonmatrix.com"
 const copmanySupportEmailId = "support@dataonmatrix.com"
@@ -70,6 +71,7 @@ module.exports = {
   googleSiteVerificationKey,
   googleTagId,
   companyLogo,
+  cloudinaryBaseUrl,
   companyEmailId,
   companySalesEmailId,
   copmanySupportEmailId,

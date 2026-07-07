@@ -1,4 +1,4 @@
-import { awsS3AnimationBaseUrl, awsS3FontBaseUrl, awsS3ImgBaseUrl, awsS3VideoBaseUrl } from "@/config.js";
+import { awsS3AnimationBaseUrl, awsS3FontBaseUrl, awsS3ImgBaseUrl, awsS3VideoBaseUrl, cloudinaryBaseUrl } from "@/config.js";
 
 export const Images = {
     siteLogo: `${awsS3ImgBaseUrl}logo.svg`,
@@ -724,7 +724,7 @@ export const Images = {
     IconServicesClouEngineeringHover: `${awsS3ImgBaseUrl}cloud-engineering-hover.svg`,
     IconServicesCloudManagementHover: `${awsS3ImgBaseUrl}cloud-management-hover.svg`,
     IconServicesCloudTransformationHover: `${awsS3ImgBaseUrl}cloud-transformation-hover.svg`,
-    IconServicesMultiCloudStrategyHover: `${awsS3ImgBaseUrl}multi-cloud-strategy-hover.svg`,    
+    IconServicesMultiCloudStrategyHover: `${awsS3ImgBaseUrl}multi-cloud-strategy-hover.svg`,
     contact01: `${awsS3ImgBaseUrl}contactus-01.svg`,
     contact02: `${awsS3ImgBaseUrl}contactus-02.svg`,
     contact03: `${awsS3ImgBaseUrl}contactus-03.svg`,
@@ -2540,12 +2540,46 @@ export const Images = {
     JobsListingResumeIcon: `${awsS3ImgBaseUrl}jobs-listing-resume-icon.svg`,
     JobsListingCoverLetterIcon: `${awsS3ImgBaseUrl}jobs-listing-cover-letter-icon.svg`,
     notFound: `${awsS3ImgBaseUrl}search-doc-icon.webp`,
-    //temporary paths
-    ManualWorkAuditBg: `https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1783084423/Arhamsoft%20rewamp/audit_cmphag.png`,
-    AIProductReadinessReview: `https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1783346857/Arhamsoft%20rewamp/review_wy7bc0.png`,
-    AIBeyondTheDemo: `https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1783346868/Arhamsoft%20rewamp/review_s3g77w.png`,
 }
 
+export const cloudinaryImages = {
+    ManualWorkAuditBg: `${cloudinaryBaseUrl}/v1783435081/Arhamsoft%20rewamp/audit_cgx5tb.webp`,
+    AiAuditOne: `${cloudinaryBaseUrl}/v1783435080/Arhamsoft%20rewamp/audit-01_cta0tu.svg`,
+    AiAuditTwo: `${cloudinaryBaseUrl}/v1783435081/Arhamsoft%20rewamp/audit-02_nifyml.svg`,
+    AiAuditThree: `${cloudinaryBaseUrl}/v1783435082/Arhamsoft%20rewamp/audit-03_qcd5wv.svg`,
+    AiAuditFour: `${cloudinaryBaseUrl}/v1783435082/Arhamsoft%20rewamp/audit-04_cphxu9.svg`,
+    AiAuditFive: `${cloudinaryBaseUrl}/v1783435082/Arhamsoft%20rewamp/audit-05_vxzrrn.svg`,
+    AiAuditSix: `${cloudinaryBaseUrl}/v1783435083/Arhamsoft%20rewamp/audit-06_e9z2qv.svg`,
+    AiAuditSeven: `${cloudinaryBaseUrl}/v1783435085/Arhamsoft%20rewamp/audit-07_gbdukr.svg`,
+    AiAuditEight: `${cloudinaryBaseUrl}/v1783435085/Arhamsoft%20rewamp/audit-08_x2mf5j.svg`,
+    AiAuditNine: `${cloudinaryBaseUrl}/v1783435086/Arhamsoft%20rewamp/audit-09_nixpmo.svg`,
+    AiAuditTen: `${cloudinaryBaseUrl}/v1783435087/Arhamsoft%20rewamp/audit-10_tc9r3u.svg`,
+    AiAuditEleven: `${cloudinaryBaseUrl}/v1783435087/Arhamsoft%20rewamp/audit-11_tg3x9k.svg`,
+    AIProductReadinessReview: `${cloudinaryBaseUrl}/v1783435085/Arhamsoft%20rewamp/review_ikmpfm.webp`,
+    AiReviewOne: `${cloudinaryBaseUrl}/v1783435085/Arhamsoft%20rewamp/review-01_whsjib.svg`,
+    AiReviewTwo: `${cloudinaryBaseUrl}/v1783435085/Arhamsoft%20rewamp/review-02_ircvwe.svg`,
+    AiReviewThree: `${cloudinaryBaseUrl}/v1783435085/Arhamsoft%20rewamp/review-03_xcvcqo.svg`,
+    AiReviewFour: `${cloudinaryBaseUrl}/v1783435086/Arhamsoft%20rewamp/review-04_xqvwwm.svg`,
+    AiReviewFive: `${cloudinaryBaseUrl}/v1783435086/Arhamsoft%20rewamp/review-05_rzdccc.svg`,
+    AiReviewSix: `${cloudinaryBaseUrl}/v1783435087/Arhamsoft%20rewamp/review-06_aagnmm.svg`,
+    AiReviewSeven: `${cloudinaryBaseUrl}/v1783435088/Arhamsoft%20rewamp/review-07_os2uxw.svg`,
+    AiReviewEight: `${cloudinaryBaseUrl}/v1783435088/Arhamsoft%20rewamp/review-08_gtm9nw.svg`,
+    AiReviewNine: `${cloudinaryBaseUrl}/v1783435089/Arhamsoft%20rewamp/review-09_mnxn1o.svg`,
+    AiReviewTen: `${cloudinaryBaseUrl}/v1783435089/Arhamsoft%20rewamp/review-10_nnafok.svg`,
+    AiReviewEleven: `${cloudinaryBaseUrl}/v1783435090/Arhamsoft%20rewamp/review-11_ejtodt.svg`,
+    AIBeyondTheDemo: `${cloudinaryBaseUrl}/v1783435088/Arhamsoft%20rewamp/demo_di4uef.webp`,
+    AiDemoOne: `${cloudinaryBaseUrl}/v1783435088/Arhamsoft%20rewamp/demo-01_y1omlg.svg`,
+    AiDemoTwo: `${cloudinaryBaseUrl}/v1783435089/Arhamsoft%20rewamp/demo-02_crcsr3.svg`,
+    AiDemoThree: `${cloudinaryBaseUrl}/v1783435090/Arhamsoft%20rewamp/demo-03_pnpf3d.svg`,
+    AiDemoFour: `${cloudinaryBaseUrl}/v1783435090/Arhamsoft%20rewamp/demo-04_sm8nhh.svg`,
+    AiDemoFive: `${cloudinaryBaseUrl}/v1783435090/Arhamsoft%20rewamp/demo-05_zxlvrh.svg`,
+    AiDemoSix: `${cloudinaryBaseUrl}/v1783435081/Arhamsoft%20rewamp/demo-06_txawig.svg`,
+    AiDemoSeven: `${cloudinaryBaseUrl}/v1783435081/Arhamsoft%20rewamp/demo-07_brd7oj.svg`,
+    AiDemoEight: `${cloudinaryBaseUrl}/v1783435081/Arhamsoft%20rewamp/demo-08_bin2x0.svg`,
+    AiDemoNine: `${cloudinaryBaseUrl}/v1783435081/Arhamsoft%20rewamp/demo-09_boll2w.svg`,
+    AiDemoTen: `${cloudinaryBaseUrl}/v1783435083/Arhamsoft%20rewamp/demo-10_fszttj.svg`,
+    AiDemoEleven: `${cloudinaryBaseUrl}/v1783435084/Arhamsoft%20rewamp/demo-11_d9khfq.svg`,
+}
 
 export const Videos = {
     about: `${awsS3VideoBaseUrl}banner.webm`,

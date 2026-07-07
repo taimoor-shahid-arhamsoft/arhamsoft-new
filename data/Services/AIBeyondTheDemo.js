@@ -1,22 +1,22 @@
-import { Images } from "@/assets/assets";
+import { Images, cloudinaryImages } from "@/assets/assets";
 
 const bannerHeading = <h1>We Don't Build AI Demos</h1>;
 const bannerText = <p>A demo is built to win the meeting. We build the version that has to work on Tuesday.</p>;
 const howWeDos = [
     {
-        icon: Images.AiWhatOne,
+        icon: cloudinaryImages.AiDemoOne,
         boxColor: "orange",
         title: "The Demo Trap",
         description: "The demo impresses everyone, gets a budget, then meets real data and a team with its own way of working.",
     },
     {
-        icon: Images.AiWhatTwo,
+        icon: cloudinaryImages.AiDemoTwo,
         boxColor: "blue",
         title: "The Wrong First Question",
         description: "\"Which model should we use?\" gets asked before anyone can describe the workflow in a sentence. Map first.",
     },
     {
-        icon: Images.AiWhatThree,
+        icon: cloudinaryImages.AiDemoThree,
         boxColor: "farozi",
         title: "The Missing Four Fifths",
         description: "The model is a fifth of the work. Pipelines, checks, monitoring and escalation are why it works.",
@@ -27,44 +27,44 @@ const howWeDoText = [
 ];
 const fourBoxesContent = [
     {
-        iconDefault: Images.AiProcessOne,
+        iconDefault: cloudinaryImages.AiDemoFour,
         title: "Map The Workflow",
         description: "Who touches it, where it stalls and what better looks like."
     },
     {
-        iconDefault: Images.AiProcessTwo,
+        iconDefault: cloudinaryImages.AiDemoFive,
         title: "Build The System",
         description: "The pipeline, checks and fallbacks around the model, not just the model."
     },
     {
-        iconDefault: Images.AiProcessThree,
+        iconDefault: cloudinaryImages.AiDemoSix,
         title: "Keep Judgment Human",
         description: "Machines own the repetition. Decisions stay with your people."
     },
     {
-        iconDefault: Images.AiProcessFour,
+        iconDefault: cloudinaryImages.AiDemoSeven,
         title: "Measure The Change",
         description: "Done means the workflow runs differently, not that the demo impressed."
     },
 ];
 const howWeDosIt = [
     {
-        icon: Images.AiAreaOne,
+        icon: cloudinaryImages.AiDemoEight,
         title: "Faster Tuesdays",
         description: "The report that took an afternoon goes out in minutes. The change shows up in the workweek, not the slide deck."
     },
     {
-        icon: Images.AiAreaTwo,
+        icon: cloudinaryImages.AiDemoNine,
         title: "Leads That Get Replies",
         description: "Ten minutes instead of two days. Speed in the workflow becomes speed your customers feel."
     },
     {
-        icon: Images.AiAreaThree,
+        icon: cloudinaryImages.AiDemoTen,
         title: "Answers Without Asking",
         description: "Your team finds the answer without asking three colleagues, because retrieval was built and measured properly."
     },
     {
-        icon: Images.AiAreaFour,
+        icon: cloudinaryImages.AiDemoEleven,
         title: "Tools People Open",
         description: "Systems that fit how your team already works, so they get used instead of shelved."
     }

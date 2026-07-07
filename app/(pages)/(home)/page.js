@@ -17,7 +17,7 @@ export async function generateMetadata() {
 	return {
 		title: "AI & Software That Gets Used - DataonMatrix",
 		description: "DataonMatrix builds AI automation and software that changes how work gets done: workflow automation for operations teams and AI products built for real users.",
-		keywords: ["software development, Web and Mobile App Development Company"],
+		keywords: ["software development, Web and Mobile App Development Company, ai development services in usa, ai automation services"],
 		alternates: {
 			canonical: "https://www.dataonmatrix.com/",
 		},

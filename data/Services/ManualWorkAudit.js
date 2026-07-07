@@ -1,22 +1,22 @@
-import { Images } from "@/assets/assets";
+import { Images, cloudinaryImages } from "@/assets/assets";
 
 const bannerHeading = <h1>Send Us One Workflow</h1>;
 const bannerText = <p>We find where your team's time goes and what's worth automating first.</p>;
 const howWeDos = [
     {
-        icon: Images.AiWhatOne,
+        icon: cloudinaryImages.AiAuditOne,
         boxColor: "orange",
         title: "The Weekly Report",
         description: "The numbers someone rebuilds by hand every Monday, outdated before anyone reads them.",
     },
     {
-        icon: Images.AiWhatTwo,
+        icon: cloudinaryImages.AiAuditTwo,
         boxColor: "blue",
         title: "The Cold Leads",
         description: "Follow-ups that happen \"when there's time,\" which is how leads go cold.",
     },
     {
-        icon: Images.AiWhatThree,
+        icon: cloudinaryImages.AiAuditThree,
         boxColor: "farozi",
         title: "The Manual Checks",
         description: "Invoices, orders and records checked line by line, week after week.",
@@ -27,44 +27,44 @@ const howWeDoText = [
 ];
 const fourBoxesContent = [
     {
-        iconDefault: Images.AiProcessOne,
+        iconDefault: cloudinaryImages.AiAuditFour,
         title: "Send One Workflow",
         description: "One or two sentences describing a task your team repeats. That's the ask."
     },
     {
-        iconDefault: Images.AiProcessTwo,
+        iconDefault: cloudinaryImages.AiAuditFive,
         title: "Map The Time",
         description: "We time it, trace it and find where the work stalls."
     },
     {
-        iconDefault: Images.AiProcessThree,
+        iconDefault: cloudinaryImages.AiAuditSix,
         title: "Get A Straight Read",
         description: "What's worth automating, what isn't and what should stay human."
     },
     {
-        iconDefault: Images.AiProcessFour,
+        iconDefault: cloudinaryImages.AiAuditSeven,
         title: "Automate What's Worth It",
         description: "We build the first version and keep judgment with your people."
     },
 ];
 const howWeDosIt = [
     {
-        icon: Images.AiAreaOne,
+        icon: cloudinaryImages.AiAuditEight,
         title: "Repetition Cost",
         description: "Five minutes, eight times a day, three people. Small tasks carry big numbers. We calculate what repetition really costs."
     },
     {
-        icon: Images.AiAreaTwo,
+        icon: cloudinaryImages.AiAuditNine,
         title: "Invisible Work",
         description: "No budget has a line called \"manual invoice matching.\" We make hidden work visible enough to get fixed."
     },
     {
-        icon: Images.AiAreaThree,
+        icon: cloudinaryImages.AiAuditTen,
         title: "Judgment Steps",
         description: "The parts that need a human stay human. We separate the copy-paste a machine should own from real decisions."
     },
     {
-        icon: Images.AiAreaFour,
+        icon: cloudinaryImages.AiAuditEleven,
         title: "Quick Wins",
         description: "The first automation should pay for itself fast. We find the workflow where the time comes back soonest."
     }
