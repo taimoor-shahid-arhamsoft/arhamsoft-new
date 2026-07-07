@@ -42,13 +42,13 @@ const shareMap = [
 
 const options = [
   { value: "1", label: "General Inquiry" },
-  { value: "2", label: "Staff Augmentation" },
-  { value: "3", label: "Dedicated Teams" },
-  { value: "4", label: "Fixed Project" },
-  { value: "5", label: "Career Opportunity" },
-  { value: "7", label: "AI Product Readiness Review" },
-  { value: "8", label: "AI Beyond The Demo" },
-  { value: "6", label: "Manual Work Audit" },
+  { value: "2", label: "AI Product Readiness Review" },
+  { value: "3", label: "AI Beyond The Demo" },
+  { value: "4", label: "Manual Work Audit" },
+  { value: "5", label: "Staff Augmentation" },
+  { value: "6", label: "Dedicated Teams" },
+  { value: "7", label: "Fixed Project" },
+  { value: "8", label: "Career Opportunity" },
 ];
 
 export default function Contact() {

@@ -1,7 +1,7 @@
 .ai-mlearing .page-banner .container {position: static;}
 .ai-mlearing .how-we-do {background: #fff;}
 .ai-mlearing .page-banner p {max-width: 804px;}
-.ai-mlearing .what-you-get h3 {font-size: 23px;line-height: 32px;font-weight: 500;}
+.ai-mlearing .what-you-get h3 {font-size: 22px;line-height: 32px;font-weight: 500;}
 .ai-mlearing .tech-stacks .tech-stack-images .stack-img:nth-child(06) {width: 340px;}
 /* responsivness */
 @media(max-width:1399px){
