@@ -1,0 +1,34 @@
+.dot-net-developers .hire-developer .image-area img{width: 100%;height: auto;object-fit: contain;}
+.dot-net-developers .stats-block {padding-top: 120px;}
+.dot-net-developers .hire-developer .accordion-item.active {background: #091A4A;}
+.dot-net-developers .page-banner p {max-width: 750px;}
+.dot-net-developers .page-banner-hdr.sub-pages h1{margin-bottom: 30px;}
+.dot-net-developers .page-banner-hdr .iso-images {margin-top: 58px;margin-bottom: 0;padding: 0;list-style: none;display: flex;align-items: center;}
+.dot-net-developers .page-banner-hdr .iso-images li {margin-right: 23px;}
+.dot-net-developers .page-banner-hdr {background-image: url("https://d2g5gf76vk4es3.cloudfront.net/images/php-dev-banner.webp");}
+.dot-net-developers .page-banner-hdr:after {display: none;}
+.dot-net-developers .page-banner p {max-width: 750px;}
+.dot-net-developers .development-solutions {box-shadow: 0px 3px 26px #0000000F;background: #fff;}
+/* responsive */
+@media (min-width: 1700px) {
+    .dot-net-developers .hire-developer .image-area {max-width: 560px;}
+}
+@media only screen and (max-width:1699px){
+    .dot-net-developers .stats-block {padding-top: 80px;}
+}
+@media only screen and (max-width:1399px){
+    .dot-net-developers .stats-block {padding-top: 70px;}
+    .dot-net-developers .page-banner p {max-width: 601px;}
+    .dot-net-developers .page-banner-hdr.sub-pages h1 {margin-bottom: 24px;}
+    .dot-net-developers .page-banner-hdr .iso-images {margin-top: 40px;}
+}
+@media only screen and (max-width:1199px){
+    .dot-net-developers .stats-block {padding-top: 50px;}
+    .dot-net-developers .page-banner p {max-width: 100%;}
+}
+@media only screen and (max-width:991px){
+    .dot-net-developers .stats-block {padding-top: 30px;}
+    .dot-net-developers .what-we-block {min-height: auto;}
+    .dot-net-developers .page-banner-hdr.sub-pages h1 {margin-bottom: 12px;}
+    .dot-net-developers .page-banner-hdr .iso-images {margin-top: 25px;}
+}

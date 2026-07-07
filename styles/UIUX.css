@@ -1,0 +1,42 @@
+.ui-ux .page-banner .banner-image{position: relative;}
+.ui-ux .page-banner .banner-image .image-holder{position:relative;z-index:2;}
+.ui-ux .page-banner .lottie-holder-banner{width:160px;position:absolute;z-index:1;}
+.ui-ux .page-banner .lottie-holder-banner.one{right: 180px;top: 90px;}
+.ui-ux .page-banner .lottie-holder-banner.two{left: 190px;bottom: 50px;}
+@media(max-width:1699px){
+    .ui-ux .page-banner .lottie-holder-banner.one {right: 150px;top: 50px;}
+    .ui-ux .page-banner .lottie-holder-banner.two{left: 150px;bottom: 50px;}
+}
+@media(max-width:1399px){
+    .ui-ux .page-banner .lottie-holder-banner.one {right: 140px;top: 50px;}
+    .ui-ux .page-banner .lottie-holder-banner.two{left: 150px;bottom: 30px;}
+}
+@media(max-width:1199px){
+    .ui-ux .page-banner .lottie-holder-banner.one {right: 120px;top: 30px;width: 100px;}
+    .ui-ux .page-banner .lottie-holder-banner.two{left: 120px;bottom: 30px;width: 100px;}
+}
+@media(max-width:991px){
+    .ui-ux .page-banner .lottie-holder-banner{width:100px;}
+    .ui-ux .page-banner .lottie-holder-banner.one {right: 110px;top: 0;}
+    .ui-ux .page-banner .lottie-holder-banner.two {left: 80px;bottom: 20px;}
+}
+@media(max-width:767px){
+    .ui-ux .page-banner .lottie-holder-banner.one{right:150px;top:10px;}
+    .ui-ux .page-banner .lottie-holder-banner.two{left:110px;bottom:10px;}
+}
+@media(max-width:575px){
+    .ui-ux .page-banner .lottie-holder-banner.one{right:110px;top:0px;}
+    .ui-ux .page-banner .lottie-holder-banner.two{left:90px;bottom:30px;}
+}
+@media(max-width:479px){
+    .ui-ux .page-banner .banner-image{max-width:280px;}
+    .ui-ux .page-banner .lottie-holder-banner{width:70px;}
+    .ui-ux .page-banner .lottie-holder-banner.one{right:60px;top:0;}
+    .ui-ux .page-banner .lottie-holder-banner.two{left:50px;bottom:0;}
+}
+@media(max-width:319px){
+    .ui-ux .page-banner .banner-image{max-width:200px;margin-top:20px;}
+    .ui-ux .page-banner .lottie-holder-banner{width:50px;}
+    .ui-ux .page-banner .lottie-holder-banner.one{right:50px;top:0;}
+    .ui-ux .page-banner .lottie-holder-banner.two{left:40px;bottom:0;}
+}

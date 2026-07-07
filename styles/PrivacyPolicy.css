@@ -1,0 +1,96 @@
+.privacy-policy .page-banner .lottie-holder{display: none;}
+.privacy-policy .page-banner{padding: 35px 0;background: transparent radial-gradient(closest-side at 50% 50%, #FC9D1D 0%, #F48007 100%) 0% 0% no-repeat padding-box;color: #fff;}
+.privacy-policy .banner-image img{max-width:100%;height: auto;}
+.privacy-policy .page-banner h1{color: #fff;}
+.privacy-policy .how-we-do{background-color: transparent;padding: 120px 0;}
+.privacy-policy .how-we-block{height: 100%;min-height: auto;}
+.privacy-policy .section-heading p{max-width: 100%;font-size: 20px;line-height: 27px;margin-bottom: 15px;}
+.privacy-policy .privacy-data .section-heading h2{font-size: 40px;line-height: 46px;margin-bottom: 20px;}
+.privacy-policy .privacy-data{background-color: #F5F7FA;padding-block: 70px;}
+.privacy-policy .privacy-update{background-color: #F5F7FA;padding: 70px 0;}
+.privacy-policy .privacy-update .privacy-btn .are-btn{margin-right: 20px;}
+.privacy-policy .privacy-update .main-privacy-btn{display: flex;align-items: center;}
+.privacy-policy.term-conditions .privacy-update .section-heading h2{font-size: 40px;line-height: 46px;margin-bottom: 20px;}
+.privacy-policy.term-conditions .privacy-update:not(:last-child){margin-bottom: 60px;}
+.privacy-policy.term-conditions .privacy-data {margin-bottom: 0;background: transparent;padding: 0;}
+.privacy-policy.term-conditions .how-we-do {padding-bottom : 0;}
+.privacy-policy.term-conditions .how-we-do .section-heading{margin-bottom: 0;}
+.privacy-policy.term-conditions .three-boxes.content-section .section-heading{margin: 0;}
+.privacy-policy.term-conditions .three-boxes.content-section{padding-top: 0;}
+.privacy-policy.term-conditions .three-boxes.content-section .counter{display: none;}
+.privacy-policy.term-conditions .three-boxes.content-section .icon-holder{display: none;}
+.privacy-policy.term-conditions .three-boxes.content-section h3{display: none;}
+.privacy-policy.term-conditions .terms-last-content {background-color: #F5F7FA;padding-block: 70px;}
+.privacy-policy .page-banner strong {margin: 0 0 16px;}
+.privacy-policy .privacy-heading{margin-bottom: 60px;}
+/*responsiveness*/
+@media(max-width:1699px){
+    .privacy-policy .how-we-do{background-color: transparent;padding: 80px 0;}
+    .privacy-policy .privacy-data .section-heading h2 {font-size: 37px;line-height: 42px;}
+    .privacy-policy .privacy-update{padding: 65px 0;}
+    .privacy-policy.term-conditions .privacy-update .section-heading h2 {font-size: 37px;line-height: 42px;}
+    .privacy-policy .page-banner{padding: 30px 0;}
+}
+@media(max-width:1399px){
+    .privacy-policy .how-we-do{padding: 70px 0;}
+    .privacy-policy .section-heading p{font-size: 18px;line-height: 22px;}
+    .privacy-policy .how-we-do {padding: 70px 0;}
+    .privacy-policy .privacy-data .section-heading h2 {font-size: 34px;line-height: 38px;}
+    .privacy-policy .privacy-update {padding: 60px 0;}
+    .privacy-policy .privacy-data {padding-block: 60px;}
+    .privacy-policy.term-conditions .privacy-update .section-heading h2 {font-size: 34px;line-height: 38px;}
+    .privacy-policy.term-conditions .privacy-update:not(:last-child) {margin-bottom: 50px;}
+    .privacy-policy.term-conditions .three-boxes .colored-box p {font-size: 18px;line-height: 26px;} 
+    .privacy-policy.term-conditions .terms-last-content {padding-block: 60px;}
+}
+@media(max-width:1199px){
+    .privacy-policy .how-we-do{background-color: transparent;padding: 50px 0;}
+    .privacy-policy .privacy-data .section-heading h2 {font-size: 30px;line-height: 34px;}
+    .privacy-policy .privacy-data {padding-block: 50px;}
+    .privacy-policy .privacy-update {padding: 50px 0;}
+    .privacy-policy.term-conditions .privacy-update .section-heading h2 {font-size: 30px;line-height: 34px;}
+    .privacy-policy.term-conditions .three-boxes .colored-box p{font-size: 16px;line-height: 22px;}
+    .privacy-policy .privacy-heading {margin-bottom: 40px;}
+    .privacy-policy.term-conditions .terms-last-content {padding-block: 50px;}
+}
+@media(max-width:991px){
+    .privacy-policy .how-we-do{background-color: transparent;padding: 30px 0;}
+    .privacy-policy .how-we-block{margin: 0 0 12px;height: auto;}
+    .privacy-policy .section-heading p{font-size: 16px;line-height: 19px;}
+    .privacy-policy .privacy-data .section-heading h2{font-size: 25px;line-height: 30px;}
+    .privacy-policy .privacy-data{padding-block: 40px;}
+    .privacy-policy .privacy-update {padding: 40px 0;}
+    .privacy-policy .privacy-update .privacy-btn .are-btn {margin-right: 15px;}
+    .privacy-policy.term-conditions .privacy-update .section-heading h2 {font-size: 25px;line-height: 30px;}
+    .privacy-policy.term-conditions .privacy-update:not(:last-child) {margin-bottom: 40px;}
+    .ara-privacy-policy .privacy-update.privacy-data{padding: 35px 0;}
+    .privacy-policy .page-banner{padding: 25px 0 ;}
+    .privacy-policy.term-conditions .terms-last-content {padding-block: 40px;}
+}
+@media(max-width:767px){
+    .privacy-policy .how-we-do{background-color: transparent;padding: 20px 0;}
+    .privacy-policy .privacy-data .section-heading h2 {font-size: 22px;line-height: 26px;}
+    .privacy-policy .privacy-update {padding: 30px 0;}
+    .privacy-policy .privacy-update .privacy-btn .are-btn {margin-right: 12px;}
+    .ara-privacy-policy .privacy-update.privacy-data {padding: 30px 0;}
+    .privacy-policy .privacy-heading {margin-bottom: 30px;}
+    .privacy-policy.term-conditions .terms-last-content {padding-block: 30px;}
+    .privacy-policy .privacy-data{padding-block: 30px;}
+}
+@media(max-width:575px){
+    .privacy-policy .section-heading p{font-size: 14px;line-height: 20px;margin-bottom: 12px;}
+    .privacy-policy .privacy-data .section-heading h2 {font-size: 20px;line-height: 24px;}
+    .privacy-policy .privacy-update .privacy-btn .are-btn {margin-right: 10px;}
+    .privacy-policy.term-conditions .privacy-update .section-heading h2{font-size: 20px;line-height: 24px;}
+    .privacy-policy.term-conditions .privacy-update:not(:last-child) {margin-bottom: 30px;}
+    .react-fancybox .thumbnail img {max-width: 100%;height: auto;}
+    .react-fancybox .image-box img { max-width: 100%; height: auto;}
+}
+@media(max-width:479px){
+    .privacy-policy .section-heading p{font-size: 12px;line-height: 18px;}
+    .privacy-policy .privacy-data .section-heading h2 {font-size: 18px;line-height: 22px;}
+    .privacy-policy .privacy-update .main-privacy-btn {display: block;}
+    .privacy-policy .privacy-update .privacy-btn a{width: 100%;}
+    .privacy-policy .privacy-update .privacy-btn .are-btn{margin: 0 0 10px 0;}
+    .privacy-policy.term-conditions .privacy-update .section-heading h2 {font-size: 18px;line-height: 22px;}
+}

@@ -1,0 +1,21 @@
+.dev-ops .lets-discuss {padding-top: 120px;}
+.dev-ops .how-we-do {background: #fff;}
+.dev-ops .how-we-block {height: 100%;}
+.dev-ops .how-we-block .counter {display: none;}
+/* responsive */
+@media(max-width:1699px){
+    .dev-ops .lets-discuss {padding-top: 80px;}
+}
+@media (max-width:1399px){
+    .dev-ops .lets-discuss {padding-top: 70px;}
+}
+@media (max-width:1199px){
+    .dev-ops .lets-discuss {padding-top: 50px;}
+}
+@media(max-width:991px){
+    .dev-ops .how-we-block {height: auto;}
+    .dev-ops .lets-discuss {padding-top: 30px;}
+}
+@media (max-width:767px){
+    .dev-ops .lets-discuss {padding-top: 20px;}
+}

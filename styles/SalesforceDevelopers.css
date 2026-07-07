@@ -1,0 +1,50 @@
+.salesforce-developers .page-banner p {max-width: 737px;}
+.salesforce-developers .stats-block {padding-top: 120px;}
+.salesforce-developers .stats-block h2 {color: #F07700;}
+.salesforce-developers .stats-block h2 span {color: #0F0F0F;}
+.salesforce-developers.ms-dynamic-developers .dynamic .accordion-item.active{background:#64BECE ;}
+.salesforce-developers.zoho-developers .dynamic.zoho .accordion-item.active {background: #F07700;}
+.salesforce-developers.odoo-developers .page-banner {padding: 41px 0px;}
+.salesforce-developers.odoo-developers .stats-block h2 {font-size: 39px;line-height: 53px;}
+.salesforce-developers.odoo-developers .hire-developer-content .accordion-item.active{background:#64386D;}
+.salesforce-developers.odoo-developers .page-banner-hdr {background-image: url("https://d2g5gf76vk4es3.cloudfront.net/images/new-odoo-banner-bg.webp");}
+.salesforce-developers.odoo-developers .page-banner-hdr:after {display: none;}
+.salesforce-developers.odoo-developers .hire-developer{padding-bottom: 0;}
+.salesforce-developers.odoo-developers .colored-box .counter{display: none;}
+.salesforce-developers.odoo-developers .page-banner-hdr.sub-pages h1{margin-bottom: 30px;}
+.salesforce-developers.odoo-developers .stats-block {padding-bottom: 120px;}
+.salesforce-developers-main .work-slider-sec {padding-bottom: 0px;}
+.salesforce-developers.zoho-developers .work-slider-sec {padding-bottom: 0px;}
+.salesforce-developers-main .development-solutions .section-heading p {max-width: 100%;}
+/* responsive */
+@media(max-width:1699px){
+    .salesforce-developers .stats-block {padding-top: 80px;}
+    .salesforce-developers.odoo-developers .stats-block h2 {font-size: 30px;line-height: 40px;}
+    .salesforce-developers.odoo-developers .stats-block {padding-bottom: 80px;}
+}
+@media(max-width:1399px){
+    .salesforce-developers .stats-block {padding-top: 70px;}
+    .salesforce-developers.odoo-developers .stats-block h2 {font-size: 25px;line-height: 37px;}
+    .salesforce-developers.odoo-developers .stats-block {padding-bottom: 70px;}
+}
+@media(max-width:1199px){
+    .salesforce-developers .stats-block {padding-top: 50px;}
+    .salesforce-developers.odoo-developers .stats-block {padding-bottom: 50px;}
+}
+@media(max-width:991px){
+    .salesforce-developers .page-banner p {max-width: 100%;}
+    .salesforce-developers .stats-block {padding-top: 30px;}
+    .salesforce-developers.odoo-developers .page-banner-hdr.sub-pages h1{margin-bottom: 20px;}
+    .salesforce-developers.odoo-developers .stats-block {padding-bottom: 30px;}
+}
+@media(max-width:767px){
+    .salesforce-developers .stats-block {padding-top: 20px;}
+    .salesforce-developers .page-banner p {max-width: 100%;}
+    .salesforce-developers .banner-content {margin: 0 0 20px;}
+    .salesforce-developers.odoo-developers .stats-block h2 {font-size: 24px;line-height: 32px;}
+    .salesforce-developers.odoo-developers .stats-block {padding-bottom: 20px;}
+}
+@media(max-width:479px){
+    .salesforce-developers.odoo-developers .stats-block h2 {font-size: 20px;line-height: 28px;}
+    .salesforce-developers.odoo-developers .page-banner-hdr.sub-pages h1{margin-bottom: 12px;}
+}

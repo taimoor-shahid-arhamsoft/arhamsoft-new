@@ -1,0 +1,29 @@
+.services.ms-dynamics .dynamic-service-block h3{font-size:30px;line-height:34px;}
+.services.ms-dynamics .multi-color-grid .feature-block{min-height:310px;}
+.services.ms-dynamics .top-dynamics .dynamic-service-block {min-height: 340px;}
+.services.ms-dynamics .top-dynamics .key-points li {font-weight: 300;}
+/**/
+@media(max-width:1699px){
+    .services.ms-dynamics .multi-color-grid .feature-block{min-height:300px;}
+    .services.ms-dynamics .top-dynamics .dynamic-service-block {min-height: 430px;}
+    .services.ms-dynamics .dynamic-service-block h3 {font-size: 24px;line-height: 30px;}
+}
+@media(max-width:1399px){
+    .services.ms-dynamics .top-dynamics .dynamic-service-block {min-height: 448px;}
+    .services.ms-dynamics .dynamic-service-block h3 {font-size: 20px;line-height: 26px;}
+}
+@media(max-width:1199px){
+    .services.ms-dynamics .multi-color-grid .feature-block{min-height:220px;}
+    .services.ms-dynamics .top-dynamics .dynamic-service-block {min-height: 359px;}
+}
+@media(max-width:991px){
+    .services.ms-dynamics .multi-color-grid .feature-block{min-height:auto;}
+    .services.ms-dynamics .top-dynamics .dynamic-service-block {min-height: 409px;}
+}
+@media(max-width:767px){
+    .services.ms-dynamics .what-we-block {min-height: 0px;}
+    .services.ms-dynamics .top-dynamics .dynamic-service-block {min-height: auto;}
+}
+@media(max-width:479px){
+    .services.ms-dynamics .dynamic-service-block h3 {font-size: 17px;line-height: 23px;}
+}

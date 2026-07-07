@@ -1,0 +1,31 @@
+.mobile-developers .page-banner-hdr {background-image: url("https://d2g5gf76vk4es3.cloudfront.net/images/mobile-app-banner-bg.webp");}
+.mobile-developers .page-banner-hdr:after {display: none;}
+.mobile-developers .page-banner-hdr.sub-pages h1{margin-bottom: 30px;}
+.mobile-developers .hire-developer .image-area {max-width: 560px;}
+.mobile-developers .hire-developer .image-area img{width: 100%;height: auto;object-fit: contain;}
+.mobile-developers .stats-block {padding-block: 120px;}
+.mobile-developers .hire-developer .accordion-item.active {background: #F07700;}
+.mobile-developers .multi-color-grid .feature-block p {max-width: 494px;height: 91px;}
+.mobile-developers .hire-developer .accordion-item.active{background: #F07700;}
+.mobile-developers .hire-developer .image-area.background-grey:before{display: none;}
+.mobile-developers .colored-box .counter{display: none;}
+.mobile-developers .multi-color-grid {padding: 0;}
+.mobile-developers .content-section.hire-developer{padding-bottom: 0;}
+/* responsive */
+@media only screen and (max-width:1699px){
+    .mobile-developers .stats-block {padding-block: 80px;}
+}
+@media only screen and (max-width:1399px){
+    .mobile-developers .stats-block {padding-block: 70px;}
+}
+@media only screen and (max-width:1199px){
+    .mobile-developers .stats-block {padding-block: 50px;}
+    .mobile-developers .page-banner-hdr.sub-pages h1{margin-bottom: 20px;}
+}
+@media only screen and (max-width:991px){
+    .mobile-developers .stats-block {padding-block: 30px;}
+    .mobile-developers .multi-color-grid .feature-block p{min-height: auto;}
+}
+@media only screen and (max-width:575px){
+    .mobile-developers .page-banner-hdr.sub-pages h1{margin-bottom: 12px;}
+}

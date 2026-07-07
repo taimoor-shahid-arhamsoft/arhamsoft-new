@@ -1,0 +1,195 @@
+.contact-area {background: #091A4A;color: #fff;position: relative;overflow:hidden}
+.contact-area .container > .row > *{padding-top:89px;padding-bottom:115px;}
+.contact-area #contact-us{position: relative;}
+.contact-area #contact-us::after{content: "";position: absolute;top: 0;bottom: 0;left: 0;width: 5000px;background: #000C2E;z-index: 1;}
+.contact-area .heading-block h3 {color: #fff;}
+.contact-area .heading-block {margin: 0 0 40px;}
+.contact-area .bg-image{width:56%;position: absolute;left:0;bottom:90px;z-index: 2;}
+/*share-section */
+.contact-area .share-section {position: relative;z-index: 2;padding-right: 130px;padding-left:0;}
+.contact-area .share-section ul {padding: 0;list-style: none;margin: 0;margin: 0 0 42px;}
+.contact-area .share-section ul li {display: flex;align-items: center;margin: 0 0 30px;}
+.contact-area .share-section .share-img {width: 90px;height: 90px;border-radius: 50%;}
+.contact-area .share-section .share-img img {width: 100%;height: 100%;object-fit: contain;}
+.contact-area .share-section .share-caption {padding: 18px 12px;width: calc(100% - 130px);margin-left: 40px;border-radius:2px 5px 5px 2px;position: relative;}
+.contact-area .share-section .share-caption::before {content:"";width:24px;height:100%;position: absolute;left: -23px;top: 0;clip-path: polygon(0 50%, 100% 100%, 100% 0);}
+.contact-area .share-section .share-caption.green {background: #2F9F1E;}
+.contact-area .share-section .share-caption.blue {background: #04AEF0;}
+.contact-area .share-section .share-caption.orange {background: #F07700;}
+.contact-area .share-section .share-caption.green::before {background: #2F9F1E;}
+.contact-area .share-section .share-caption.blue::before {background: #04AEF0;}
+.contact-area .share-section .share-caption.orange::before {background: #F07700;}
+.contact-area .share-section .share-caption p {margin: 0;font-size: 18px;line-height:28px;font-weight: 300;}
+.contact-area .btn-get-touch, .contact-area .btn-get-touch:focus {font-size: 20px;line-height: 25px;color: #fff;border: 1px solid #fff;padding: 16px 40px;background-color: #091A4A;}
+.contact-area .btn-get-touch:hover {background-color: #fff;color: #091A4A;}
+.contact-area .share-section .btn-get-touch {margin-left: 130px;}
+/*contact-section*/
+.contact-area .contact-form.active:before{content:"";width:calc(100% + 20px);height:calc(100% + 20px);position:absolute;left:-10px;top:-10px;box-shadow:0 0 20px rgba(255,255,255,0.7);border-radius:10px;}
+.contact-area .share-section.contact-section {padding-left: 140px;padding-right: 0;}
+.contact-area .contact-section .row{margin-left: -8px;margin-right: -8px;}
+.contact-area .contact-section .row > * {padding-left:8px;padding-right:8px;}
+.contact-area .contact-section .form-control {background: #F2940000 0% 0% no-repeat padding-box;border: 1px solid #6C7696;border-radius: 3px;color: #fff;padding: 23px 12px;font-size: 16px;line-height: 22px;font-weight: normal;}
+.contact-area .contact-section .form-control::placeholder {color: #fff;}
+.contact-area .contact-section textarea.form-control {height: 147px;resize: none;}
+.contact-area .contact-section .form-control:focus{outline:none;box-shadow:none;border-color:#F07700}
+.contact-area .contact-section .form-control:-webkit-autofill,
+.contact-area .contact-section .form-control:-webkit-autofill:hover,
+.contact-area .contact-section .form-control:-webkit-autofill:focus,
+.contact-area .contact-section .form-control:-webkit-autofill:active{background-color: #000C2E !important;-webkit-text-fill-color: #fff !important;color: #fff !important;transition: background-color 9000s, color 9000s;}
+.contact-area .form-check-input[type=checkbox] {border-radius: 3px;border: 1px solid #fff;background-color: transparent;width: 24px;height: 24px;margin-top: 0px;margin-right: 23px;}
+.contact-area .form-check-input:checked[type=checkbox] {background-image: url("https://d2g5gf76vk4es3.cloudfront.net/images/download.svg");}
+.contact-area .form-check-input:focus {border-color: none;outline: 0;box-shadow: none;}
+.contact-area .contact-section .btn-get-touch, .contact-area .contact-section .btn-get-touch:focus {color: #000C2E;border: 1px solid #fff;background-color: #fff;}
+.contact-area .contact-section .btn-get-touch:hover {background-color: #000C2E;color: #fff;}
+.contact-area .contact-section .btn-get-touch:disabled:hover {color: #000C2E;border: 1px solid #fff;background-color: #fff;}
+.contact-area .share-section.contact-section .btn-get-touch {margin-left: 0px;}
+.contact-area .contact-section .phone-holder .form-control {padding:23px 23px 23px 105px;}
+.contact-area .country-code{position:absolute;top:0px;left:12px;}
+.contact-area .contact-section .phone-holder .react-select__control{width: 91px !important;background: #F2940000 0% 0% no-repeat padding-box;border: none !important;padding: 16px 3px;box-shadow: none;}
+.contact-area .contact-section .phone-holder .react-select__single-value{color:#fff !important;font-size:14px;line-height:14px;}
+.contact-area .contact-section .phone-holder .react-select__value-container{width:70px !important;padding:0 !important;}
+.contact-area .contact-section .phone-holder .react-select__indicators{color:#fff !important;}
+.contact-area .contact-section .phone-holder .react-select__indicator{padding:8px 0 !important;}
+.contact-area .contact-section .phone-holder .react-select__placeholder{color:#fff !important;}
+.contact-area .contact-section .phone-holder .react-select__input-container input{color: #fff !important;font-size: 16px;line-height: 22px;font-weight: normal;}
+.contact-area .contact-section .phone-holder .react-select__input-container input::-webkit-input-placeholder{color:#fff;}
+.contact-area .contact-section .phone-holder .react-select__input-container input::-moz-placeholder{color:#fff;opacity:1;}
+.contact-area .contact-section .phone-holder .react-select__input-container input::-moz-placeholder{color:#fff;opacity:1;}
+.contact-area .contact-section .phone-holder .react-select__input-container input::-ms-input-placeholder{color:#fff;}
+.contact-area .contact-section .phone-holder .react-select__input-container input::-ms-input-placeholder{color:#fff;}
+.contact-area .contact-section .phone-holder .react-select__input-container input::placeholder{color:#fff;}
+.contact-area .contact-section .phone-holder .react-select__menu{overflow: hidden;width:316px !important;left:-12px !important;margin: 4px 0px;}
+.contact-area .contact-section .phone-holder .react-select__menu-list{padding:0 !important;max-height:200px !important;}
+.contact-area .contact-section .phone-holder .react-select__value-container{height: 25px !important;}
+.contact-area .contact-section .phone-holder .react-select__input-container{font-size:14px !important;line-height:14px !important;position:absolute;}
+.contact-area .contact-section .phone-holder .react-select__option{font-size:14px !important;line-height: 14px !important;color:#fff !important;padding:7px 5px !important;cursor:pointer !important;}
+.contact-area .contact-section .phone-holder .react-select__option:hover{color:#fff !important}
+/*select*/
+.contact-area .contact-section .react-select__control {background: #F2940000 0% 0% no-repeat padding-box;border: 1px solid #6C7696;border-radius: 3px;padding: 16px 12px;box-shadow: none;}
+.contact-area .contact-section .react-select__value-container {padding: 0;}
+.contact-area .contact-section .react-select__single-value,
+.contact-area .contact-section .react-select__input-container input{color: #fff !important;font-size: 16px;line-height: 22px;font-weight: normal;}
+.contact-area .contact-section .react-select__indicator-separator {display: none;}
+.contact-area .contact-section .react-select__menu {background: #6C7696;}
+.contact-area .contact-section .phone-holder .react-select__option {background: #6C7696;padding:10px 10px 13px 11px !important;}
+.contact-area .contact-section .react-select__option.react-select__option--is-focused.react-select__option--is-selected,
+.contact-area .contact-section .react-select__option.react-select__option--is-selected {background-color: #042274;}
+.contact-area .contact-section .question-holder .react-select__option:hover{background:#061c5a !important;}
+.contact-area .contact-section .react-select__option:hover {background-color: #061c5a;}
+.contact-area .contact-section .phone-holder .react-select__value-container > :first-child{display: flex;align-items: center;gap: 5px;}
+.contact-area .contact-section .react-select__option {display: flex;align-items: center;gap: 5px;background: transparent;}
+.get-in-touch-select .react-select__menu {width: 250px !important;color: #0A0404;}
+.contact-area .contact-section .question-holder .react-select__option:hover,
+.contact-area .contact-section .question-holder .react-select__option--is-focused{background:#061c5a !important;}
+.contact-area .contact-section .react-select__menu-notice{background:#061c5a !important;color:#fff !important;}
+.react-select.fix-color .react-select__menu{color: #0A0404;}
+.form-footer.form-footer-mobile{align-items: center;}
+.contact-area .position-absolute.error-position{bottom:-25px;left:0;}
+/* responsive */
+@media only screen and (max-width:1799px){
+    .contact-area .contact-section .phone-holder .react-select__menu{width: 371px !important;}
+    .contact-area .share-section {padding-right: 100px;}
+    .contact-area .share-section .share-caption{min-height:auto;}
+    .contact-area .share-section.contact-section {padding-left: 30px;}
+    .contact-area .share-section .share-caption p {max-width: 95%;font-size:16px;line-height:22px;}
+}
+@media only screen and (max-width:1699px){
+    .contact-area .contact-section .phone-holder .react-select__menu{width: 294px !important;}
+    .contact-area .share-section {padding-right: 40px;}
+    .contact-area .contact-section .row{margin-left: -7px;margin-right: -7px;}
+    .contact-area .contact-section .row > * {padding-left:7px;padding-right:7px;}
+    .contact-area .share-section.contact-section {padding-left: 30px;}
+}
+@media only screen and (max-width:1399px){
+    .contact-area .contact-section .phone-holder .react-select__menu{width: 250px !important;}
+    .contact-area .share-section .share-caption p {font-size: 16px;line-height: 24px;max-width: 77%;}
+    .contact-area .share-section .share-caption::before {border-top: 42px solid transparent;border-bottom: 42px solid transparent;}
+    .contact-area .btn-get-touch, .contact-area .btn-get-touch:focus {font-size: 16px;line-height: 22px;padding: 12px 30px;}
+    .contact-area .container > .row > *{padding-top:75px;padding-bottom:75px;}
+    .contact-area .contact-section .phone-holder .form-control {padding: 19px 23px 19px 105px;}
+    .contact-area .contact-section .form-control {padding: 19px 12px;}
+    .contact-area .contact-section .react-select__control {padding: 12px 12px;}
+    .contact-area .contact-section .react-select__value-container {padding: 0px 0px;}
+    .contact-area .contact-section .phone-holder .react-select__control {padding: 13px 3px;}
+}
+@media only screen and (max-width:1199px){
+    .contact-area .contact-section .phone-holder .react-select__menu{width: 217px !important;}
+    .contact-area .share-section{padding-right: 20px;}
+    .contact-area .share-section.contact-section {padding-left: 20px;}
+    .contact-area .share-section .share-caption p {font-size: 14px;line-height: 22px;}
+    .contact-area .share-section .share-img {width: 72px;height: 72px;}
+    .contact-area .share-section .share-caption {width: calc(100% - 102px);margin-left: 30px;}
+    .contact-area .share-section .share-capti::before {border-top: 40 solid transparent;border-bottom: 40px solid transparent;}
+    .contact-area .contact-section .row{margin-left: -5px;margin-right: -5px;}
+    .contact-area .contact-section .row > * {padding-left:5px;padding-right:5px;}
+    .contact-area .contact-section .form-control {padding: 16px;font-size: 14px;line-height: 20px;}
+    .contact-area .contact-section .react-select__single-value,
+    .contact-area .contact-section .react-select__input-container input{font-size: 14px;line-height: 20px;}
+    .contact-area .contact-section .phone-holder .react-select__control {padding: 9px 3px;}
+    .contact-area .contact-section .phone-holder .form-control {padding:16px 23px 16px 105px;}
+    .contact-area .contact-section .phone-holder .react-select__value-container {font-size: 14px;}
+    .contact-area .contact-section .react-select__control {padding: 8px 12px;}
+}
+@media only screen and (max-width:991px){
+    .contact-area .contact-section .phone-holder .react-select__menu{width: 350px !important;}
+    .contact-area .share-section .share-caption{min-height:auto;}
+    .contact-area .share-section {padding-right: 0px;margin-bottom: 10px;}
+    .contact-area .share-section.contact-section {padding-left: 0px;margin-bottom: 0px;}
+    .contact-area .share-section .share-caption::before {border-top: 29px solid transparent;border-bottom: 29px solid transparent;}
+    .contact-area .container > .row > *{padding-top:50px;padding-bottom:75px;}
+    .contact-area::after{background:transparent;}
+    #contact-us{position: relative;}
+    #contact-us:after{content:"";width:9999px;top:0;bottom:0;position: absolute;top:0;bottom:0;left:50%;-o-transform:translateX(-50%);-ms-transform:translateX(-50%);-moz-transform:translateX(-50%);-webkit-transform:translateX(-50%);transform:translateX(-50%);background:#000C2E;}
+    .contact-area .bg-image {width: 50%;top: 45%;transform: translateY(-50%);bottom: unset;}
+    .contact-area .heading-block {text-align: center;}
+    .contact-area .share-section .btn-get-touch {margin-left: 0px;}
+    .contact-area .contact-section .row{margin-left: -8px;margin-right: -8px;}
+    .contact-area .contact-section .row > * {padding-left:8px;padding-right:8px;}
+    .contact-area .contact-section .mb-3{margin-bottom: 16px !important;}
+    .contact-area #contact-us::after {left: -15px;}
+    .contact-area .share-section .share-caption p {max-width: 100%;}
+}
+@media(max-width:767px){
+    .contact-area::after{height:calc(50% + 140px);}
+    .contact-area .share-section {padding-left: 0px;}
+    .contact-area .share-section.contact-section {padding-right: 0px;}
+    .contact-area .bg-image {top: 40%;}
+    .contact-area .contact-section .phone-holder .react-select__menu{width: 542px !important;}
+}
+@media only screen and (max-width:576px){
+    .contact-area .contact-section .contact-form{width:421px;margin:0 auto;}
+    .contact-area .bg-image {top: 48%;width: 80%;}
+    .contact-area .share-section .share-caption p {font-size: 16px;line-height: 22px;}
+    .contact-area .contact-section .phone-holder .react-select__menu{width:435px !important;}
+}
+@media only screen and (max-width:575px){
+    .contact-area .contact-section .contact-form{width:421px;}
+    .contact-area .contact-section .phone-holder .react-select__menu{width:416px !important;}
+}
+@media only screen and (max-width:479px){
+    .contact-area .form-footer {flex-direction: column;}
+    .contact-area .form-footer .form-check {margin-bottom: 20px;}
+    .contact-area .share-section ul li {margin: 0 0 20px;flex-direction: column;}
+    .contact-area .share-section .share-caption{padding: 10px;border-radius: 5px;}
+    .contact-area .share-section .share-caption::before {border-width: 22px;width:100%;height:10px;left:0;right:0;top:-10px;z-index:-1;clip-path: polygon(50% 0%, 0% 100%, 100% 100%);}
+    .contact-area .share-section .share-caption {width: 100%;margin-left: 0px;}
+    .contact-area .share-section .share-img {margin: 0 0 12px;}
+    .contact-area .btn-get-touch, .contact-area .btn-get-touch:focus {font-size: 12px;line-height: 18px;padding: 12px 20px;display: block;}
+    .contact-area .share-section.contact-section .btn-get-touch {width: 100%;}
+    .contact-area .share-section .share-caption p{text-align: center;}
+    .contact-area .contact-section .form-control {padding: 16px;font-size: 12px;line-height: 18px;}
+    .contact-area .contact-section .react-select__single-value,
+    .contact-area .contact-section .react-select__input-container input{font-size: 12px;line-height: 18px;}
+    .contact-area::after{height:calc(50% + 30px);}
+    .form-footer.form-footer-mobile{align-items: start;}
+    .contact-area .contact-section .contact-form{width:280px;}
+    .contact-area .contact-section .phone-holder .react-select__menu{width:277px !important;}
+    .contact-area .contact-section .right-label-checkbox{padding-left:35px;font-size:14px;}
+    .contact-area .contact-section .phone-holder .react-select__control {padding: 8px 3px;}
+    .contact-area .contact-section .phone-holder .react-select__value-container {font-size: 12px;line-height: 18px;}
+    .contact-area form .text-danger {font-size: 12px;line-height: 15px;line-height: 26px;}
+}
+@media only screen and (max-width:319px){
+    .contact-area .contact-section .contact-form{width:240px;}
+    .contact-area .contact-section .phone-holder .react-select__menu{width:240px !important;}
+}

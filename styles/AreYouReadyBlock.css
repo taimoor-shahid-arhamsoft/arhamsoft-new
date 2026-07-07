@@ -1,0 +1,74 @@
+.are-you-ready{box-shadow: 0px 0px 26px #0000001A;}
+.are-you-ready .left-box{border-radius:16px;padding:55px 66px;height:100%;}
+.are-you-ready .left-box.bg-orange{background:#F07700;}
+.are-you-ready .left-box.bg-blue{background:#091A4A;}
+.are-you-ready .left-box.bg-farozi{background:#64BECD;}
+.are-you-ready .left-box strong{font-size:54px;line-height:58px;font-weight:bold;text-align: center;text-shadow: 10px 10px 6px #AF5A06;}
+.are-you-ready .left-box strong span{font-size:60px;line-height:64px;}
+.are-you-ready .left-box .btn{font-weight: 400;}
+.are-you-ready .right-box{padding:20px 0 0 80px;}
+.are-you-ready h2{font-size:64px;line-height:70px;margin:0 0 10px;font-weight:bold;}
+.are-you-ready .text-block{font-size:20px;line-height:36px;font-weight:300;color:#11171F;}
+.are-you-ready .text-block strong{font-weight: 600;}
+.are-you-ready .text-block h3{font-weight:100;}
+.are-you-ready .text-block p{margin:0 0 40px;}
+.are-you-ready .features li{width:50%;margin:0 0 30px;padding:0 15px 0 0}
+.seo .are-you-ready .features li{padding:0 10px 0 0;}
+.are-you-ready .features strong{font-size:24px;line-height:24px;font-weight:500;margin:0 0 14px;}
+.are-you-ready .features strong.sub-heading{font-weight:100;}
+.are-you-ready .features .icon-holder{width:100px;height:100px;margin:0 37px 0 0;}
+.are-you-ready .features .text-holder{width:calc(100% - 137px);}
+.game-development .are-you-ready .left-box strong{text-shadow:10px 10px 6px #AF5A06;}
+.blockchain-development .are-you-ready .left-box strong{text-shadow: 10px 10px 6px #00071A;}
+.desktop-development .are-you-ready .left-box strong{text-shadow: 10px 10px 6px #338A98;}
+.are-you-ready .left-box .icon-holder {width: 100%;max-width: 240px;overflow: hidden;}
+.game-development .btn-solid-white:hover{border-color:#fff;}
+.blockchain-development .textual-content{overflow: hidden;}
+:is(.seo, .game-development) .are-you-ready .left-box .btn:hover{background:#091A4A;border-color:#091A4A;}
+@media(max-width:1699px){
+    .are-you-ready .left-box {padding:30px;}
+    .are-you-ready .right-box{padding:20px 0 0 50px;}
+    .are-you-ready h2{font-size:48px;line-height:52px;margin-bottom: 6px;}
+    .are-you-ready .text-block {font-size: 18px;line-height: 28px;}
+    .are-you-ready .text-block p {margin: 0 0 30px;}
+    .are-you-ready .features strong {font-size: 22px;line-height: 24px;margin: 0 0 10px;}
+}
+@media(max-width:1399px){
+    .are-you-ready .left-box {padding: 30px 20px;}
+    .are-you-ready .left-box strong {font-size:44px;line-height:48px;}
+    .are-you-ready .left-box strong span {font-size:50px;line-height:54px;}
+    .are-you-ready h2{font-size:42px;line-height:48px;}
+    .are-you-ready .text-block p {margin: 0 0 25px;}
+    .are-you-ready .features strong {font-size: 22px;}
+    .are-you-ready .features .icon-holder{width:60px;height:60px;margin:0 10px 0 0;}
+    .are-you-ready .features .text-holder{width:calc(100% - 75px);}
+}
+@media(max-width:1199px){
+    .are-you-ready .left-box{height:auto}
+    .are-you-ready .left-box .btn{max-width:210px;margin:0 auto;}
+    .are-you-ready .left-box .icon-holder{margin:15px auto 30px;}
+    .are-you-ready .right-box{padding:20px 0;}
+    .are-you-ready .text-block{font-size:18px;line-height:28px;}
+    .are-you-ready .text-block p{margin:0 0 15px;}
+}
+@media(max-width:991px){
+    .are-you-ready h2{font-size:40px;line-height:45px;}
+    .seo .are-you-ready .features li{padding:0;}
+    .are-you-ready .features .icon-holder{width:70px;height:70px;margin:0 15px 0 0;}
+}
+@media(max-width:767px){
+    .are-you-ready h2{font-size:30px;line-height:34px;}
+    .are-you-ready .features .icon-holder{width:50px;height:50px;margin:0 15px 0 0;}
+    .are-you-ready .text-block{font-size:16px;line-height:24px;}
+    .are-you-ready .left-box strong {font-size:30px;line-height:34px;}
+    .are-you-ready .left-box strong span {font-size:33px;line-height:37px;}
+    .are-you-ready .left-box .icon-holder{width:200px;}
+    .are-you-ready .features li{width:100%;}
+}
+@media(max-width:575px){
+    .are-you-ready h2{font-size:26px;line-height:30px;}
+    .are-you-ready .text-block{font-size:14px;line-height:20px;}
+    .are-you-ready .features li{flex-direction: column;text-align:center;align-items:center;padding: 0 0px 0 0;}
+    .are-you-ready .features .icon-holder{margin:0 0 10px;}
+    .are-you-ready .features .text-holder{width:100%;}
+}

@@ -1,0 +1,38 @@
+.shopify-results .section-heading p {max-width: 100%;}
+.shopify-results .stats-section {display: grid;grid-template-columns: repeat(3, 1fr);column-gap: 40px;row-gap: 20px;}
+.shopify-results .stat-card {text-align: center;border-radius: 8px;overflow: hidden;}
+.shopify-results .stat-image {width: 100%;height: auto;}
+.shopify-results .stat-info {padding: 20px;border-radius: 16px;max-width: 90%;margin: -30px auto 0;position: relative;min-height: 154px;display: flex;flex-direction: column;align-items: center;justify-content: center;}
+.shopify-results .stat-info.blue {background-color: #F1F5FC;}
+.shopify-results .stat-info.purple {background-color: #F5F2F8;}
+.shopify-results .stat-info.green {background-color: #EDEDE7;}
+.shopify-results .stat-info h2 {font-size: 56px;line-height: 80px;font-weight: 500;margin: 0;}
+.shopify-results .stat-info p {color: #11171F;font-size: 24px;line-height: 34px;font-weight: normal;margin: 0;}
+.shopify-results .btn-solid-blue {display: inline-block;margin-top: 10px;}
+/*responsive*/
+@media (max-width: 1699px){
+    .shopify-results .stat-info p {font-size: 22px;line-height: 32px;}
+}
+@media (max-width: 1399px){
+    .shopify-results .stat-info p {font-size: 18px;line-height: 22px;}
+    .shopify-results .stat-info h2 {font-size: 46px;line-height: 70px;}
+}
+@media (max-width: 1199px){
+    .shopify-results .stat-info h2 {font-size: 38px;line-height: 60px;}
+    .shopify-results .stat-info {position: relative;min-height: 122px;}
+    .shopify-results .stat-info p {font-size: 16px;line-height: 20px;}
+}
+@media (max-width: 991px){
+    .shopify-results .stats-section {grid-template-columns: repeat(2, 1fr);grid-column-gap: 15px;column-gap: 15px;}
+}
+@media (max-width: 767px){
+    .shopify-results .stat-info p {font-size: 14px;line-height: 18px;}
+}
+@media (max-width: 575px){
+    .shopify-results .stat-info h2 {font-size: 30px;line-height: 44px;}
+    .shopify-results .stat-info {min-height: auto;}
+    .shopify-results .stats-section {grid-template-columns: repeat(1, 1fr);}
+}
+@media (max-width: 479px){
+    .shopify-results .stat-info p {font-size: 12px;line-height: 16px;}
+}

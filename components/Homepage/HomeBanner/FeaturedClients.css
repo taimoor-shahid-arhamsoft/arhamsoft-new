@@ -1,0 +1,63 @@
+.featured-clients .slider {overflow: hidden;position: relative;}
+.featured-clients .slider .slide-track {-webkit-animation: logoAnimation 30s linear infinite;animation: logoAnimation 30s linear infinite;display: flex;align-items: center;justify-content: center;width: calc(250px * 14);}
+.featured-clients .slider .slide {display: flex;align-items: center;justify-content: center;width: 250px;padding: 0 40px;opacity: 0.7;}
+.featured-clients .slider .slide img{-o-transform: scale(0.9);-ms-transform: scale(0.9);-moz-transform: scale(0.9);-webkit-transform: scale(0.9);transform: scale(0.9);}
+.featured-clients.below-banner{padding: 40px 0 0;}
+.featured-clients.below-banner h2{font-size: 16px;line-height: 20px;margin-bottom: 4px;}
+.featured-clients.below-banner .slider .slide{opacity: 1;}
+@-webkit-keyframes logoAnimation {
+	0% {transform: translateX(0);}
+	100% {transform: translateX(calc(-250px * 7));}
+}
+@keyframes logoAnimation {
+	0% {transform: translateX(0);}
+	100% {transform: translateX(calc(-250px * 7));}
+}
+@media (max-width:1399px){
+	.featured-clients .slider .slide-track {width: calc(220px * 14);}
+	.featured-clients .slider .slide {width: 220px;padding: 0 30px;}
+	@-webkit-keyframes logoAnimation {
+		0% {transform: translateX(0);}
+		100% {transform: translateX(calc(-220px * 7));}
+	}
+	@keyframes logoAnimation {
+		0% {transform: translateX(0);}
+		100% {transform: translateX(calc(-220px * 7));}
+	}
+}
+@media (max-width:991px){
+	.featured-clients .slider .slide-track {width: calc(200px * 14);}
+	.featured-clients .slider .slide {width: 200px;padding: 0 20px;}
+	@-webkit-keyframes logoAnimation {
+		0% {transform: translateX(0);}
+		100% {transform: translateX(calc(-200px * 7));}
+	}  
+	@keyframes logoAnimation {
+		0% {transform: translateX(0);}
+		100% {transform: translateX(calc(-200px * 7));}
+	}
+}
+@media (max-width:767px){
+	.featured-clients .slider .slide-track {width: calc(180px * 14);}
+	.featured-clients .slider .slide {width: 180px;padding: 0 15px;}
+	@-webkit-keyframes logoAnimation {
+		0% {transform: translateX(0);}
+		100% {transform: translateX(calc(-180px * 7));}
+	}
+	@keyframes logoAnimation {
+		0% {transform: translateX(0);}
+		100% {transform: translateX(calc(-180px * 7));}
+	}
+  }
+  @media (max-width:575px){
+	  .featured-clients .slider .slide-track {width: calc(150px * 14);}
+	  .featured-clients .slider .slide {width: 150px;}
+	  @-webkit-keyframes logoAnimation {
+		  0% {transform: translateX(0);}
+		  100% {transform: translateX(calc(-150px * 7));}
+	  }
+	  @keyframes logoAnimation {
+		  0% {transform: translateX(0);}
+		  100% {transform: translateX(calc(-150px * 7));}
+	  }
+}

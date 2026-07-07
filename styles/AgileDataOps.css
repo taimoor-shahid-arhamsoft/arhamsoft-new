@@ -1,0 +1,33 @@
+.services.agile-dataops .how-we-do,
+.services.agile-dataops .what-you-get {padding-top: 0px;}
+.services.agile-dataops .what-you-get .what-you-get-block h3{font-size:30px;line-height:34px;}
+.services.agile-dataops .what-we-block h3 {
+    font-size: 32px;
+    line-height: 38px;
+    margin: 0px 0 15px;
+    font-weight: 500;
+}
+@media(max-width:1699px){
+    .services.agile-dataops .how-we-do-block h3{font-size:25px;line-height:29px;}
+    .services.agile-dataops .what-you-get .what-you-get-block h3 {font-size: 20px;line-height: 24px;}
+    .services.agile-dataops .what-we-block h3 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+}
+@media(max-width:1399px){
+    .services.agile-dataops .how-we-do-block{font-size:16px;line-height:26px;}
+    .services.agile-dataops .how-we-do-block h3{font-size:20px;line-height:24px;}
+    .services.agile-dataops .what-you-get .what-you-get-block h3 {font-size: 22px;line-height: 26px;}
+    .services.agile-dataops .what-we-block h3 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+}
+@media(max-width:1199px){
+    .services.agile-dataops .what-you-get .what-you-get-block h3 {font-size: 20px;line-height: 24px;}
+    .services.agile-dataops .what-we-block h3 {
+        font-size: 19px;
+        line-height: 25px;
+    }
+}

@@ -1,0 +1,22 @@
+.accelerated-devops .page-banner p {max-width: 870px;}
+.accelerated-devops .multi-color-grid h3 {color: #11171F;}
+.accelerated-devops .simple-multi-color-grid .feature-block p {min-height: 108px;}
+/*responsiveness*/
+@media(max-width:1399px){
+    .accelerated-devops .simple-multi-color-grid .feature-block {padding: 30px 40px 44px;}
+    .accelerated-devops .multi-color-grid .feature-block {padding: 40px 60px 35px 40px;}
+.accelerated-devops .simple-multi-color-grid .feature-block p {min-height: 115px;}
+}
+@media(max-width:1199px){
+    .accelerated-devops .simple-multi-color-grid .feature-block p {min-height: 138px;}
+}
+@media(max-width:991px){
+    .accelerated-devops .simple-multi-color-grid .feature-block p {min-height: auto;}
+}
+@media(max-width:575px){
+    .accelerated-devops .simple-multi-color-grid .feature-block {padding: 25px 20px 30px;}
+    .accelerated-devops .multi-color-grid .feature-block {padding: 30px 30px 30px 30px;}
+}
+@media(max-width:479px){
+    .accelerated-devops .section-heading h2, .accelerated-devops .introduction-block .text-block h2 {font-size: 21px;}
+}

@@ -1,0 +1,25 @@
+.application-modernization .how-we-do{background-color: transparent;}
+.application-modernization .how-we-do-block{background-color: #FFFFFF;border: 1px solid #D3DEED;padding: 30px 25px 20px;}
+.application-modernization .page-banner p {max-width: 870px;}
+/*responsiveness*/
+@media(max-width:1699px){
+    .application-modernization .page-banner p {max-width: 600px;}
+}
+@media(max-width:1399px){
+    .application-modernization .page-banner p {max-width: 608px;}
+}
+@media(max-width:1199px){
+    .application-modernization .page-banner p {max-width: 500px;}
+}
+@media(max-width:991px){
+    .application-modernization .page-banner p {max-width: 100%;}
+}
+@media(max-width:767px){
+    .application-modernization .modernize-components .card-warpper h3 {font-size: 16px;line-height: 24px;}
+}
+@media(max-width:479px){
+    .application-modernization .how-we-do-block h3 {font-size: 18px;line-height: 22px;margin: 0 0 12px;}
+    .application-modernization .how-we-do-block {font-size: 12px;line-height: 16px;}
+    .application-modernization .how-we-do-block .key-points {font-size: 14px;line-height: 15px;}
+    .application-modernization .how-we-do-block .key-points li:before {top: 3px;}
+}

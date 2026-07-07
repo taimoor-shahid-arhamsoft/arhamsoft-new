@@ -1,0 +1,40 @@
+.flexible-hiring{padding: 120px 0;}
+.flexible-hiring .section-heading{margin: 0 0 60px;}
+.flexible-hiring .content-wrapper {background-color: #FAFAFA;padding: 28px 55px 50px;border-radius: 16px;display: flex;flex-direction: column;align-items: center;}
+.flexible-hiring h3{margin-bottom: 25px;}
+.flexible-hiring .desc-list {margin-bottom: 40px;text-align: left;display: flex;flex-direction: column;}
+.flexible-hiring .desc-list li{font-size: 20px;font-weight: 26px;font-weight: 300;position: relative;list-style: none;}
+.flexible-hiring .desc-list li::before {content: "";position: absolute;left: -24px;top: 50%;transform: translateY(-50%);-webkit-transform: translateY(-50%);-o-transform: translateY(-50%);-moz-transform: translateY(-50%);-ms-transform: translateY(-50%);background-image: url("https://d2g5gf76vk4es3.cloudfront.net/images/list-tick.svg");width: 17px;height: 17px;background-repeat: no-repeat;background-size: contain;}
+.flexible-hiring .image-wrapper {width: 89px;height: 89px;margin: 0 auto 26px;}
+.flexible-hiring .image-wrapper img {width: 100%;height: 100%;}
+@media(max-width:1699px){
+    .flexible-hiring .desc-list li {font-size: 18px;line-height: 24px;}
+    .flexible-hiring{padding: 80px 0;}
+    .flexible-hiring .content-wrapper {padding: 28px 25px 35px;}
+    .flexible-hiring .desc-list {margin-bottom: 30px;}
+}
+@media(max-width:1399px){
+    .flexible-hiring .desc-list li {font-size: 16px;line-height: 22px;}
+    .flexible-hiring{padding: 70px 0;}
+    .flexible-hiring .desc-list {margin-bottom: 25px;}
+    .flexible-hiring h3 {margin-bottom: 15px;}
+    .flexible-hiring .image-wrapper {width: 70px;height: 70px;margin: 0 auto 20px;}
+}
+@media(max-width:1199px){
+    .flexible-hiring{padding: 50px 0;}
+    .flexible-hiring .content-wrapper {padding: 28px 12px 25px;}
+    .flexible-hiring .desc-list {margin-bottom: 22px;}
+    .flexible-hiring h3 {margin-bottom: 12px;}
+    .flexible-hiring .desc-list li::before {left: -18px;width: 12px;height: 12px;}
+}
+@media(max-width:991px){
+    .flexible-hiring{padding: 30px 0;}
+    .flexible-hiring .content-wrapper {padding: 28px 12px 25px;margin: 0 0 15px;}
+}
+@media(max-width:767px){
+    .flexible-hiring .desc-list li {font-size: 14px;line-height: 20px;}
+    .flexible-hiring{padding: 20px 0;}
+}
+@media(max-width:479px){
+    .flexible-hiring .desc-list li {font-size: 12px;line-height: 18px;}
+}

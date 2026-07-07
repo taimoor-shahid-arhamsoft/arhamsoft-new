@@ -1,0 +1,39 @@
+.certified-developers {background: #F5F7FA;}
+.certified-developers .section-heading {margin: 0 0 70px;}
+.certified-developers .section-heading p {max-width: 100%;margin: 0 auto;font-size: 20px;line-height: 27px;}
+.certified-developers .certified-developers-content {display: grid;grid-template-columns: repeat(3, 1fr);column-gap: 42px;row-gap: 20px;}
+.certified-developers .certified-developers-card {background: #FFFFFF 0% 0% no-repeat padding-box;border: 1px solid #D3DEED;border-radius: 16px;padding: 20px;}
+.certified-developers .certified-developers-card .image-wrapper {width: 100%;overflow: hidden;border-radius: 16px;margin: 0 0 32px;}
+.certified-developers .certified-developers-card .image-wrapper img {width: 100%;height: 100%;object-fit: cover;}
+.certified-developers .certified-developers-card h3 {font-size: 24px;line-height: 34px;font-weight: 500;padding-bottom: 17px;border-bottom: 1px solid #D3DEED;}
+.certified-developers .certified-developers-card p {font-size: 20px;line-height: 34px;font-weight: 300;margin-bottom: 25px;}
+@media(max-width:1699px){
+    .certified-developers .certified-developers-card h3 {font-size: 22px;line-height: 32px;}
+}
+@media(max-width:1399px){
+    .certified-developers .certified-developers-card h3 {font-size: 18px;line-height: 22px;}
+    .certified-developers .certified-developers-card p, .certified-developers .section-heading p {font-size: 16px;line-height: 26px;}
+    .certified-developers .certified-developers-content {grid-column-gap: 20px;column-gap: 20px;}
+    .certified-developers .section-heading {margin: 0 0 50px;}
+}
+@media(max-width:1199px){
+    .certified-developers .certified-developers-content {grid-template-columns: repeat(2, 1fr);}
+}
+@media(max-width:991px){
+    .certified-developers .section-heading {margin: 0 0 30px;}
+}
+@media(max-width:767px){
+    .certified-developers .section-heading {margin: 0 0 20px;}
+    .certified-developers .certified-developers-card {padding: 15px;}
+    .certified-developers .certified-developers-content {grid-column-gap: 12px;column-gap: 12px;grid-row-gap: 15px;row-gap: 15px;}
+    .certified-developers .certified-developers-card p, .certified-developers .section-heading p {font-size: 14px;line-height: 22px;}
+}
+@media(max-width:575px){
+    .certified-developers .certified-developers-card h3 {font-size: 16px;line-height: 20px;}
+    .certified-developers .certified-developers-content {grid-template-columns: repeat(1, 1fr);}
+}
+@media(max-width:479px){
+    .certified-developers .certified-developers-card .image-wrapper {height: 150px;margin: 0px 0 12px;}
+    .certified-developers .certified-developers-card p {margin-bottom: 0px;}
+    .certified-developers .certified-developers-card h3 {padding-bottom: 10px;}
+}

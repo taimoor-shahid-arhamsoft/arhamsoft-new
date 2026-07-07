@@ -1,0 +1,107 @@
+:is(.case-study-detail, .case-study-bg-banner) .page-banner{background: #F0F4F5;}
+.page-banner .banner-content strong {font-weight: 500;}
+.custom-banner .page-banner .banner-image{width: 850px;position: relative;right: -150px;}
+.custom-banner .page-banner .banner-content{width: calc(100% - 850px);padding-right: 15px;position: relative;z-index: 2;}
+.case-study-detail .page-banner .banner-image video,
+.simple-custom-banner .page-banner .banner-image img{max-width: 100%;height: auto;border-radius:55px;}
+.custom-ab-banner .banner-content{width: 50%;}
+.custom-banner .page-banner,
+.custom-ab-banner .page-banner,
+.privacy-policy .page-banner,
+.simple-custom-banner .page-banner{overflow: hidden;}
+.custom-ab-banner .page-banner,
+.simple-custom-banner .page-banner{height: 749px;}
+.custom-ab-banner .container,
+.simple-custom-banner .container{height: 100%;}
+.custom-ab-banner .row,
+.simple-custom-banner .row{height: 100%;}
+.privacy-policy .page-banner .banner-content {width: calc(100% - 700px);}
+.privacy-policy .page-banner .banner-image {width: 540px;}
+.blockchain-development .lottie-holder-banner {width: 600px;}
+.blockchain-development .page-banner .banner-content {width: calc(100% - 600px);padding-right: 100px;}
+.simple-custom-banner .page-banner .banner-image{width: 693px;}
+.simple-custom-banner .page-banner .banner-content{width: calc(100% - 745px);}
+.page-banner .media-lottie{display: none;position: absolute;width: 50%;top: -175px;bottom: -50px;right: 0;z-index: 1;overflow: hidden;}
+/* responsive */
+@media only screen and (max-width:1919px) {
+  .custom-banner .page-banner .banner-image{right: 0;position: static;}
+}
+@media only screen and (max-width:1699px) {
+  .custom-banner .page-banner .banner-image{width: 650px;}
+  .custom-banner .page-banner .banner-content{width: calc(100% - 650px);}
+  .custom-banner .page-banner .banner-image img{max-width: 100%;height: auto;}
+  .custom-ab-banner .page-banner,
+  .simple-custom-banner .page-banner{height: 572px;}
+  .custom-ab-banner .banner-content{width: 50%;}
+  .devops-engineer .banner-content {width: 48%;}
+  .contact-us .page-banner .banner-image {width: 410px;}
+  .contact-us .page-banner .banner-content {width: calc(100% - 410px);}
+  .blockchain-development .lottie-holder-banner {width: 500px;}
+  .blockchain-development .page-banner .banner-content {width: calc(100% - 500px);}
+  .privacy-policy .page-banner .banner-content {width: calc(100% - 600px);}
+  .privacy-policy .page-banner .banner-image {width: 450px;}
+  .simple-custom-banner .page-banner .banner-image{width: 500px;}
+  .simple-custom-banner .page-banner .banner-content{width: calc(100% - 500px);padding-right: 40px;}
+}
+@media only screen and (max-width:1399px) {
+  .custom-banner .page-banner .banner-image{width: 600px;}
+  .custom-banner .page-banner .banner-content{width: calc(100% - 600px);}
+  .custom-ab-banner .page-banner,
+  .simple-custom-banner .page-banner{height: 528px;}
+  .contact-us .page-banner .banner-image {width: 380px;}
+  .contact-us .page-banner .banner-content {width: calc(100% - 380px);}
+  .custom-ab-banner .banner-content,
+  .salesforce-developers-main .banner-content {width: 40%;}
+  .blockchain-development .lottie-holder-banner {width: 460px;}
+  .blockchain-development .page-banner .banner-content {width: calc(100% - 460px);}
+  .simple-custom-banner .page-banner .banner-image{width: 450px;}
+  .simple-custom-banner .page-banner .banner-content{width: calc(100% - 450px);padding-right: 30px;}
+}
+@media only screen and (max-width:1199px) {
+  .custom-banner .page-banner .banner-image{width: 450px;}
+  .custom-banner .page-banner .banner-content{width: calc(100% - 450px);}
+  .custom-ab-banner .page-banner,
+  .simple-custom-banner .page-banner{height: 396px;}
+  .contact-us .page-banner .banner-image {width: 350px;}
+  .contact-us .page-banner .banner-content {width: calc(100% - 350px);}
+  .blockchain-development .lottie-holder-banner {width: 350px;}
+  .blockchain-development .page-banner .banner-content {width: calc(100% - 350px);}
+  .ai-experts .page-banner .banner-content {width: 66%;}
+  .full-stack-developer .banner-content {width: 60%;}
+  .multi-cloud-strategy .banner-content{width: 54%;}
+  .privacy-policy .page-banner .banner-content {width: calc(100% - 500px);}
+  .privacy-policy .page-banner .banner-image {width: 330px;}
+  .simple-custom-banner .page-banner .banner-image{width: 380px;}
+  .simple-custom-banner .page-banner .banner-content,
+  .case-study-detail .page-banner .banner-content{width: calc(100% - 430px);}
+}
+@media only screen and (max-width:991px) {
+  .custom-banner .page-banner .banner-image,
+  .custom-ab-banner .page-banner .banner-image,
+  .privacy-policy .page-banner .banner-image,
+  .simple-custom-banner .page-banner .banner-image{display:none;}
+  .custom-banner .page-banner .banner-content,
+  .custom-ab-banner .page-banner .banner-content,
+  .simple-custom-banner .page-banner .banner-content,
+  .privacy-policy .page-banner .banner-content{width: 100%;padding-right: 0;}
+  .page-banner {padding: 50px 0;}
+  .custom-ab-banner .page-banner,
+  .simple-custom-banner .page-banner{height: auto;}
+  .custom-ab-banner .banner-content,
+  .simple-custom-banner .banner-content{width: 100%;}
+  .contact-us .page-banner .banner-image {width: 350px;margin: 0 auto;}
+  .contact-us .page-banner .banner-content {width: 100%;}
+  .page-banner .media-lottie {display: block;}
+  .page-banner .lottie-holder {display: none;}
+  .contact-us .page-banner .media-lottie {display: none;}
+}
+@media only screen and (max-width:767px) {
+  .page-banner {padding: 30px 0;}
+  .contact-us .page-banner .banner-image {width: 100%;}
+}
+@media only screen and (max-width:575px) {
+  .page-banner .media-lottie{right: 0;}
+}
+@media only screen and (max-width:479px) {
+  .page-banner .media-lottie{top: -65px;}
+}

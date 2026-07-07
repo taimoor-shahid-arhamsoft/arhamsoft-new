@@ -1,0 +1,52 @@
+.salesforce-products .section-heading h2 {font-size: 48px;line-height: 74px;}
+.salesforce-products .section-heading p {max-width: 100%;}
+.salesforce-products .lottie-holder {position: relative;margin-bottom: 60px;}
+.salesforce-products .lottie-holder img {position: relative;z-index: 2;width: 100%;height: 100%;object-fit: contain;padding: 35px;}
+.salesforce-products .lottie-holder-two {position: absolute;top: 0;left: 0;bottom:0;right:0;z-index: 1;}
+.salesforce-products .salesforce-products-content {margin-left: 60px;}
+.salesforce-products .salesforce-products-tabs .nav-tabs {border-bottom: none;margin-bottom: 50px;}
+.salesforce-products .salesforce-products-tabs .nav-item {border-bottom: 1px solid #707070;position: relative;}
+.salesforce-products .salesforce-products-tabs .nav-link {border: none;color: #11171F;text-transform: capitalize;font-size: 24px;line-height: 28px;font-weight: 500;padding: 22px 20px;background-color: transparent;}
+.salesforce-products .salesforce-products-tabs .nav-link.active::before {content:"";position: absolute;left: 0;width: 100%;border-bottom: 3px solid #F07700;bottom: -1.5px;}
+.salesforce-products .product-content h3 {font-weight: 500;margin: 0 0 16px;}
+.salesforce-products .product-content p, .salesforce-products .product-content li {font-size: 20px;line-height: 30px;font-weight: 300;}
+/* responsive */
+@media only screen and (max-width:1699px){
+    .salesforce-products .section-heading h2 {font-size: 42px;line-height: 68px;}
+    .salesforce-products .section-heading{margin: 0 0 40px;}
+}
+@media only screen and (max-width:1599px){
+    .salesforce-products .salesforce-products-content {margin-left: 35px;}
+}
+@media only screen and (max-width:1399px){
+    .salesforce-products .salesforce-products-tabs .nav-link {font-size: 20px;line-height: 24px;padding: 17px 15px;}
+    .salesforce-products .section-heading h2 {font-size: 36px;line-height: 56px;}
+    .salesforce-products .section-heading {margin: 0 0 20px;}
+    .salesforce-products .salesforce-products-tabs .nav-tabs {margin-bottom: 30px;}
+}
+@media only screen and (max-width:1199px){
+    .salesforce-products .product-content p, .salesforce-products .product-content li {font-size: 18px;line-height: 26px;}
+    /* .salesforce-products .salesforce-products-tabs .nav-link {padding: 20px 15px;} */
+    .salesforce-products .btn {font-size: 16px;line-height: 18px;}
+}
+@media only screen and (max-width:991px){
+    .salesforce-products .salesforce-products-content {margin-left: 0px;}
+    .salesforce-products .lottie-holder {max-width: 62%;margin: 0 auto 30px;}
+    .salesforce-products .btn {margin: 0 0 20px;}
+}
+@media only screen and (max-width:767px){
+    .salesforce-products .product-content p, .salesforce-products .product-content li {font-size: 16px;line-height: 24px;}
+    .salesforce-products .salesforce-products-tabs .nav-link {font-size: 16px;line-height: 20px;}
+    .salesforce-products .section-heading h2 {font-size: 28px;line-height: 38px;}
+    .salesforce-products .salesforce-products-tabs .nav-link {padding: 15px 15px;}
+}
+@media only screen and (max-width:575px){
+    .salesforce-products .product-content p, .salesforce-products .product-content li {font-size: 14px;line-height: 22px;}
+    .salesforce-products .lottie-holder {max-width: 85%;margin: 0 auto 20px;}
+}
+@media only screen and (max-width:479px){
+    .salesforce-products .product-content p, .salesforce-products .product-content li {font-size: 12px;line-height: 20px;}
+    .salesforce-products .section-heading h2 {font-size: 22px;line-height: 30px;}
+    .salesforce-products .salesforce-products-tabs .nav-link {padding: 12px 12px;font-size: 14px;line-height: 18px;}
+    .salesforce-products .lottie-holder {max-width: 100%;}
+}

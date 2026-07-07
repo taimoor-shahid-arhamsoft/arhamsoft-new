@@ -1,0 +1,28 @@
+.ecommerce-solutions .textual-content{background-color: #F0F4F5;}
+.ecommerce-solutions .hire-faqs{padding-top: 0;}
+.ecommerce-solutions .stats-block{padding: 100px 0 0;}
+/*responsiveness*/
+@media (min-width: 992px) {
+    .ecommerce-solutions .textual-content .section-heading{margin-bottom: 0;}
+}
+@media (max-width: 1699px){
+    .ecommerce-solutions .stats-block{padding: 80px 0 0;}
+    .ecommerce-solutions .development-services .feature-block .feature-count {font-size: 75px;line-height: 85px;}
+}
+@media (max-width: 1599px){
+    .development-services .feature-block {min-height: 290px;}
+}
+@media (max-width: 1399px){
+    .ecommerce-solutions .stats-block{padding: 60px 0 0;}
+    .ecommerce-solutions .development-services .feature-block .feature-count {font-size: 65px;line-height: 75px;}
+}
+@media (max-width: 991px){
+    .ecommerce-solutions .stats-block{padding: 30px 0 0;}
+    .ecommerce-solutions .page-banner .image-holder {max-width: 70%;margin: 0 auto;}
+    .development-services .feature-block {min-height: 250px;}
+    .ecommerce-solutions .development-services .feature-block .feature-count {font-size: 55px;line-height: 65px;}
+}
+@media (max-width: 767px) {
+    .development-services .feature-block {min-height: auto;}
+    .ecommerce-solutions .development-services .feature-block .feature-count {font-size: 45px;line-height: 55px;}
+}

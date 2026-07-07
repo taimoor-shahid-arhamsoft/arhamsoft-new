@@ -1,0 +1,55 @@
+.textual-content.content-section{overflow: hidden;}
+.textual-content .text-holder{max-width:930px;}
+.textual-content h2{color:#11171F;font-weight:bold;margin:0 0 20px;}
+.textual-content h2 span{font-weight:100;}
+.textual-content .collab-points{font-size:20px;line-height:27px;color:#0F0E31;font-weight:200;}
+.textual-content .collab-points strong{font-size:24px;line-height:28px;font-weight:400;margin:0 0 20px;}
+.textual-content .collab-points p strong {font-size: inherit;line-height: inherit;}
+.textual-content .collab-points li{margin:0 0 40px;}
+.textual-content .collab-points li:last-child{margin:0;}
+.blockchain-development .textual-content .image-holder:after,
+.services.seo .textual-content .image-holder:after
+{content:"";width:9999px;position:absolute; top:0;bottom:0;background:#F0F4F5;z-index:-1}
+.blockchain-development .textual-content .image-holder:after,
+.digital-marketing .textual-content .image-holder:after{z-index: -2;}
+.desktop-application .textual-content{background:#F0F4F5;}
+.textual-content p {font-size: 20px;line-height: 27px;font-weight: 300;max-width: 100%;margin-bottom: 20px;}
+.textual-content .collab-points p span{color: #F07700;font-weight: 500;}
+.textual-content p:last-of-type {margin: 0 auto 0;}
+.blockchain-development .textual-content .section-heading,
+.desktop-application .textual-content .section-heading{margin:0;}
+/*responsiveness*/
+@media(max-width:1699px){
+    .textual-content p {font-size: 18px;line-height: 25px;}
+}
+@media(max-width:1399px){
+    .textual-content h2 {font-size: 50px;line-height: 60px;}
+    .textual-content p {font-size: 16px;line-height: 22px;}
+    .textual-content .collab-points strong{margin: 0 0 15px;}
+}
+@media(max-width:1199px){
+    .textual-content h2 {font-size:40px;line-height:48px;}
+    .textual-content .collab-points{font-size:18px;line-height:26px;}
+    .textual-content .collab-points li{margin:0 0 20px;}
+}
+@media(max-width:991px){
+    .textual-content h2 {font-size:30px;line-height:40px;}
+    .textual-content .image-holder {max-width: 70%;margin-inline: auto;}
+    .blockchain-development .textual-content .section-heading,
+    .desktop-application .textual-content .section-heading{margin:0 0 30px;}
+}
+@media(max-width:767px){
+    .textual-content h2 {font-size:26px;line-height:34px;}
+    .textual-content .collab-points{font-size:14px;line-height:20px;}
+    .textual-content .collab-points strong{margin:0 0 10px}
+    .textual-content .collab-points li{margin:0 0 15px;}
+    .textual-content p {font-size: 14px;line-height: 20px;}
+}
+@media(max-width:575px){
+    .textual-content .collab-points strong{font-size:20px;line-height:24px;}
+}
+@media(max-width:479px){
+    .textual-content p {font-size: 12px;line-height: 18px;}
+    .textual-content .image-holder {max-width: 100%;}
+    .textual-content h2 {font-size: 22px;line-height: 30px;}
+}

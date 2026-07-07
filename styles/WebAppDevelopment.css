@@ -1,0 +1,11 @@
+.web-app-development .what-we-do{padding-bottom:0}
+.web-app-development .lets-discuss .text-block {max-width: 780px;}
+@media(max-width:1699px){
+    .web-app-development .lets-discuss .text-block {max-width: 730px;}
+}
+@media(max-width:1399px){
+    .web-app-development .lets-discuss .text-block {max-width: 550px;}
+}
+@media(max-width:991px){
+    .web-app-development .lets-discuss .text-block {max-width: 100%;}
+}

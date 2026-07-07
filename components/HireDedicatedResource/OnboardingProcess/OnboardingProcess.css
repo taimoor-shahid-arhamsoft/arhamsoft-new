@@ -1,0 +1,51 @@
+.onboarding-process {padding: 120px 0px;}
+.onboarding-process .banner-content strong {color: #F07700;font-size: 20px;line-height: 27px;font-weight: bold;}
+.onboarding-process .banner-content h1 {font-size: 64px;line-height: 81px;font-weight: 100;text-transform: capitalize;color: #0F0F0F;margin: 0 0 40px;}
+.onboarding-process .banner-content h1 span {color: #11171F;font-weight: bold;text-transform: capitalize;}
+.onboarding-process .our-skills-partner li {display: flex;align-items: center;padding: 24px 21px;margin: 0 0 16px;}
+.onboarding-process .our-skills-partner li:last-of-type{margin: 0;}
+.onboarding-process .our-skills-partner li.blue {background-color: #F1F5FC;}
+.onboarding-process .our-skills-partner li.orange {background-color: #FCF4F1;}
+.onboarding-process .our-skills-partner li.green {background-color: #F5FBF1;}
+.onboarding-process .our-skills-partner .head {width: 109px;height: 109px;background: #FFFFFF 0% 0% no-repeat padding-box;border-radius: 4px;margin-right: 21px;display: flex;align-items: center;justify-content: center;}
+.onboarding-process .our-skills-partner .body {width: calc(100% - 130px);}
+.onboarding-process .our-skills-partner .body h2 {font-size: 24px;line-height: 30px;font-weight: 500;margin: 0 0 16px;}
+.onboarding-process .our-skills-partner .body p {font-size: 20px;line-height: 27px;font-weight: 300;margin: 0;}
+/* responsive */
+@media only screen and (max-width:1699px){
+    .onboarding-process {padding: 80px 0px;}
+    .onboarding-process .banner-content h1 {font-size: 55px;line-height: 65px;}
+}
+@media only screen and (max-width:1399px){
+    .onboarding-process {padding: 70px 0px;}
+    .onboarding-process .banner-content h1 {font-size: 45px;line-height: 50px;margin: 0 0 30px;}
+    .onboarding-process .our-skills-partner .body h2 {font-size: 20px;line-height: 24px;}
+    .onboarding-process .our-skills-partner .body p {font-size: 16px;line-height: 22px;}
+}
+@media only screen and (max-width:1199px){
+    .onboarding-process {padding: 50px 0px;}
+    .onboarding-process .banner-image{max-width: 500px;margin-inline: auto;}
+    .onboarding-process .banner-content h1 {font-size: 34px;line-height: 40px;margin: 0 0 20px;}
+    .onboarding-process .banner-content strong {font-size: 16px;line-height: 20px;}
+}
+@media only screen and (max-width:991px){
+    .onboarding-process {padding: 30px 0px;}
+}
+@media only screen and (max-width:767px){
+    .onboarding-process {padding: 20px 0px;}
+    .onboarding-process .banner-content h1 {font-size: 25px;line-height: 32px;margin: 0 0 15px;}
+}
+@media only screen and (max-width:575px){
+    .onboarding-process .our-skills-partner .body h2 {font-size: 18px;line-height: 22px;margin: 0 0 10px;}
+    .onboarding-process .our-skills-partner li {padding: 16px 12px;margin: 0 0 10px;}
+    .onboarding-process .our-skills-partner .head {width: 90px;height: 90px;margin-right: 12px;}
+    .onboarding-process .our-skills-partner .body {width: calc(100% - 102px);}
+    .onboarding-process .our-skills-partner .body p {font-size: 14px;line-height: 20px;}
+}
+@media only screen and (max-width:479px){
+    .onboarding-process .our-skills-partner li {flex-direction: column;}
+    .onboarding-process .our-skills-partner .head {margin-right: 0px;margin-bottom: 10px;}
+    .onboarding-process .our-skills-partner .body {width: 100%;text-align: center;}
+    .onboarding-process .our-skills-partner .body p {font-size: 12px;line-height: 18px;}
+    .onboarding-process .banner-content h1 {font-size: 22px;line-height: 26px;}
+}

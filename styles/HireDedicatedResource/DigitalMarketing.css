@@ -1,0 +1,33 @@
+.digital-marketing .banner-content{width: 55%;}
+.digital-marketing .right-side-page-banner .image-holder img {width: 100%;height: 100%;object-fit: contain;object-position: bottom;}
+.digital-marketing .what-we-do .section-heading p {max-width: 100%;}
+.digital-marketing .case-studies {padding-top: 0;padding-bottom: 50px;}
+.digital-marketing .services-you-get {padding: 0;}
+.digital-marketing .textual-content {padding: 0;overflow:hidden;}
+.digital-marketing .textual-content .image-holder img {width: 100%;height: 100%;object-fit: contain;}
+.digital-marketing .textual-content .image-holder::after {content: "";position: absolute;;width: 2000px;top: 0;bottom: 0;background:#F0F4F5;}
+.digital-marketing .services-you-get .section-heading {margin: 0 0 100px;}
+.digital-marketing .development-services .feature-block {min-height: auto;}
+/*responsiveness*/
+@media(max-width:1699px){
+    .digital-marketing .development-services .feature-block {min-height: 291px;}
+}
+@media(max-width:1199px){
+    .digital-marketing .development-services .feature-block {min-height: 257px;}
+}
+@media(max-width:991px){
+    .digital-marketing .services-you-get .section-heading {margin: 0 0 45px;}
+    .digital-marketing .development-services .feature-block {min-height: 226px;}
+    .digital-marketing .banner-content {width: 100%;}
+}
+@media(max-width:767px){
+    .digital-marketing .development-services .feature-block {margin: 0 0 15px;}
+    .digital-marketing .development-services .feature-block {min-height: auto;}
+}
+@media(max-width:575px){
+    .digital-marketing .textual-content .image-holder::after {display: none;}
+    .digital-marketing .services-boxes h3 {font-size: 18px;line-height: 22px;}
+}
+@media(max-width:479px){
+    .digital-marketing .services-boxes h3 {font-size: 16px;line-height: 20px;}
+}

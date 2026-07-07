@@ -1,0 +1,38 @@
+.salesforce-services .salesforce-services-boxes {display: grid;grid-template-columns: repeat(3, 1fr);column-gap: 40px;row-gap: 35px;}
+.salesforce-services .salesforce-services-box {background: #FFFFFF 0% 0% no-repeat padding-box;border: 1px solid #D3DEED;border-radius: 16px;padding: 50px 28px;}
+.salesforce-services .head {display: flex;align-items: center;margin: 0 0 41px;}
+.salesforce-services .head .head-img {width: 60px;height: 60px;overflow: hidden;margin-right: 25px;}
+.salesforce-services .head .head-img img {width: 100%;height: 100%;object-fit: contain;}
+.salesforce-services .head h3 {width: calc(100% - 85px);}
+.salesforce-services .detail p {margin: 0;padding-left: 22px;position: relative;font-size: 20px;line-height: 27px;font-weight: 300;}
+.salesforce-services .detail p::before {content:"";position: absolute;left: 0;top: 0;bottom: 0;width: 4px;background: #F07700 0% 0% no-repeat padding-box;border-radius: 10px;}
+/* responsive */
+@media only screen and (max-width:1399px){
+    .salesforce-services .salesforce-services-boxes {grid-template-columns: repeat(2, 1fr);}
+    .salesforce-services .salesforce-services-box {padding: 30px 20px;}
+}
+@media only screen and (max-width:1199px){
+    .salesforce-services .salesforce-services-box {padding: 25px 20px;}  
+    .salesforce-services .head {margin: 0 0 20px;}
+    .salesforce-services .salesforce-services-boxes {column-gap: 25px;row-gap: 22px;}
+    .salesforce-services .detail p {font-size: 18px;line-height: 26px;}
+    .salesforce-services .head .head-img {width: 40px;height: 40px;margin-right: 15px;}
+    .salesforce-services .head h3 {width: calc(100% - 55px);}
+}
+@media only screen and (max-width:991px){s
+    .salesforce-services .salesforce-services-boxes {column-gap: 20px;row-gap: 15px;}
+}
+@media only screen and (max-width:767px){
+    .salesforce-services .detail p {font-size: 16px;line-height: 24px;}
+    .salesforce-services .salesforce-services-boxes {grid-template-columns: repeat(1, 1fr);}
+}
+@media only screen and (max-width:575px){
+    .salesforce-services .detail p {font-size: 14px;line-height: 22px;}
+}
+@media only screen and (max-width:479px){
+    .salesforce-services .detail p {font-size: 12px;line-height: 20px;}
+    .salesforce-services .head {margin: 0 0 10px;flex-direction: column;}
+    .salesforce-services .head .head-img {margin-right: 0px;margin-bottom: 10px;}
+    .salesforce-services .head h3 {width: 100%;text-align: center;}
+    .salesforce-services .salesforce-services-box {padding: 21px 12px;}
+}

@@ -1,0 +1,47 @@
+.azure-aws .page-banner .banner-image {position: relative;}
+.azure-aws .page-banner .lottie-holder-banner {width: 160px;position: absolute;z-index: 1;}
+.azure-aws .page-banner .lottie-holder-banner.one {right: 55px;top: 130px;z-index: 9999;}
+.azure-aws .page-banner .lottie-holder-banner.two {left: 55px;bottom: 130px;z-index: 999;}
+.azure-aws .page-banner .image-holder {position: relative;z-index: 2;}
+.azure-aws .how-we-do {background-color: #fff;}
+.azure-aws .how-we-do .section-heading h2 {max-width: 75%;margin-inline: auto;}
+.azure-aws .how-we-do .how-we-do-block {height: calc(100% - 24px);}
+.azure-aws .cloud-services h2 {max-width: 75%;margin-inline: auto;}
+.azure-aws .cloud-services .section-heading {margin: 0 0 46px;}
+.azure-aws .lets-discuss {padding-top: 120px;}
+/* responsive */
+@media only screen and (max-width:1699px){
+    .azure-aws .lets-discuss {padding-top: 80px;}
+    .azure-aws .page-banner .lottie-holder-banner.one {right: -0;top: 90px;z-index: 9999;}
+    .azure-aws .page-banner .lottie-holder-banner.two {left: 0;bottom: 90px;z-index: 999;}
+}
+@media only screen and (max-width:1399px){
+    .azure-aws .lets-discuss {padding-top: 70px;}
+}
+@media only screen and (max-width:1199px){
+    .azure-aws .page-banner{overflow: hidden;}
+    .azure-aws .page-banner .lottie-holder-banner {width: 110px;position: absolute;z-index: 1;}
+    .azure-aws .page-banner .lottie-holder-banner.one {right: -20px;top: 60px;}
+    .azure-aws .page-banner .lottie-holder-banner.two {left: 20px;bottom: 60px;}
+    .azure-aws .lets-discuss {padding-top: 50px;}
+    .azure-aws .cloud-services h2 {max-width: 85%;}
+}
+@media only screen and (max-width:991px){
+    .azure-aws .page-banner .banner-content {margin-bottom: 30px;}
+    .azure-aws .page-banner .image-holder {max-width: 100%;}
+    .azure-aws .how-we-do .how-we-do-block {height: calc(100% - 12px);}
+    .azure-aws .page-banner .lottie-holder-banner.one {right: 10px;top: 50px;}
+    .azure-aws .page-banner .lottie-holder-banner.two {left: 10px;bottom: 50px;}
+    .azure-aws .lets-discuss {padding-top: 30px;}
+}
+@media only screen and (max-width:767px){
+    .azure-aws .what-you-get-block{padding:20px 15px}
+    .azure-aws .how-we-do .section-heading h2 {max-width: 100%;}
+    .azure-aws .cloud-services h2 {max-width: 100%;}
+    .azure-aws .lets-discuss {padding-top: 20px;}
+}
+@media only screen and (max-width:479px){
+    .azure-aws .page-banner .lottie-holder-banner {width: 60px;}
+    .azure-aws .page-banner .lottie-holder-banner.one {right: 0;top: 30px;}
+    .azure-aws .page-banner .lottie-holder-banner.two {left: 0;bottom: 30px;}
+}

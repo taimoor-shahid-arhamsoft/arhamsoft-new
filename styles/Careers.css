@@ -1,0 +1,205 @@
+.careers ul{list-style: none;padding:0;margin:0;}
+.careers-jobs-listing-area {margin-bottom: 80px;}
+.careers-jobs-listing-area .form-control{height: 52px;border: 1px solid #9DA5BE;border-radius: 3px;font-size: 20px;font-weight: normal;color: #11171F;box-shadow: unset;padding: 0 22px 0 22px;}
+.careers-jobs-listing-area .form-control::placeholder, .job-listing-modal-form .form-control::placeholder, .job-listing-modal-form .listing-select__control::placeholder{color: #11171F;}
+.careers-jobs-listing-area .input-wrapper .jobs-listing-search-icon {position: absolute;right: 22px;width: 26px;height: 26px;top: 50%;transform: translateY(-50%);}
+.careers-jobs-listing-area .input-wrapper .jobs-listing-search-icon img {width: 100%;height: 100%;}
+.careers-jobs-listing-area .lisitng-btn {font-size: 20px;font-weight: normal;width: 100%;height: 52px;background-color: #F07700;border-radius: 3px;color: white;padding: 0 25px;border: none;transition: all ease-in-out 0.5s;}
+.careers-jobs-listing-area .lisitng-btn:hover{background-color: #091A4A;}
+.jobs-listing-logo {width: 186px;height: 140px;border: 1px solid #DADADA;border-radius: 24px;padding: 30px;display: flex;align-items: center;justify-content: center;margin-right: 40px;}
+.careers .our-process ul{overflow: hidden;position: relative;}
+.jobs-listing-content {border-bottom: 1px solid #DADADA;padding-bottom: 40px;margin-bottom: 40px;}
+.jobs-listing-content:last-of-type {border: none;margin: 0;}
+.jobs-listing-logo-content {width: calc(100% - 226px);}
+.jobs-listing-logo-content h3 {font-size: 32px;font-weight: 500;color: #F07700;margin-bottom: 15px;}
+.jobs-listing-logo-content h6 {font-size: 20px;font-weight: 400;color: #11171F;margin-bottom: 18px;}
+.jobs-listing-logo-content p, .jobs-listing-badges-area p {font-size: 20px;font-weight: 300;line-height: 25px;color: #11171F;}
+.jobs-listing-badges-area p {font-weight: 400;}
+.jobs-listing-badges-area .listing-badge {background-color: white;border: 1px solid #F07700;color: #F07700;height: 34px;border-radius: 24px;padding: 0 24px;font-size: 16px;font-weight: normal;}
+.jobs-listing-badges-area .apply-btn {color: #091A4A;height: 57px;min-width: 150px;padding: 0 16px;background-color: #F0F4F5;font-size: 20px;font-weight: 500;border: none;}
+.jobs-listing-badges-area .apply-btn:hover{background-color: #091A4A;color: #F0F4F5;}
+.job-listing-modal-wrapper {background-color: #0000009D;min-height: 100vh;width: 100%;position: fixed;top: 0;left: 0;z-index: 99999;display: flex;align-items: center;justify-content: center;}
+.job-listing-modal {max-width: 1150px;width: 100%;background-color: white;margin: 0 auto;border-radius: 16px;border: 1px solid #F07700;padding: 50px 90px;position: relative;}
+.job-listing-heading-area span, .job-listing-heading-area h2 {font-size: 64px;font-weight: 100;line-height: 80px;color: #0F0F0F;}
+.job-listing-heading-area h2 {font-weight: bold;margin-bottom: 40px;}
+.job-listing-modal-form .form-control, .job-listing-modal-form .listing-select__control {font-size: 16px;font-weight: normal;color: #11171F;padding: 0 20px;border-radius: 3px;border: 1px solid #6C7696;height: 52px;box-shadow: unset;}
+.job-listing-modal-form .listing-select__control, .job-listing-modal-form .listing-select__control:hover {border-color: #6C7696;box-shadow: unset;}
+.job-listing-modal-form .listing-select__indicator-separator {display: none;}
+.listing-uploaded-area {margin-bottom: 40px;}
+.listing-uploaded-area h4 {font-size: 24px;font-weight: normal;color: #11171F;margin-bottom: 28px;}
+/*careers*/
+.careers .our-process li{width:146px;}
+.careers .our-process .icon-holder{margin:0 0 25px;}
+.careers .our-process ul::before {content: "";position: absolute;border: 1px dashed #707070;height: 1px;left: 50px;right: 50px;top: 73px;}
+.careers .our-process ul li:last-child .icon-holder:after{display:none}
+.careers .our-process .step-name{font-size:24px;line-height:27px;font-weight:300;color:#11171F;max-width: 88%;}
+.careers .what-we-do{background:#F5F7FA;}
+.careers .what-we-do .what-we-block{background:#fff;padding:40px 20px;}
+.careers .page-banner p {max-width: 895px;}
+.careers .intro-block {padding-bottom: 0px;}
+/*uploaded-files-box*/
+.uploaded-files-box {border-radius: 3px;border: 1px solid #6C7696;height: 120px;padding: 30px;}
+.uploaded-files-box .uploaded-icon {width: 40px;height: 40px;display: flex;align-items: center;justify-content: center;margin-right: 10px;}
+.uploaded-files-box .uploaded-icon img {width: 100%;height: 100%;}
+.uploaded-files-box p {font-size: 16px;font-weight: normal;color: #F07700;}
+.uploaded-files-box input.file-input {position: absolute;width: 100%;height: 100%;opacity: 0;}
+/*job-listing-modal-form*/
+.job-listing-modal-form .btn-submit {font-size: 20px;font-weight: normal;color: white;background-color: #091A4A;border: none;border-radius: 5px;min-width: 138px;transition: all ease-in-out 0.5s;}
+.job-listing-modal-form .btn-submit:hover {background-color: #F07700;}
+.job-listing-modal-form .btn-submit:active, .job-listing-modal-form .btn-submit:disabled:hover {border-color: #091A4A;background-color: #091A4A;color: #fff;}
+.job-listing-modal-form .btn-submit.close-button {background-color: #c60000;}
+.job-listing-modal-form .btn-submit.close-button:hover {background-color: #af0101;}
+.job-listing-modal .close-button {position: absolute;right: 20px;top: 20px;border-radius: 50%;background: transparent;color: #6C7696;border: 1px solid #6C7696;padding: 8px;height: 30px;width: 30px;display: flex;justify-content: center;align-items: center;font-size: 16px;}
+.job-listing-modal .close-button:hover {color: #11171F;border: 1px solid #11171F;}
+.job-listing-modal-form .uploaded-files-box p {max-width: calc(100% - 50px);display: block;display: -webkit-box;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;-webkit-line-clamp: 2;line-clamp: 2;width: auto;text-align: start;}
+/*no found box*/
+.not-found-box {border: 1px solid #D3DEED;border-radius: 10px;text-align: center;padding: 30px;color: #11171F;font-size: 18px;line-height: 24px;font-weight: 500;background-color: #F5F7FA;}
+.not-found-box .image {max-width: 100px;margin-inline: auto;margin-bottom: 20px;}
+/*responsiveness*/
+@media(max-width:1699px){
+    .careers .embed_jobs_head input{width:490px;}
+    .careers .embed_jobs_head input[type="button"]{width:280px;}
+    .careers .our-process .step-name{font-size:20px;line-height:24px;max-width: 73%;}
+    .jobs-listing-content:not(:last-child) {padding-bottom: 35px;margin-bottom: 35px;}
+    .careers-jobs-listing-area {margin-bottom: 70px;}
+    .careers-jobs-listing-area .form-control {height: 46px;font-size: 18px;}
+    .careers-jobs-listing-area .input-wrapper .jobs-listing-search-icon {width: 24px;height: 24px;}
+    .careers-jobs-listing-area .lisitng-btn {font-size: 18px;height: 48px;}
+    .jobs-listing-logo {width: 170px;height: 130px;padding: 28px;margin-right: 34px;}
+    .jobs-listing-logo-content {width: calc(100% - 204px);}
+    .jobs-listing-logo-content h3 {font-size: 28px;margin-bottom: 12px;}
+    .jobs-listing-logo-content h6 {font-size: 18px;margin-bottom: 14px;}
+    .jobs-listing-logo-content p, .jobs-listing-badges-area p {font-size: 18px;line-height: 22px;}
+    .jobs-listing-badges-area .apply-btn {height: 50px;min-width: 140px;font-size: 18px;}
+    .job-listing-modal {max-width: 1000px;padding: 40px 70px;}
+    .job-listing-heading-area span, .job-listing-heading-area h2 {font-size: 45px;line-height: 50px;}
+    .job-listing-heading-area h2 {margin-bottom: 34px;}
+    .job-listing-modal-form .form-control, .job-listing-modal-form .listing-select__control {font-size: 16px;height: 54px;}
+    .listing-uploaded-area {margin-bottom: 35px;}
+    .listing-uploaded-area h4 {font-size: 22px;margin-bottom: 24px;}
+    .job-listing-modal-form .btn-submit {font-size: 18px;min-width: 128px;}
+}
+@media(max-width:1399px){
+    .careers .embed_jobs_head input{width:440px;}
+    .careers .embed_jobs_head input[type="button"]{width:200px;}
+    .careers .our-process .icon-holder{margin:0 0 15px;}
+    .careers .our-process ul::before{top: 60px;}
+    .careers .our-process li{width:120px;}
+    .careers .our-process .step-name{font-size:16px;line-height:20px;}
+    .careers .page-banner p { max-width: 670px;}
+    .careers .rec-job-info {font-size: 16px;line-height: 22px;}
+    .careers .rec-job-info .rec-job-title {font-size: 24px;line-height: 34px;}
+    .careers .rec-job-info .zrsite_Location {font-size: 20px;line-height: 26px;margin: 0 0 18px;}
+    .careers .rec-job-info li.zrsite_Job_Description {height: 69px;}
+    .careers-jobs-listing-area {margin-bottom: 60px;}
+    .careers-jobs-listing-area .form-control {height: 42px;font-size: 16px;}
+    .careers-jobs-listing-area .input-wrapper .jobs-listing-search-icon {width: 22px;height: 22px;right: 20px;}
+    .careers-jobs-listing-area .lisitng-btn {font-size: 16px;height: 42px;}
+    .jobs-listing-logo {width: 150px;height: 110px;padding: 24px;margin-right: 30px;}
+    .jobs-listing-logo-content {width: calc(100% - 180px);}
+    .jobs-listing-logo-content h3 {font-size: 24px;}
+    .jobs-listing-logo-content h6 {font-size: 16px;margin-bottom: 12px;}
+    .jobs-listing-logo-content p, .jobs-listing-badges-area p {font-size: 16px;line-height: 20px;}
+    .jobs-listing-badges-area .listing-badge {height: 32px;padding: 0 20px;font-size: 14px;}
+    .jobs-listing-badges-area .apply-btn {height: 44px;min-width: 130px;font-size: 16px;}
+    .job-listing-heading-area span, .job-listing-heading-area h2 {font-size: 36px;line-height: 38px;}
+    .job-listing-heading-area h2 {margin-bottom: 28px;}
+    .job-listing-modal-form .form-control, .job-listing-modal-form .listing-select__control {font-size: 14px;height: 48px;}
+    .listing-uploaded-area {margin-bottom: 30px;}
+    .listing-uploaded-area h4 {font-size: 20px;margin-bottom: 20px;}
+    .uploaded-files-box {height: 120px;}
+    .job-listing-modal-form .btn-submit {font-size: 16px;min-width: 118px;}
+    .job-listing-modal {max-width: 780px;padding: 35px 60px;}
+}
+@media(max-width:1199px){
+    .careers .embed_jobs_head input{width:350px;}
+    .careers .our-process ul{width:1200px;}
+    .careers .our-process li{margin:0 10px 15px}
+    .careers-jobs-listing-area {margin-bottom: 50px;}
+    .careers-jobs-listing-area .form-control {height: 40px;font-size: 14px;padding: 0 18px 0 18px;}
+    .careers-jobs-listing-area .input-wrapper .jobs-listing-search-icon {width: 20px;height: 20px;right: 16px;}
+    .jobs-listing-logo {width: 130px;height: 90px;}
+    .jobs-listing-logo-content {width: calc(100% - 160px);}
+    .jobs-listing-logo-content h3 {font-size: 22px;}
+    .jobs-listing-logo-content h6 {margin-bottom: 10px;}
+    .jobs-listing-badges-area .listing-badge {height: 30px;padding: 0 16px;}
+    .jobs-listing-badges-area p {text-align: center;width: 25%;}
+    .job-listing-heading-area span, .job-listing-heading-area h2 {font-size: 32px;line-height: 36px;}
+    .job-listing-heading-area h2 {margin-bottom: 24px;}
+    .job-listing-modal-form .form-control, .job-listing-modal-form .listing-select__control {height: 44px;}
+    .listing-uploaded-area h4 {font-size: 18px;margin-bottom: 18px;}
+    .uploaded-files-box {height: 100px;padding: 25px;}
+    .listing-uploaded-area {margin-bottom: 24px;}
+    .job-listing-modal-form .btn-submit {font-size: 14px;min-width: 110px;}
+}
+@media(max-width:991px){
+    .careers .our-process ul{width:900px;}
+    .careers .our-process ul::before{top: 45px;}
+    .careers .our-process li{width:90px;}
+    .careers .our-process .step-name{font-size:14px;line-height:16px;}
+    .careers .embed_jobs_head input{width:100%;margin:0 0 15px;}
+    .careers .embed_jobs_head input[type="button"]{width:100%;}
+    .careers .page-banner p { max-width: 100%;}
+    .job-listing-modal {max-width: 620px;padding: 30px 40px;}
+    .careers-jobs-listing-area {margin-bottom: 40px;}
+    .jobs-listing {padding-bottom: 20px;}
+    .jobs-listing-logo {margin: 0 20px 20px auto;}
+    .jobs-listing-logo-content {width: 100%;margin-bottom: 20px;}
+    .jobs-listing-badges-area p {width: calc(100% - 268px);text-align: end;}
+    .jobs-listing-badges-area .listing-badge {width: 110px;margin: 0 auto 0px;}
+    .jobs-listing-badges-area .apply-btn {margin: 0 auto;}
+    .listing-uploaded-area h4 {font-size: 16px;margin-bottom: 16px;}
+    .uploaded-files-box .uploaded-icon {width: 30px;height: 30px;}
+    .uploaded-files-box {height: 90px;padding: 20px;}
+    .careers-jobs-listing-area .input-wrapper .jobs-listing-search-icon {top: 42%;}
+    .job-listing-modal-form .note-alert {text-align: center;}
+    .job-listing-modal-form .uploaded-files-box p {max-width: calc(100% - 40px);}
+}
+@media(max-width:767px){
+    .careers .rec-job-info{padding:0 0 20px;margin:0 0 20px;border-bottom:1px solid #D3DEED;}
+    .careers .rec-job-info .rec-job-title{font-size:24px;line-height:28px;padding:0;}
+    .careers .rec-job-info .zrsite_Location {font-size:18px;line-height:22px;margin:0 0 10px;}
+    .careers .rec-job-info li.zrsite_Date_Opened{position: static;inset: auto;flex-direction: row;justify-content: space-between;}
+    .careers .rec-job-info li.zrsite_Date_Opened .zrsite_Job_Type{margin: 0;}
+    .careers .rec-job-info .zr_fillayout_info{border:none;padding:0;margin:0 0 20px;}
+    .job-listing-modal {max-width: 480px;padding: 20px 30px;}
+    .uploaded-files-box {height: 80px;padding: 20px;}
+    .uploaded-files-box p {font-size: 12px;}
+}
+@media(max-width:575px){
+    .careers .our-process ul{width:650px;}
+    .careers .our-process ul::before{top: 30px;}
+    .careers .our-process li{width:80px;}
+    .careers .our-process .step-name{font-size:14px;line-height:16px;}
+    .careers .rec-job-info .rec-job-title{font-size:20px;line-height:24px;margin:0 0 5px;}
+    .careers .rec-job-info .zrsite_Location{font-size:16px;line-height:20px;}
+    .careers .rec-job-info{font-size:14px;line-height:18px;}
+    .careers .rec-job-info li.zrsite_Job_Description{-webkit-line-clamp:4;line-clamp: 4;}
+    .careers .embed_jobs_head input {font-size: 16px;line-height: 20px;}
+    .careers-jobs-listing-area .form-control {height: 38px;font-size: 12px;padding: 0 14px 0 14px;}
+    .careers-jobs-listing-area .input-wrapper .jobs-listing-search-icon {width: 18px;height: 18px;right: 14px;}
+    .careers-jobs-listing-area .lisitng-btn {font-size: 14px;height: 38px;}
+    .jobs-listing-logo {padding: 15px;width: 110px;height: 90px;}
+    .jobs-listing-logo img {width: 100%;height: 100%;}
+    .jobs-listing-logo-content h3 {font-size: 20px;}
+    .jobs-listing-logo-content p, .jobs-listing-badges-area p {font-size: 14px;line-height: 18px;}
+    .job-listing-modal-wrapper {padding: 20px 15px;}
+    .job-listing-modal {max-width: 100%;padding: 15px;max-height: 500px;overflow-y: auto;}
+    .job-listing-heading-area span, .job-listing-heading-area h2 {font-size: 26px;line-height: 28px;}
+    .listing-uploaded-area {margin-bottom: 20px;}
+    .listing-uploaded-area h4 {margin-bottom: 10px;}
+    .job-listing-modal-form .btn-submit {min-width: 100%;}
+    .job-listing-modal .close-button {right: 15px;top: 15px;height: 25px;width: 25px;}
+}
+@media(max-width:479px){
+    .careers .rec-job-info .rec-job-title {font-size: 16px;line-height: 20px;}
+    .careers .rec-job-info .zrsite_Location {font-size: 12px;line-height: 16px;}
+    .careers .embed_jobs_head input {font-size: 14px;line-height: 18px;}
+    .careers .jobs-listing-content-info {flex-direction: column;}
+    .careers .jobs-listing-logo {margin: 0 auto 20px auto;}
+    .careers .jobs-listing-badges-area {flex-direction: column;}
+    .careers .jobs-listing-badges-area p {width: 100%;text-align: center;margin-bottom: 12px !important;margin-right: 0px !important;}
+    .careers .jobs-listing-badges-area .listing-badge {margin: 0 auto 12px !important;}
+    .job-listing-modal .close-button {right: 10px;top: 10px;height: 22px;width: 22px;}
+    .job-listing-modal-form .uploaded-files-box p {width: auto;text-align: start;margin-bottom: 0px !important;margin-right: 0px !important;}
+}

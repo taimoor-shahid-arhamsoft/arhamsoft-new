@@ -1,0 +1,326 @@
+.case-study-detail .footer-text p,
+.case-study-detail .section-heading p{max-width:1472px;}
+.case-study-detail .what-we-block {background:#fff;}
+.case-study-detail .client-request{background:#F5F7FA;}
+.case-study-detail .cs-miryde-image{width:125px;position: absolute;top:50%;left:50%;-o-transform: translate(-50%,-50%);-ms-transform: translate(-50%,-50%);-moz-transform: translate(-50%,-50%);-webkit-transform: translate(-50%,-50%);transform: translate(-50%,-50%);}
+.case-study-detail .cs-miryde-image.animation-center-image{width: 125px;}
+.case-study-detail.biiview .cs-miryde-image.animation-center-image{width:365px;}
+.case-study-detail.gig-jobs .cs-miryde-image.animation-center-image{width:325px;}
+.case-study-detail .challenge-block{font-size:24px;line-height:36px;color:#11171F;font-weight: 300;}
+.case-study-detail .challenge-block .content-outer{border:1px solid #F07700;border-radius:16px;padding:18px;}
+.case-study-detail .challenge-block .content-inner{border:1px solid #D3DEED;border-radius:16px;padding:26px 53px;}
+.case-study-detail .challenge-block h2{font-size:64px;line-height:70px;font-weight: bold;margin:0 0 15px;}
+.case-study-detail .challenge-block p{margin:0;padding:0 0 0 15px;}
+.case-study-detail .challenge-block ul li{padding:0 0 0 15px;}
+.case-study-detail .challenge-block ul li:before{content:"";width:9px;height:9px;border-radius:50%;position:absolute;left:0;top:13px;background:#F07700;}
+.case-study-detail .prjscp-col-outer{margin:0 0 30px;}
+.case-study-detail .prjscp-col{padding:60px 75px;background:#F2F5FC;border-radius:16px;height:100%;}
+.case-study-detail .prjscp-col h2{font-size:48px;line-height:56px;font-weight:500;margin:0 0 15px;}
+.case-study-detail .prjscp-col h2 span{display:block;font-weight:100;}
+.case-study-detail .prjscp-col{font-size:20px;line-height:27px;color:#11171F;font-weight: 300;}
+.case-study-detail .prjscp-col ul strong{font-weight: 500}
+.case-study-detail .prjscp-col ul li:not(:last-child){margin:0 0 30px;}
+.case-study-detail .footer-text{font-size:24px;line-height:36px;}
+.case-study-detail .footer-text p{margin:0 auto;}
+.case-study-detail .our-solutions-taber{background:#F5F7FA;}
+.case-study-detail .our-solutions-taber .nav{margin:0 0 110px}
+.case-study-detail .our-solutions-taber .nav .nav-link{background:transparent;color:#091A4A;font-size:24px;line-height:28px;font-weight:600;padding:0;margin:0 40px;}
+.case-study-detail .our-solutions-taber .nav .nav-link:hover,
+.case-study-detail .our-solutions-taber .nav .nav-link.active{color:#F07700;}
+.case-study-detail .our-solutions-taber .nav .nav-link:after{content:"";width:0;height:2px;position:absolute;bottom:-7px;left:50%;-o-transform:translateX(-50%);-ms-transform:translateX(-50%);-moz-transform:translateX(-50%);-webkit-transform:translateX(-50%);transform:translateX(-50%);transition:all ease-in-out 0.3s;background:#F07700;}
+.case-study-detail .our-solutions-taber .nav .nav-link.active:after,
+.case-study-detail .our-solutions-taber .nav .nav-link:hover:after{width:100%;}
+.case-study-detail .our-solutions-taber .tab-content{max-width:1370px;margin:0 auto;font-size:20px;line-height:27px;}
+.case-study-detail .our-solutions-taber .tab-content .image-holder{width:527px;height:480px;border-radius:16px;overflow:hidden;}
+.case-study-detail .our-solutions-taber .tab-content .image-holder img{width:100%;height:100%;object-fit: cover;object-position: center;}
+.case-study-detail .our-solutions-taber .tab-content .content-holder{width:calc(100% - 595px);}
+.case-study-detail .our-solutions-taber .tab-content h3{font-size:40px;line-height:50px;font-weight:500;color:#091A4A;margin:0 0 30px;}
+.case-study-detail .our-solutions-taber .tab-content p{margin:0 0 32px;}
+.case-study-detail .our-solutions-taber .tab-content .key-points li, .case-study-detail .results-block-colored ul li{padding:0 0 0 25px;margin:0 0 10px;list-style: none;}
+.case-study-detail .our-solutions-taber .tab-content .key-points li:last-child, .case-study-detail .results-block-colored ul li:last-child{margin:0;}
+.case-study-detail .our-solutions-taber .tab-content .key-points li p:not(:last-child) {margin-bottom: 10px;}
+.case-study-detail .our-solutions-taber .tab-content .key-points li:before, .case-study-detail .results-block-colored ul li::before{content:"";width:8px;height:8px;border-radius:50%;position: absolute;left:0;top:9px;background:#F07700;}
+.case-study-detail .results-block .content-holder{margin:0 0 40px;font-size:20px;line-height:30px;padding:0 150px 0 0}
+.case-study-detail .results-block h2{margin:0;}
+.case-study-detail .results-block .content-block{margin:0 0 50px;}
+.case-study-detail .results-block .content-block p{margin:0 0 15px;}
+.case-study-detail .results-block .bullet-points li{margin:0 0 10px;}
+.case-study-detail .results-block .main-slider-holder{padding:20px 0 0;}
+.case-study-detail .results-block .mobile-image-holder{width:435px;}
+.case-study-detail .results-block .mobile-image-holder img{width:100%;height:auto;}
+.case-study-detail .results-block .result-main-slider{width:297px;position:absolute;top:35px;left:50%;border-radius:34px;overflow:hidden;-o-transform:translateX(-50%);-ms-transform:translateX(-50%);-moz-transform:translateX(-50%);-webkit-transform:translateX(-50%);transform:translateX(-50%);}
+.case-study-detail .results-block .result-main-slider img{width:100%;height:auto;}
+.case-study-detail .results-block .result-main-slider .slick-slide > div > div {vertical-align:top;}
+.case-study-detail .results-block .thumb-slider{width:380px;margin:0 auto;}
+.case-study-detail .results-block .thumb-slider .slick-slide{padding:0 3px;}
+.case-study-detail .results-block .thumb-slider .slide-holder{width:71px;height:71px;border:1px solid transparent;border-radius:7px;padding:4px;}
+.case-study-detail .results-block .thumb-slider .slick-slide.slick-current .slide-holder{border-color:#F07700;}
+.case-study-detail .results-block .thumb-slider .slick-slide img{width:100%;height:100%;object-fit: cover;}
+.case-study-detail .team-detail-block .detail-block{font-size:24px;line-height:28px;margin:0 0 80px;}
+.case-study-detail .team-detail-block .icon-holder{margin:0 0 20px;}
+.case-study-detail .team-detail-block {background:#F5F7FA;}
+.case-study-detail .team-detail-block .detail-title{font-size:40px;line-height:44px;font-weight: 700;margin:0 0 40px;}
+.case-study-detail .team-detail-block .detail-title span{font-weight:100;}
+.case-study-detail .team-detail-block ul li:not(:last-child){margin:0 0 10px;}
+.case-study-detail .team-detail-block .detail-list > li * {margin:0 2px;}
+.case-study-detail .team-detail-block .key-points li{padding:0 0 0 20px;}
+.case-study-detail .team-detail-block .key-points li:before{content:"";width:8px;height:8px;position: absolute;left:0;top:50%;transform: translateY(-50%);border-radius:50%;background:#F07700;}
+.case-study-detail .team-detail-block .stack-block{font-size:20px;line-height:27px;}
+.case-study-detail .team-detail-block .stack-block p{max-width:1300px;margin:0 auto;}
+.case-study-detail .team-detail-block .stack-block h2{font-size:64px;line-height:72px;font-weight:900;margin:0 0 35px;}
+.case-study-detail .team-detail-block .stack-block h2:after{content:"";width:100%;height:1px;position: absolute;left:0;top:calc(50% + 3px);background:#9BAAAD;}
+.case-study-detail .team-detail-block .stack-block h2 strong{font-weight:700;}
+.case-study-detail .team-detail-block .stack-block h2 span{font-weight:100;padding:0 50px;background:#F5F7FA;}
+.case-study-detail .team-detail-block .stack-block .text-block{margin:0 0 30px;}
+.case-study-detail .team-detail-block .stack-block ul{padding:50px 0 0;}
+.case-study-detail .team-detail-block .stack-block ul li{margin:0 25px 15px;}
+.case-study-detail .team-detail-block .stack-block ul span{font-size:14px;line-height:16px;color:#11171F;font-weight:300;}
+.case-study-detail .team-detail-block .stack-block .stack-icon-holder{min-height:95px;}
+.case-study-detail .client-feedback .feedback-outer{background:#F0F4F5;border-radius:16px;padding:18px;}
+.case-study-detail .client-feedback .feedback-inner{border-radius:16px;padding:45px 50px 26px 110px;box-shadow:inset 0 0 10px rgba(255,255,255,1);border:1px solid #fff;}
+.case-study-detail .client-feedback .author-image-outer{width:170px;height:170px;border-radius:50%;border:1px solid #D3DEED;padding:3px;background:#fff;}
+.case-study-detail .client-feedback .author-image-inner{width:100%;height:100%;border-radius:50%;background: transparent linear-gradient(180deg, #FFFFFF 0%, #EAEAEA 100%) 0% 0% no-repeat padding-box;}
+.case-study-detail .client-feedback .feedback-text{max-width: 1020px;}
+.case-study-detail .client-feedback blockquote{quotes: none;font-size:20px;line-height:27px;color:#11171F;font-weight: 500;}
+.case-study-detail .client-feedback blockquote:before,
+.case-study-detail .client-feedback blockquote:after{content:"";width:67px;height:56px;position: absolute;background-size:cover}
+.case-study-detail .client-feedback blockquote:before{left:-70px;top:-60px;background-image:url('https://d2g5gf76vk4es3.cloudfront.net/images/icon-blockquote-before.webp');}
+.case-study-detail .client-feedback blockquote:after{right:-10px;bottom:-60px;background-image:url('https://d2g5gf76vk4es3.cloudfront.net/images/icon-blockquote-after.webp');}
+.case-study-detail .project-goals{background:#F5F7FA;}
+.case-study-detail .project-goals .goal-col,
+.case-study-detail .our-solutions .solution-col,
+.case-study-detail .results-block-colored .result-col{margin:0 0 40px;}
+.case-study-detail .project-goals .goal-block{height:100%;background:#fff;border: 1px solid #D3DEED;border-radius:16px;padding:54px 24px 39px;font-size:20px;line-height:27px;font-weight:300;}
+.case-study-detail .project-goals .goal-block .icon-holder{width:56px;height:56px;margin:0 25px 0 0;}
+.case-study-detail .project-goals .goal-block .icon-holder img{width:100%;height:100%;object-fit: contain;object-position: center;}
+.case-study-detail .project-goals .goal-block .icon-title-holder{margin:0 0 25px;}
+.case-study-detail .project-goals .goal-block h3{width:calc(100% - 56px);font-size:32px;line-height:44px;color:#11171F;font-weight:500;margin:0;padding:0 10px 0 0;}
+.case-study-detail .project-goals .goal-block p{padding:0 0 0 18px;}
+.case-study-detail .project-goals .goal-block p:before{content:"";width:4px;position: absolute;left:0;top:5px;bottom:0;border-radius:10px;background:#F07700;}
+.case-study-detail.maritime-tech .services-you-get.lottie-holder-one{padding:50px;}
+.case-study-detail .our-solutions .solution-block{border: 1px solid #D3DEED;border-radius: 16px;padding:28px 32px;height:100%;font-size:20px;line-height:27px;font-weight:100;}
+.case-study-detail .our-solutions .count-icon-holder{position: absolute;top:28px;right:0;}
+.case-study-detail .our-solutions h3{margin:0 0 32px;padding:14px 47px 0 0;}
+.case-study-detail .results-block-colored .result-block{padding:50px 40px;border-radius:16px;height:100%;flex-direction: row;}
+.case-study-detail .results-block-colored .icon-holder{width:163px;height:154px;}
+.case-study-detail .results-block-colored .icon-holder img{width:100%;height:100%;object-fit: contain;object-position:center;}
+.case-study-detail .results-block-colored .content-holder{width:calc(100% - 253px);font-size:20px;line-height:27px;font-weight:100}
+.case-study-detail .results-block-colored .result-block h2{font-size:56px;line-height:60px;font-weight:500;color:#11171F}
+.case-study-detail .results-block-colored .result-block h2 span{font-size:40px;line-height:44px;font-weight:100;}
+.case-study-detail .results-block-colored .result-block p{color: #424E5D;}
+.case-study-detail .services-you-get .services-boxes{padding-right: 0;}
+.case-study-detail .services-you-get .services-box.no-icon{padding: 35px 40px 35px 35px;}
+.case-study-detail .services-you-get .services-box.no-icon .service-content p{font-size: 24px;line-height: 36px;font-weight: 400;}
+.case-study-detail .development-services{background-color: #fff;}
+:is(.topsun-bazar, .control-panda, .dayta, .lynx-hrm) .results-block-colored{padding: 120px 0 80px;}
+.case-study-detail.market24 .project-goals .goal-block h3{padding: 0;}
+.control-panda .services-you-get .lottie-holder.image-area{text-align: center;}
+.control-panda .services-you-get .lottie-holder.image-area img{max-width: 330px;margin: 0 auto;}
+.case-study-detail.odoo-hrm .textual-content .image-holder {border: 30px solid white;border-radius: 50%;background: white;}
+.case-study-detail.odoo-hrm .textual-content .image-holder img {border-radius: 50%;}
+.case-study-detail.odoo-hrm .textual-content .image-holder::after {content: "";width: 9999px;position: absolute;top: 0;bottom: 0;background: #F0F4F5;left: 50%;z-index: -4;}
+.case-study-detail .lets-discuss {margin-bottom: 100px;}
+.case-study-detail.reverse-life .services-you-get .lottie-holder-two div {height: 100%;width: 100%;}
+:is(.annex-finance, .reverse-life, .recruit-coin, .odoo-hrm, .odoo-integration) .results-block-colored {padding-top: 100px;}
+/*responsiveness*/
+@media(max-width:1699px){
+    .case-study-detail .results-block .result-main-slider{width:279px;top:30px;}
+    .case-study-detail .client-feedback .feedback-inner{padding:45px 50px 26px 50px;}
+    .case-study-detail .client-feedback .feedback-text{max-width:850px;}
+    .case-study-detail .results-block-colored .icon-holder{width:120px;height:120px;}
+    .case-study-detail .results-block-colored .content-holder{width:calc(100% - 150px);}
+    .case-study-detail .project-goals .goal-block{padding:20px 25px}
+    .case-study-detail .project-goals .goal-block h3{font-size:24px;line-height:34px;}
+    .case-study-detail .our-solutions .count-icon-holder{width: 60px;}
+    .case-study-detail .our-solutions .solution-block{padding:22px 25px;}
+    .case-study-detail .our-solutions h3{margin:0 0 24px;padding:14px 40px 0 0;}
+    :is(.topsun-bazar, .control-panda, .dayta, .lynx-hrm) .results-block-colored{padding: 100px 0 60px;}
+    .case-study-detail .lets-discuss {margin-bottom: 80px;}
+    :is(.annex-finance, .reverse-life, .recruit-coin, .odoo-hrm, .odoo-integration) .results-block-colored {padding-top: 80px;}
+}
+@media(max-width:1599px){
+    .case-study-detail .challenge-block h2{font-size:50px;line-height:66px;}
+    .case-study-detail .results-block-colored .icon-holder{width:100px;height:100px;}
+    .case-study-detail .results-block-colored .content-holder{width:calc(100% - 130px);}
+    .case-study-detail .results-block-colored .result-block h2{font-size:48px;line-height:50px;margin:0 0 10px;}
+    .case-study-detail .results-block-colored .result-block h2 span{font-size:32px;line-height:34px;}
+}
+@media(max-width:1399px){
+    .case-study-detail .team-detail-block .stack-block ul{padding:30px 0 0;}
+    .case-study-detail .challenge-block h2{font-size:40px;line-height:52px;}
+    .case-study-detail .challenge-block{font-size:20px;line-height:30px;}
+    .case-study-detail .challenge-block .content-inner{padding:20px 35px;}
+    .case-study-detail .prjscp-col{padding:40px 50px;font-size:18px;line-height:26px;}
+    .case-study-detail .prjscp-col h2{font-size:40px;line-height:48px;}
+    .case-study-detail .footer-text{font-size:18px;line-height:26px;}
+    .case-study-detail .our-solutions-taber .tab-content .image-holder{width:387px;height:350px;}
+    .case-study-detail .our-solutions-taber .tab-content .content-holder{width:calc(100% - 430px);}
+    .case-study-detail .our-solutions-taber .nav{margin:0 0 70px;}
+    .case-study-detail .results-block .content-holder{font-size:18px;line-height:26px;padding:0 80px 0 0;}
+    .case-study-detail .results-block .result-main-slider{width:239px;}
+    .case-study-detail .team-detail-block .detail-block{font-size:20px;line-height:24px;margin:0 0 60px;}
+    .case-study-detail .team-detail-block .detail-title{font-size:35px;line-height:40px;margin:0 0 25px;}
+    .case-study-detail .team-detail-block .stack-block h2{font-size:50px;line-height:55px;margin:0 0 20px;}
+    .case-study-detail .client-feedback .author-image-outer{width:140px;height:140px;}
+    .case-study-detail .client-feedback .feedback-text{max-width:740px;}
+    .case-study-detail .project-goals .goal-block{font-size:16px;line-height:22px;}
+    .case-study-detail .project-goals .goal-block .icon-title-holder{margin:0 0 15px}
+    .case-study-detail .project-goals .goal-block h3{font-size:24px;line-height:28px;}
+    .case-study-detail .our-solutions h3{font-size:22px;line-height:26px;margin:0 0 18px;padding:14px 33px 0 0}
+    .case-study-detail .our-solutions .count-icon-holder{width:50px;top:25px;}
+    .case-study-detail .our-solutions .solution-block{padding:20px;font-size:18px;line-height:22px;}
+    .case-study-detail .results-block-colored .result-block{padding:30px 20px;}
+    .case-study-detail .results-block-colored .icon-holder{width:80px;height:80px;}
+    .case-study-detail .results-block-colored .content-holder{width:calc(100% - 100px);font-size:18px;line-height:24px;}
+    .case-study-detail .results-block-colored .result-block h2{font-size:36px;line-height:38px;}
+    .case-study-detail .results-block-colored .result-block h2 span{font-size:26px;line-height:28px;}
+    .case-study-detail .services-you-get .services-box.no-icon{padding: 20px 25px 20px 20px;}
+    .case-study-detail .services-you-get .services-box.no-icon .service-content p{font-size: 20px;line-height: 30px;}
+    :is(.topsun-bazar, .control-panda, .dayta, .lynx-hrm) .results-block-colored{padding: 80px 0  40px;}
+    .case-study-detail .challenge-block ul li:before{top: 11px;}
+    .case-study-detail .lets-discuss {margin-bottom: 70px;}
+    :is(.annex-finance, .reverse-life, .recruit-coin, .odoo-hrm, .odoo-integration) .results-block-colored {padding-top: 70px;}
+}
+@media(max-width:1199px){
+    .case-study-detail .prjscp-col{padding:30px;font-size:16px;line-height:24px;}
+    .case-study-detail .prjscp-col ul li:not(:last-child){margin:0 0 15px;}
+    .case-study-detail .our-solutions-taber .tab-content .image-holder{width:300px;height:270px;margin:7px 0 0}
+    .case-study-detail .our-solutions-taber .tab-content .content-holder{width:calc(100% - 330px);}
+    .case-study-detail .our-solutions-taber .nav .nav-link{margin:0 20px;font-size:18px;line-height:22px;}
+    .case-study-detail .our-solutions-taber .nav{margin:0 0 50px;}
+    .case-study-detail .our-solutions-taber .tab-content h3{font-size:30px;line-height:35px;margin:0 0 15px;}
+    .case-study-detail .our-solutions-taber .tab-content{font-size:18px;line-height:22px;}
+    .case-study-detail .our-solutions-taber .tab-content p{margin:0 0 20px;}
+    .case-study-detail .results-block .content-holder,
+    .case-study-detail .results-block .content-block{margin:0 0 20px;}
+    .case-study-detail .results-block .result-main-slider{width:200px;top:27px;}
+    .case-study-detail .results-block .thumb-slider{width:270px;}
+    .case-study-detail .results-block .thumb-slider .slide-holder{width:60px;height:60px;}
+    .case-study-detail .team-detail-block .detail-title{font-size:26px;line-height:30px;}
+    .case-study-detail .team-detail-block .detail-block{font-size:18px;line-height:22px;}
+    .case-study-detail .team-detail-block .stack-block ul li{margin:0 20px 15px;}
+    .case-study-detail .team-detail-block .stack-block .stack-icon-holder{width:50px;min-height:75px;margin:0 auto;}
+    .case-study-detail .team-detail-block .stack-block{font-size:18px;line-height:22px;}
+    .case-study-detail .team-detail-block .stack-block h2{font-size:45px;line-height:50px;}
+    .case-study-detail .team-detail-block .stack-block h2 span{padding:0 20px;}
+    .case-study-detail .team-detail-block .stack-block ul{padding:0;}
+    .case-study-detail .client-feedback .feedback-inner{padding:25px 30px;}
+    .case-study-detail .client-feedback .feedback-text{max-width:620px;}
+    .case-study-detail .client-feedback blockquote{font-size:16px;line-height:22px;}
+    .case-study-detail .client-feedback blockquote:before, .case-study-detail .client-feedback blockquote:after{width:47px;height:38px;}
+    .case-study-detail .client-feedback blockquote:before{left:-60px;top:-40px;}
+    .case-study-detail .client-feedback blockquote:after{right:0;bottom:-50px;}
+    .case-study-detail .project-goals .goal-block{font-size:14px;line-height:18px;}
+    .case-study-detail .project-goals .goal-block .icon-holder{width:30px;height:30px;margin:0;}
+    .case-study-detail .project-goals .goal-block h3{width:calc(100% - 40px);font-size:18px;line-height:22px;}
+    .case-study-detail .project-goals .goal-block p{padding:0 0 0 10px;}
+    .case-study-detail .project-goals .goal-block p:before{width:2px;}
+    .case-study-detail .our-solutions .solution-block{padding:15px;font-size:16px;line-height:20px;}
+    .case-study-detail .our-solutions .count-icon-holder{width:40px;top:22px;}
+    .case-study-detail .our-solutions h3{font-size:20px;line-height:22px;margin:0 0 12px;padding:14px 30px 0 0;}
+    .case-study-detail .our-solutions .solution-block p{margin:0;}
+    .case-study-detail.biiview .cs-miryde-image.animation-center-image,
+    .case-study-detail.gig-jobs .cs-miryde-image.animation-center-image{width:305px;}
+    .case-study-detail .our-solutions-taber .tab-content .key-points li:before{top: 7px;}
+    .case-study-detail .lets-discuss {margin-bottom: 50px;}
+    :is(.annex-finance, .reverse-life, .recruit-coin, .odoo-hrm, .odoo-integration) .results-block-colored {padding-top: 50px;}
+}
+@media(max-width:991px){
+    .case-study-detail .challenge-block h2{font-size:35px;line-height:42px;}
+    .case-study-detail .challenge-block{font-size:18px;line-height:28px;}
+    .case-study-detail .challenge-block .content-inner{padding:15px 20px;}
+    .case-study-detail .our-solutions-taber .nav .nav-link{margin:0 10px;}
+    .case-study-detail .our-solutions-taber .tab-content .image-holder{width:220px;height:190px;}
+    .case-study-detail .our-solutions-taber .tab-content .content-holder{width:calc(100% - 235px);}
+    .case-study-detail .team-detail-block .stack-block ul li{margin:0 15px 15px;}
+    .case-study-detail .results-block .content-holder{padding:0;}
+    .case-study-detail .results-block .result-main-slider{width:297px;top:34px;}
+    .case-study-detail .team-detail-block .detail-title{font-size:22px;line-height:26px;}
+    .case-study-detail .team-detail-block .detail-block{font-size:16px;line-height:20px;margin:0 0 30px;}
+    .case-study-detail .team-detail-block .icon-holder{width:80px;margin:0 auto 20px;}
+    .case-study-detail .client-feedback .author-image-outer{width:120px;height:120px;}
+    .case-study-detail .client-feedback .feedback-text{max-width:calc(100% - 180px)}
+    .case-study-detail .services-you-get .services-box.no-icon{padding: 20px 25px 20px 20px;}
+    .case-study-detail .services-you-get .services-box.no-icon .service-content p{font-size: 16px;line-height: 22px;}
+    :is(.topsun-bazar, .control-panda, .dayta, .lynx-hrm) .results-block-colored{padding: 60px 0 20px;}
+    .control-panda .services-you-get .lottie-holder.image-area img{max-width: 200px;}
+    :is(.annex-finance, .reverse-life, .recruit-coin, .odoo-hrm, .odoo-integration) .results-block-colored {padding-top: 40px;}
+}
+@media(max-width:767px){
+    .case-study-detail .challenge-block h2{font-size:30px;line-height:38px;}
+    .case-study-detail .challenge-block{font-size:14px;line-height:22px;}
+    .case-study-detail .challenge-block .content-outer{padding:7px;}
+    .case-study-detail .challenge-block .content-inner{padding:10px;}
+    .case-study-detail .prjscp-col h2{font-size:32px;line-height:40px;}
+    .case-study-detail .our-solutions-taber .tab-content .image-holder{margin:0 auto 30px}
+    .case-study-detail .our-solutions-taber .tab-content .content-holder{width:100%;}
+    .case-study-detail .our-solutions-taber .tab-content h3{font-size:24px;line-height:28px;}
+    .case-study-detail .our-solutions-taber .nav{margin:0 0 30px;}
+    .case-study-detail .our-solutions-taber .nav .nav-link,
+    .case-study-detail .our-solutions-taber .tab-content{font-size:16px;line-height:22px}
+    .case-study-detail .our-solutions-taber .tab-content .key-points li{padding:0 0 0 15px;margin:0 0 7px}
+    .case-study-detail .team-detail-block .stack-block ul li{margin:0 10px 15px;}
+    .case-study-detail .results-block .content-holder{font-size:14px;line-height:20px;}
+    .case-study-detail .results-block .mobile-image-holder{width:300px;}
+    .case-study-detail .results-block .result-main-slider{width:207px;top:28px;}
+    .case-study-detail .team-detail-block .detail-col{margin:0 0 50px;}
+    .case-study-detail .team-detail-block .detail-title{font-size:20px;line-height:24px;margin:0 0 15px;}
+    .case-study-detail .team-detail-block .detail-block{font-size:14px;line-height:18px;}
+    .case-study-detail .team-detail-block .icon-holder{width:50px;}
+    .case-study-detail .team-detail-block .stack-block{font-size:14px;line-height:18px;}
+    .case-study-detail .team-detail-block .stack-block h2{font-size:35px;line-height:40px;margin:0 0 10px;}
+    .case-study-detail .team-detail-block .stack-block h2 span{padding:0 20px;}
+    .case-study-detail .client-feedback .feedback-text{max-width:calc(100% - 90px);}
+    .case-study-detail .client-feedback .author-details{margin:0 0 20px;}
+    .case-study-detail .client-feedback blockquote:after{bottom:-30px;right:-50px;}
+    .case-study-detail .project-goals .goal-col,
+    .case-study-detail .our-solutions .solution-col,
+    .case-study-detail .results-block-colored .result-col{margin:0 0 15px;}
+    .case-study-detail .challenge-block ul li:before, .case-study-detail .our-solutions-taber .tab-content .key-points li:before{top: 7px;width: 7px;height: 7px;}
+    .case-study-detail .lets-discuss {margin-bottom: 30px;}
+    :is(.annex-finance, .reverse-life, .recruit-coin, .odoo-hrm, .odoo-integration) .results-block-colored {padding-top: 30px;}
+}
+@media(max-width:575px){
+    .case-study-detail .challenge-block h2{font-size:28px;line-height:34px;}
+    .case-study-detail .prjscp-col{padding:20px;font-size:14px;line-height:20px;}
+    .case-study-detail .our-solutions-taber .tab-content h3{font-size:20px;line-height:24px;}
+    .case-study-detail .footer-text,
+    .case-study-detail .our-solutions-taber .nav .nav-link,
+    .case-study-detail .our-solutions-taber .tab-content{font-size:14px;line-height:20px;}
+    .case-study-detail .prjscp-col h2{font-size:24px;line-height:30px;}
+    .case-study-detail .team-detail-block .detail-col{margin:0 0 30px;}
+    .case-study-detail .team-detail-block .stack-block .text-block{margin:0 0 15px;}
+    .case-study-detail .team-detail-block .stack-block h2{font-size:30px;line-height:35px;}
+    .case-study-detail .team-detail-block .stack-block ul li{margin:0 8px 12px;}
+    .case-study-detail .team-detail-block .stack-block .stack-icon-holder{width:40px;min-height:65px;}
+    .case-study-detail .team-detail-block .stack-block ul span{font-size:12px;line-height:16px;}
+    .case-study-detail .client-feedback .feedback-inner{padding:25px 15px 50px;}
+    .case-study-detail .client-feedback blockquote{font-size:14px;line-height:18px;}
+    .case-study-detail .client-feedback .author-details{margin:0 0 40px;}
+    .case-study-detail .client-feedback blockquote:before{left:0;}
+    .case-study-detail .client-feedback blockquote:after{right:0;bottom:-45px;}
+    .case-study-detail .client-feedback .feedback-text{max-width:100%;}
+    .case-study-detail .results-block-colored .result-block{padding:10px 15px 20px;}
+    .case-study-detail .results-block-colored .content-holder{width:100%;font-size:14px;line-height:18px;}
+    .case-study-detail .results-block-colored .icon-holder{width:60px;height:60px;margin:0 0 10px;}
+    .case-study-detail .results-block-colored .result-block h2{font-size:26px;line-height:28px;}
+    .case-study-detail .results-block-colored .result-block h2 span{font-size:20px;line-height:22px;}
+    .case-study-detail .services-you-get .services-box{padding: 20px 15px;}
+    .case-study-detail.biiview .cs-miryde-image.animation-center-image,
+    .case-study-detail.gig-jobs .cs-miryde-image.animation-center-image{width:305px;}
+    .case-study-detail .services-you-get .services-box.no-icon{padding: 20px 15px;}
+    :is(.topsun-bazar, .control-panda, .dayta, .lynx-hrm) .results-block-colored{padding: 30px 0 10px;}
+}
+@media(max-width:479px){
+    .case-study-detail .challenge-block h2{font-size:22px;line-height:30px;}
+    .case-study-detail .results-block .result-main-slider{width:194px;top:27px;}
+    .case-study-detail .cs-miryde-image.animation-center-image{width: 80px;}
+    .case-study-detail.biiview .cs-miryde-image.animation-center-image,
+    .case-study-detail.gig-jobs .cs-miryde-image.animation-center-image{width:240px;}
+    .case-study-detail .results-block-colored .result-block{flex-direction: column-reverse;}
+}
+@media(max-width:319px){
+    .case-study-detail .results-block .mobile-image-holder,
+    .case-study-detail .results-block .thumb-slider{width:240px;}
+    .case-study-detail .results-block .result-main-slider{width:166px;top:25px;border-radius:29px;}
+}

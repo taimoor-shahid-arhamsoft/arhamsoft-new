@@ -1,0 +1,12 @@
+.highlighted-block .text-block{padding:70px 65px;background:#F5F7FA;border-radius:16px;font-size:20px;line-height:27px;}
+.highlighted-block .text-block p{margin:0 0 30px;}
+.highlighted-block .text-block p:last-child{margin:0;}
+@media(max-width:1399px){
+    .highlighted-block .text-block{padding:50px 30px}
+}
+@media(max-width:1199px){
+    .highlighted-block .text-block{padding:40px 20px}
+}
+@media(max-width:991px){
+    .highlighted-block .text-block{padding:30px 15px}
+}

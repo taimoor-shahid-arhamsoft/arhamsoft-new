@@ -1,0 +1,32 @@
+.comapny-core-values{background:#F0F4F5;}
+.comapny-core-values .core-value-block{font-size:20px;line-height:30px;min-height:432px;background:#fff;border-radius:16px 0 16px 16px;padding:40px 20px 20px;margin:0 0 24px;}
+.comapny-core-values .icon-holder{margin:0 0 30px;position: relative;}
+.comapny-core-values .core-value-block .icon-hover,
+.comapny-core-values .core-value-block:hover .icon-default{opacity: 0;}
+.comapny-core-values .core-value-block:hover .icon-hover{opacity: 1;}
+.comapny-core-values .core-value-block .icon-hover{position: absolute;z-index: 1;top: 0;left: 0;}
+.comapny-core-values h3{font-size:32px;line-height:36px;margin:0 0 10px}
+@media(max-width:1699px){
+    .comapny-core-values .core-value-block{min-height:460px;}
+}
+@media(max-width:1399px){
+    .comapny-core-values .core-value-block{min-height: 397px;}
+}
+@media(max-width:1399px){
+    .comapny-core-values .core-value-block{min-height: 400px;}
+}
+@media(max-width:1199px){
+    .comapny-core-values .core-value-block{min-height: 430px;}
+}
+@media(max-width:991px){
+    .comapny-core-values .core-value-block{min-height:unset;}
+}
+@media(max-width:767px){
+    .comapny-core-values .core-value-block{padding:20px 12px;font-size:18px;line-height:26px;}
+    .comapny-core-values .icon-holder{width:70px;margin:0 0 15px;}
+    .comapny-core-values h3 {font-size:28px;line-height:32px;}
+}
+@media(max-width:575px){
+    .comapny-core-values h3 {font-size:22px;line-height:28px;}
+    .comapny-core-values .core-value-block{font-size:14px;line-height:22px;}
+}

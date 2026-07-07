@@ -1,0 +1,140 @@
+.page-banner.game-banner {
+    background: url('https://d2g5gf76vk4es3.cloudfront.net/images/bg-game-banner.webp');
+    background-size: cover;
+}
+
+.page-banner.game-banner .image-holder {
+    position: relative;
+    z-index: 1;
+}
+
+.game-development .game-banner .banner-image {
+    width: 850px;
+    height: 749px;
+}
+
+.game-development .game-banner .banner-content {
+    width: calc(100% - 850px);
+    padding-right: 15px;
+}
+
+.page-banner.game-banner .lottie-holder {
+    width: 590px;
+    height: 590px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+
+.page-banner.game-banner h1 {
+    color: #fff;
+}
+
+@media(max-width:1699px) {
+    .game-development .game-banner .banner-image {
+        width: 650px;
+        height: 572px;
+    }
+
+    .game-development .game-banner .banner-content {
+        width: calc(100% - 650px);
+    }
+}
+
+@media(max-width:1399px) {
+    .page-banner.game-banner .lottie-holder {
+        width: 490px;
+        height: 490px;
+    }
+
+    .game-development .game-banner .banner-image {
+        width: 600px;
+        height: 528px;
+    }
+
+    .game-development .game-banner .banner-content {
+        width: calc(100% - 600px);
+    }
+}
+
+@media(max-width:1199px) {
+    .game-development .game-banner .banner-image {
+        width: 450px;
+        height: 396px;
+    }
+
+    .game-development .game-banner .banner-content {
+        width: calc(100% - 450px);
+    }
+
+    .page-banner.game-banner .lottie-holder {
+        width: 380px;
+        height: 380px;
+    }
+}
+
+@media(max-width:991px) {
+    .page-banner.game-banner .content-block {
+        margin: 0 0 30px;
+    }
+
+    .game-development .img-baner-lottie {
+        display: none;
+    }
+
+    .game-development .game-banner .banner-content {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .page-banner.game-banner {
+        padding: 50px 0;
+    }
+}
+
+@media(max-width:767px) {
+    .game-development .game-banner .banner-content {
+        width: 100%;
+    }
+
+    .page-banner.game-banner {
+        padding: 30px 0;
+    }
+}
+
+@media(max-width:575px) {
+    .page-banner.game-banner .image-holder {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .page-banner.game-banner .lottie-holder {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media(max-width:479px) {
+    .page-banner.game-banner .image-holder {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .page-banner.game-banner .lottie-holder {
+        width: 190px;
+        height: 190px;
+    }
+}
+
+@media (max-width:319px) {
+    .page-banner.game-banner .lottie-holder {
+        width: 150px;
+        height: 150px;
+    }
+}

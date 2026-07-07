@@ -1,0 +1,51 @@
+.php-developers .stats-block {padding-block: 120px;}
+.php-developers .hire-developer .accordion-item.active {background: #0C9A76}
+.php-developers .page-banner-hdr {background-image: url("https://d2g5gf76vk4es3.cloudfront.net/images/php-dev-banner-bg.webp");}
+.php-developers .page-banner-hdr:after {display: none;}
+.php-developers .page-banner p {max-width: 750px;}
+.php-developers .stats-block h2 {font-size: 46px;}
+.php-developers .stats-block h2 {color: #F07700;}
+.php-developers .stats-block h2 span {color: #0F0F0F;}
+.php-developers .development-solutions {box-shadow: none;background: #F0F4F5;}
+.php-developers .three-boxes{padding-top: 0px;}
+.php-developers .three-boxes .section-heading p {max-width: 100%;}
+.php-developers .three-boxes .colored-box .counter {display: none;}
+/* responsive */
+@media only screen and (max-width:1699px){
+    .php-developers .stats-block {padding-block: 80px;}
+    .php-developers .stats-block h2 {font-size: 37px;}
+    .php-developers .development-solutions .process-block {min-height: 265px;}
+}
+@media only screen and (max-width:1399px){
+    .php-developers .stats-block {padding-block: 70px;}
+    .php-developers .page-banner p {max-width: 601px;}
+    .php-developers .stats-block h2 {font-size: 30px;}
+    .php-developers .development-solutions .process-block {min-height: 230px;}
+    .php-developers .stats-block .stats-list strong {font-size: 35px;line-height: 42px;}
+}
+@media only screen and (max-width:1199px){
+    .php-developers .stats-block {padding-block: 50px;}
+    .php-developers .hire-faqs {padding: 50px 0 20px;}
+    .php-developers .page-banner p {max-width: 100%;}
+    .php-developers .development-solutions .process-block {min-height: 202px;}
+}
+@media only screen and (max-width:991px){
+    .php-developers .stats-block {padding-block: 30px;}
+    .php-developers .hire-faqs {padding: 30px 0 20px;}
+    .php-developers .page-banner-hdr.sub-pages h1 {margin-bottom: 24px;}
+    .php-developers .development-solutions .process-block {min-height: 190px;}
+    .php-developers .stats-block .stats-list strong {font-size: 30px;line-height: 35px;}
+}
+@media only screen and (max-width:767px){
+    .php-developers .stats-block {padding-block: 20px;}
+    .php-developers .hire-faqs {padding: 20px 0 20px;}
+    .php-developers .stats-block h2 {font-size: 24px;}
+    .php-developers .development-solutions .process-block {min-height: auto;}
+}
+@media only screen and (max-width:575px){
+    .php-developers .colored-box h3 {font-size: 20px;line-height: 24px;}
+ }
+@media only screen and (max-width:479px){
+    .php-developers .colored-box h3 {font-size: 19px;line-height: 22px;margin: 0 0 9px;}
+    .php-developers .colored-box {font-size: 14px;line-height: 18px;}
+}

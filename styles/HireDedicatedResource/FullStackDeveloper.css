@@ -1,0 +1,35 @@
+.full-stack-developer .our-reviews{background-color: #F5F7FA;}
+.full-stack-developer .lets-discuss {padding: 120px 0px;}
+.full-stack-developer .what-we-do .section-heading p {max-width: 100%;}
+.full-stack-developer .engagement-model, .full-stack-developer .specific-industries {padding-bottom: 0px;}
+.full-stack-developer .what-we-block {display: flex;flex-direction: column;align-items: center;}
+.full-stack-developer .need-developer.full-width .need-developer-inner {background: transparent linear-gradient(270deg, rgba(2, 4, 7, 0.94) 0%, rgba(9, 26, 74, 0.94) 100%) 0% 0% no-repeat padding-box;}
+.full-stack-developer .need-developer.full-width .need-developer-inner .btn-solid-blue, 
+.full-stack-developer .need-developer.full-width .need-developer-inner .btn-solid-blue:focus, 
+.full-stack-developer .need-developer.full-width .need-developer-inner .btn-solid-blue:active {border-color: #fff;background: #fff;color: #11171F;}
+.full-stack-developer .need-developer.full-width .need-developer-inner .btn-solid-blue:hover {border-color: #F07700;background: #F07700;color: #fff;}
+/*responsiveness*/
+@media(max-width:1699px){
+    .full-stack-developer .lets-discuss {padding: 80px 0px;}
+}
+@media(max-width:1599px){
+    .full-stack-developer .section-heading, .full-stack-developer .page-banner {font-size: 20px;line-height: 32px;}
+}
+@media(max-width:1399px){
+    .full-stack-developer .lets-discuss {padding: 70px 0px;}
+    .full-stack-developer .section-heading, .full-stack-developer .page-banner {font-size: 18px;line-height: 30px;}
+}
+@media(max-width:1199px){
+    .full-stack-developer .lets-discuss {padding: 50px 0px;}
+}
+@media(max-width:991px){
+    .full-stack-developer .lets-discuss {padding: 30px 0px;}
+    .full-stack-developer .section-heading, .full-stack-developer .page-banner {font-size: 16px;line-height: 28px;}
+}
+@media(max-width:767px){
+    .full-stack-developer .lets-discuss {padding: 20px 0px;}
+    .full-stack-developer .hire-faqs{padding-top: 30px;}
+}
+@media(max-width:479px){
+    .full-stack-developer .section-heading, .full-stack-developer .page-banner {font-size: 14px;line-height: 20px;}
+}

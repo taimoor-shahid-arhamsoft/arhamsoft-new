@@ -1,0 +1,15 @@
+.cloud-services-block {border-radius: 16px;padding: 38px 12px;text-align: center;color: #fff;margin: 0 0 24px;}
+.cloud-services-block.orange {background: #F07700 0% 0% no-repeat padding-box;}
+.cloud-services-block.blue {background: #091A4A 0% 0% no-repeat padding-box;}
+.cloud-services-block.light-blue {background: #64BECD 0% 0% no-repeat padding-box;}
+.cloud-services-block.green {background: #B2BE29 0% 0% no-repeat padding-box;}
+.cloud-services-block h3 {font-weight: 500;margin: 0;}
+.cloud-services-block .lottie-holder {max-width: 126px;max-height: 126px; margin: 0 auto 17px;display: flex;align-items: center;}
+/* responsive */
+@media only screen and (max-width:991px){
+    .cloud-services-block {margin: 0 0 12px;}
+}
+@media only screen and (max-width:767px){
+    .cloud-services-block {padding: 15px 12px;}
+    .cloud-services-block .lottie-holder {max-width: 100px;max-height: 100px;}
+}

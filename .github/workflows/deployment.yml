@@ -1,0 +1,89 @@
+name: Deploy Data on Matrix to Contabo VPS
+
+on:
+  push:
+    branches:
+      - data-on-matrix
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20"
+
+      - name: Create .env file
+        run: |
+          echo 'ADMIN_EMAIL="${{ secrets.ADMIN_EMAIL }}"' >> .env
+          echo 'AWS_ACCESS_KEY_ID="${{ secrets.AWS_ACCESS_KEY_ID }}"' >> .env
+          echo 'AWS_SECRET_ACCESS_KEY="${{ secrets.AWS_SECRET_ACCESS_KEY }}"' >> .env
+          echo 'AWS_S3_BUCKET_NAME="${{ secrets.AWS_S3_BUCKET_NAME }}"' >> .env
+          echo 'AWS_S3_REGION="${{ secrets.AWS_S3_REGION }}"' >> .env
+          echo 'AWS_S3_DOMAIN="${{ secrets.AWS_S3_DOMAIN }}"' >> .env
+          echo 'CAREER_EMAIL="${{ secrets.CAREER_EMAIL }}"' >> .env
+          echo 'MONGO_URI="${{ secrets.MONGO_URI }}"' >> .env
+          echo 'NEXT_GOOGLE_SITE_VERIFICATION_KEY="${{ secrets.NEXT_GOOGLE_SITE_VERIFICATION_KEY }}"' >> .env
+          echo 'NEXT_GOOGLE_TAG_ID="${{ secrets.NEXT_GOOGLE_TAG_ID }}"' >> .env
+          echo 'NEXT_PUBLIC_AWS_S3_BASE_URL="${{ secrets.NEXT_PUBLIC_AWS_S3_BASE_URL }}"' >> .env
+          echo 'NEXT_PUBLIC_RECAPTCHA_SITE_KEY="${{ secrets.NEXT_PUBLIC_RECAPTCHA_SITE_KEY }}"' >> .env
+          echo 'NEXT_PUBLIC_REQUESTED_URL="${{ secrets.NEXT_PUBLIC_REQUESTED_URL }}"' >> .env
+          echo 'RECAPTCHA_SECRET_KEY="${{ secrets.RECAPTCHA_SECRET_KEY }}"' >> .env
+          echo 'RECAPTCHA_VERIFY_URL="${{ secrets.RECAPTCHA_VERIFY_URL }}"' >> .env
+          echo 'SITE_URL="${{ secrets.SITE_URL }}"' >> .env
+          echo 'SMTP_HOST="${{ secrets.SMTP_HOST }}"' >> .env
+          echo 'SMTP_USER="${{ secrets.SMTP_USER }}"' >> .env
+          echo 'SMTP_PASSWORD="${{ secrets.SMTP_PASSWORD }}"' >> .env
+          echo 'SMTP_PORT="${{ secrets.SMTP_PORT }}"' >> .env
+
+      - uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install dependencies
+        run: npm install --legacy-peer-deps
+
+      - name: Build app
+        run: node --max-old-space-size=4096 ./node_modules/.bin/next build
+        timeout-minutes: 20
+
+      - name: Set Process Name
+        run: |
+          echo "BE_PROCESS_NAME=arhamsoft" >> $GITHUB_ENV
+
+      - name: Deploy to Contabo VPS
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          port: 22
+          password: ${{ secrets.SSH_PASSWORD }}
+          source: "."
+          target: "/var/www/html/arhamsoft/${{ env.BE_PROCESS_NAME }}"
+
+      - name: Start or Restart Server
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          port: 22
+          password: ${{ secrets.SSH_PASSWORD }}
+          script: |
+            echo "Starting or restarting with process name: ${{ env.BE_PROCESS_NAME }}"
+            pm2 describe ${{ env.BE_PROCESS_NAME }} > /dev/null
+            if [ $? -eq 0 ]; then
+              echo "Process exists, restarting..."
+              pm2 restart ${{ env.BE_PROCESS_NAME }}
+            else
+              echo "Process does not exist, starting..."
+              echo "Current Directory contents:"
+              cd /var/www/html/arhamsoft/${{ env.BE_PROCESS_NAME }}
+              ls -al
+              pm2 start ecosystem.config.js --name ${{ env.BE_PROCESS_NAME }}
+            fi

@@ -1,0 +1,49 @@
+.hire-faqs .section-heading {margin: 0 0 70px;}
+.hire-faqs .section-heading p {max-width: 100%;margin: 0 auto;font-size: 20px;line-height: 27px;}
+.hire-faqs .accordion-button::after {display: none;}
+.hire-faqs .accordion-item {margin: 0 0 16px;border-radius: 4px;border: none;overflow: hidden;border: 1px solid #F0F4F5;}
+.hire-faqs .accordion-item.active {background: #F0F4F5;color: #11171F;border: 1px solid #F0F4F5;}
+.hire-faqs .accordion-button {background: transparent;padding: 26px 24px;box-shadow: none;border: 1px solid #D3DEED;display: flex;align-items: center;justify-content: space-between;}
+.hire-faqs .hire-title {font-size: 24px;line-height: 36px;font-weight: 500;color: #11171F;margin-right: 20px;}
+.hire-faqs .accordion-item.active .hire-title {color: #11171F;}
+.hire-faqs .accordion-item.active .accordion-button {padding: 26px 24px 11px;border: none;}
+.hire-faqs .accordion-item .accordion-icons {font-size: 20px;}
+.hire-faqs .accordion-body {padding: 0px 26px 30px;font-size: 20px;line-height: 27px;font-weight: 300;}
+.hire-faqs .accordion-item .accordion-button{border: none;}
+.hire-faqs .accordion-item.collapsed {border: none;}
+.hire-faqs .accordion-item.active svg{color: #000;}
+@media(max-width:1699px){
+    .hire-faqs .hire-title {font-size: 22px;line-height: 34px;}
+    .hire-faqs .accordion-body, .hire-faqs .section-heading p {font-size: 18px;line-height: 22px;}
+    .hire-faqs {padding: 80px 0;}
+}
+@media(max-width:1399px){
+   .hire-faqs .hire-title {font-size: 18px;line-height: 22px;}
+   .hire-faqs .accordion-body, .hire-faqs .section-heading p {font-size: 16px;line-height: 20px;}
+   .hire-faqs .section-heading {margin: 0 0 50px;}
+   .hire-faqs {padding: 70px 0;}
+}
+@media(max-width:1199px){
+    .hire-faqs .hire-title {font-size: 16px;line-height: 20px;}
+    .hire-faqs .accordion-button {padding: 18px 20px;}
+    .hire-faqs {padding: 50px 0;}
+}
+@media(max-width:991px){
+    .hire-faqss {padding: 30px 0;}
+    .hire-faqs .section-heading {margin: 0 0 40px;}
+}
+@media(max-width:767px){
+    .hire-faqs .accordion-body, .hire-faqs .section-heading p {font-size: 14px;line-height: 18px;}
+    .hire-faqs {padding: 20px 0;}
+    .hire-faqs .section-heading {margin: 0 0 30px;}
+}
+@media(max-width:575px){
+    .hire-faqs .accordion-button {padding: 16px 12px;}
+    .hire-faqs .hire-title {font-size: 14px;line-height: 20px;}
+}
+@media(max-width:479px){
+    .hire-faqs .accordion-item .accordion-icons {font-size: 14px;}
+    .hire-faqs .accordion-item.active .accordion-button {padding: 20px 12px 11px;}
+    .hire-faqs .accordion-body {padding: 0px 12px 20px;}
+    .hire-faqs .section-heading {margin: 0 0 20px;}
+}

@@ -1,0 +1,46 @@
+.web-graphic-designer .stats-block {padding-block: 120px;}
+.web-graphic-designer .hire-developer .accordion-item.active {background: #64becd;}
+.web-graphic-designer .page-banner p {max-width: 750px;}
+.web-graphic-designer .hire-developer .image-area {height: 507px;}
+.web-graphic-designer .hire-developer .image-area.background-grey:before {left: -219px;bottom: 21px;height: 471px;}
+.web-graphic-designer .colored-box .counter{display: none;}
+.web-graphic-designer .hire-developer{padding-bottom: 20px;}
+.web-graphic-designer .stats-block h2 {font-size: 35px;line-height: 46px;}
+.web-graphic-designer .hire-developer .hire-img {padding: 0px;}
+.web-graphic-designer .page-banner-hdr {background-image: url("https://d2g5gf76vk4es3.cloudfront.net/images/web-graphics-banner-img.webp");}
+.web-graphic-designer .page-banner-hdr:after {display: none;}
+/* responsive */
+@media only screen and (max-width:1699px){
+    .web-graphic-designer .stats-block {padding-block: 80px;}
+    .web-graphic-designer .stats-block h2 {font-size: 27px;line-height: 40px;}
+}
+@media only screen and (max-width:1599px){
+    .web-graphic-designer .hire-developer .image-area {height: 460px;}
+    .web-graphic-designer .hire-developer .image-area.background-grey:before {left: -200px;bottom: 35px;height: 419px;}
+}
+@media only screen and (max-width:1399px){
+    .web-graphic-designer .stats-block {padding-block: 70px;}
+    .web-graphic-designer .page-banner p {max-width: 601px;}
+    .web-graphic-designer .hire-developer .image-area {height: 557px;}
+    .web-graphic-designer .hire-developer .image-area {height: 370px;}
+    .web-graphic-designer .hire-developer .image-area.background-grey:before {left: -172px;bottom: 7px;height: 352px;}
+}
+@media only screen and (max-width:1199px){
+    .web-graphic-designer .stats-block {padding-block: 50px;}
+    .web-graphic-designer .hire-faqs {padding: 50px 0 20px;}
+    .web-graphic-designer .page-banner p {max-width: 100%;}
+    .web-graphic-designer .hire-developer .image-area {height: 516px;}
+    .web-graphic-designer .hire-developer .image-area {height: 340px;}
+    .web-graphic-designer .hire-developer .image-area.background-grey:before {left: -158px;bottom: 7px;height: 326px;}
+}
+@media only screen and (max-width:991px){
+    .web-graphic-designer .stats-block {padding-block: 30px;}
+    .web-graphic-designer .hire-faqs {padding: 30px 0 20px;}
+    .web-graphic-designer .hire-developer .image-area {height: auto;}
+    .web-graphic-designer .hire-developer{padding-bottom: 0;}
+}
+@media only screen and (max-width:767px){
+    .web-graphic-designer .stats-block {padding-block: 20px;}
+    .web-graphic-designer .hire-faqs {padding: 20px 0 20px;}
+    .web-graphic-designer .stats-block h2 {font-size: 22px;line-height: 32px;}
+}

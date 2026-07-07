@@ -1,0 +1,53 @@
+.front-end-developers .stats-block {padding-block: 120px;}
+.front-end-developers .hire-developer .accordion-item.active {background: #091A4A;}
+.front-end-developers .page-banner-hdr {background-image: url("https://d2g5gf76vk4es3.cloudfront.net/images/front-end-banner-bg.webp");}
+.front-end-developers .page-banner-hdr:after {display: none;}
+.front-end-developers .page-banner p {max-width: 750px;}
+.front-end-developers .hire-developer .image-area {height: 608px;}
+.front-end-developers .hire-developer .image-area.background-grey:before {left: -190px;bottom: 38px;height: 430px;}
+.front-end-developers .three-boxes{padding-top: 0px;}
+.front-end-developers .three-boxes .section-heading p {max-width: 100%;}
+.front-end-developers .three-boxes .colored-box .counter {display: none;}
+/* responsive */
+@media only screen and (max-width:1699px){
+    .front-end-developers .stats-block {padding-block: 80px;}
+    .front-end-developers .development-solutions .process-block {min-height: 265px;}
+}
+@media only screen and (max-width:1599px){
+    .front-end-developers .hire-developer .image-area.background-grey:before {left: -175px;bottom: 90px;height: 398px;}
+}
+@media only screen and (max-width:1399px){
+    .front-end-developers .stats-block {padding-block: 70px;}
+    .front-end-developers .page-banner p {max-width: 601px;}
+    .front-end-developers .hire-developer .image-area {height: 557px;}
+    .front-end-developers .hire-developer .image-area.background-grey:before {left: -154px;bottom: 111px;height: 346px;}
+    .front-end-developers .development-solutions .process-block {min-height: 255px;}
+    .front-end-developers .stats-block .stats-list strong {font-size: 35px;line-height: 42px;}
+}
+@media only screen and (max-width:1199px){
+    .front-end-developers .stats-block {padding-block: 50px;}
+    .front-end-developers .hire-faqs {padding: 50px 0 20px;}
+    .front-end-developers .page-banner p {max-width: 100%;}
+    .front-end-developers .hire-developer .image-area {height: 516px;}
+    .front-end-developers .hire-developer .image-area.background-grey:before {left: -140px;bottom: 105px;height: 314px;}
+    .front-end-developers .development-solutions .process-block {min-height: 202px;}
+}
+@media only screen and (max-width:991px){
+    .front-end-developers .stats-block {padding-block: 30px;}
+    .front-end-developers .hire-faqs {padding: 30px 0 20px;}
+    .front-end-developers .hire-developer .image-area {height: auto;}
+    .front-end-developers .development-solutions .process-block {min-height: 190px;}
+    .front-end-developers .stats-block .stats-list strong {font-size: 30px;line-height: 35px;}
+}
+@media only screen and (max-width:767px){
+    .front-end-developers .stats-block {padding-block: 20px;}
+    .front-end-developers .hire-faqs {padding: 20px 0 20px;}
+    .front-end-developers .development-solutions .process-block {min-height: auto;}
+}
+@media only screen and (max-width:575px){
+   .front-end-developers .colored-box h3 {font-size: 20px;line-height: 24px;}
+}
+@media only screen and (max-width:479px){
+    .front-end-developers .colored-box h3 {font-size: 19px;line-height: 22px;margin: 0 0 9px;}
+    .front-end-developers .colored-box {font-size: 14px;line-height: 18px;}
+}

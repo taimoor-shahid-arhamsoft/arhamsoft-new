@@ -1,0 +1,32 @@
+.expertise-preconfig .preconfig-sections {display: flex;}
+.expertise-preconfig .inner-section {width: 50%;display: flex;flex-direction: column;align-items: center;}
+.expertise-preconfig .head-img {width: 357px;height: 111px;margin-inline: auto;margin-bottom: 51px;}
+.expertise-preconfig .head-img img {width: 100%;height: 100%;object-fit: contain;}
+.expertise-preconfig .inner-section:last-of-type{position: relative;}
+.expertise-preconfig .inner-section:last-of-type::before{content:"";position: absolute;left: 0;top: 35px;bottom: 0;border-left: 2px solid #F0F4F5;}
+.expertise-preconfig .inner-section:last-of-type .head-img {width: 323px;}
+.expertise-preconfig .footer li {font-size: 24px;line-height: 30px;margin-bottom: 12px;}
+.expertise-preconfig .footer li:last-of-type {margin-bottom: 0px;}
+.expertise-preconfig .footer li::marker {color: #F07700;}
+/* responsive */
+@media only screen and (max-width:1199px){
+    .expertise-preconfig .footer li {font-size: 20px;line-height: 26px;}
+    .expertise-preconfig .head-img {width: 260px;height: 80px;margin-bottom: 30px;}
+    .expertise-preconfig .inner-section:last-of-type .head-img {width: 240px;}
+}
+@media only screen and (max-width:991px){
+    .expertise-preconfig .footer li {font-size: 16px;line-height: 18px;}
+    .expertise-preconfig .head-img {width: 200px;height: 60px;margin-bottom: 20px;}
+    .expertise-preconfig .inner-section:last-of-type .head-img {width: 170px;}
+    .expertise-preconfig .inner-section {padding: 0px 15px;}
+}
+@media only screen and (max-width:767px){
+    .expertise-preconfig .preconfig-sections {flex-direction: column;}
+    .expertise-preconfig .inner-section {padding: 0px 0px;width: 100%;margin-bottom: 20px;}
+    .expertise-preconfig .inner-section:last-of-type {margin-bottom: 0px;}
+    .expertise-preconfig .inner-section:last-of-type::before{display: none;}
+}
+@media only screen and (max-width:479px){
+    .expertise-preconfig .footer li {font-size: 14px;line-height: 18px;}
+    .expertise-preconfig .inner-section {align-items: start;}
+}

@@ -1,0 +1,17 @@
+.kubernetes .page-banner .image-holder {position: absolute;}
+.kubernetes .page-banner .container {position: static;}
+.kubernetes .page-banner .image-holder {position: absolute;top: 0;height: 100%;width: auto;right: 0;}
+.kubernetes .two-kubernetes {padding-top: 0px;}
+.kubernetes .what-we-block h3 {font-weight: 500;}
+.kubernetes .two-kubernetes .kubernete-block h3 {font-weight: 500;max-width: 300px;}
+/*responsiveness*/
+@media(max-width:1399px){
+    .kubernetes .two-kubernetes .kubernete-block h3 {max-width: 200px;}
+}
+@media(max-width:991px){
+    .kubernetes .two-kubernetes .kubernete-block h3 {max-width: 100%;}
+}
+@media(max-width:479px){
+    .kubernetes .two-kubernetes .kubernete-block h3,
+    .kubernetes .two-kubernetes .kubernete-block p {text-align: center;}
+}

@@ -1,0 +1,17 @@
+.mod-opt{background:#F0F4F5;}
+.mod-opt .operation-block{background:#fff;padding:40px 30px;border-radius:16px;font-size:20px;line-height:30px;}
+.mod-opt .operation-block .icon-holder{margin:0 0 25px;}
+.mod-opt .operation-block h3{margin:0 0 20px;font-weight:500;}
+@media(max-width:1399px){
+    .mod-opt .operation-block{padding:20px;font-size:18px;line-height:26px;}
+    .mod-opt .operation-block .icon-holder img{width:65px;height:65px}
+}
+@media(max-width:1199px){
+    .mod-opt .operation-block{font-size:14px;line-height:20px;}
+    .mod-opt .operation-block .icon-holder{margin:0 0 15px;}
+    .mod-opt .operation-block h3{margin:0 0 5px;}
+    .mod-opt .operation-block .icon-holder img{width:50px;height:50px;}
+}
+@media(max-width:991px){
+    .mod-opt .operation-block{margin:0 0 12px;}
+}

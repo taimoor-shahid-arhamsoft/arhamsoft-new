@@ -1,0 +1,13 @@
+.devops-engineer .section-heading p{max-width: 100%;}
+.devops-engineer .step-content p{margin-bottom: 0;}
+.devops-engineer .expert-quote-block .hiring-steps:after{height: 51%;top: 45%;}
+.devops-engineer .work-slider-sec {padding-top: 0px;}
+@media (max-width: 1699px){
+    .devops-engineer .expert-quote-block .hiring-steps:after{height: 165px;top: 64px;}
+}
+@media (max-width: 1399px){
+    .devops-engineer .right-side-page-banner .image-holder {width: 620px;}
+}
+@media (max-width: 1199px){
+    .devops-engineer .expert-quote-block .hiring-steps:after{height: auto;top: 43px;}
+}

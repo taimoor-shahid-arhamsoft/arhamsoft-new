@@ -1,0 +1,25 @@
+.two-kubernetes .kubernete-block{font-size:20px;line-height:27px;color:#424E5D;font-weight:300;padding:15px 10px 15px 40px;box-shadow: 0px 0px 26px #0000001A;border: 1px solid #D3DEED;border-radius: 24px;}
+.two-kubernetes .image-lottie-block{width:345px;}
+.two-kubernetes .text-holder{width:calc(100% - 347px);}
+.two-kubernetes .image-holder{position:absolute;left:50%;top:50%;-o-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}
+.two-kubernetes .kubernete-block h3{margin:0 0 15px;color:#11171F;}
+@media(max-width:1699px){
+    .two-kubernetes .kubernete-block{padding:20px 15px}
+    .two-kubernetes .image-lottie-block{width:200px;}
+    .two-kubernetes .text-holder{width:calc(100% - 200px);}
+}
+@media(max-width:1399px){
+    .two-kubernetes .kubernete-block{font-size:18px;line-height:24px;}
+}
+@media(max-width:1199px){
+    .two-kubernetes .kubernete-block{font-size:14px;line-height:20px;padding:10px;}
+    .two-kubernetes .image-lottie-block{width:150px;}
+    .two-kubernetes .text-holder{width:calc(100% - 150px);}
+}
+@media(max-width:1199px){
+    .two-kubernetes .kubernete-block{margin:0 0 12px;}
+}
+@media(max-width:575px){
+    .two-kubernetes .image-lottie-block{width:100px;}
+    .two-kubernetes .text-holder{width:100%;text-align: center;}
+}

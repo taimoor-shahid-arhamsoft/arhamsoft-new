@@ -1,0 +1,64 @@
+.expertise-solutions {background: #F5F7FA;}
+.expertise-solutions .section-heading p {max-width: 100%;}
+.expertise-solutions .tabs-container {max-width: 1415px;margin-inline: auto;}
+.expertise-solutions .tabs {display: flex;justify-content: center;margin-bottom: 87px;}
+.expertise-solutions .tabs button {background: none;border: none;font-size: 24px;line-height: 30px;margin: 0 40px;padding: 0px 0px;cursor: pointer;color: #333;border-bottom: 2px solid transparent;font-weight: 600;}
+.expertise-solutions .tabs button.active-tab {color: #ff6600; border-color: #ff6600;}
+.expertise-solutions .tab-content {display: flex;justify-content: center;}
+.expertise-solutions .tab-image {width: 527px;height: 341px;margin-right: 88px;border-radius: 32px;overflow: hidden;background: #fff;display: flex;align-items: center;justify-content: center;padding: 66px;}
+.expertise-solutions .tab-image img {width: 100%;height: 100%;object-fit: contain;}
+.expertise-solutions .tab-description {width: calc(100% - 615px);}
+.expertise-solutions .tab-description h2 {font-size: 40px;font-weight: 500;line-height: 50px;margin-bottom: 30px;}
+.expertise-solutions .tab-description p {font-size: 24px;line-height: 36px;font-weight: 300;}
+/*innovation*/
+.expertise-solutions.innovation {background-color: #fff;}
+.expertise-solutions.innovation .tabs-container {max-width: 1229px;}
+.expertise-solutions.innovation .tab-image {width: 341px;height: 341px;padding: 0px;border-radius: 0px;background: transparent;}
+.expertise-solutions.innovation .tab-description {width: calc(100% - 429px);}
+/* responsive */
+@media only screen and (max-width:1399px){
+    .expertise-solutions .tab-image {width: 430px;margin-right: 30px;}
+    .expertise-solutions .tab-description {width: calc(100% - 460px);}
+    .expertise-solutions.innovation .tab-description {width: calc(100% - 371px);}
+    .expertise-solutions .tab-description h2 {font-size: 30px;line-height: 38px;}
+    .expertise-solutions .tabs {margin-bottom: 60px;}
+}
+@media only screen and (max-width:1199px){
+    .expertise-solutions .tabs button {font-size: 20px;line-height: 26px;margin: 0 30px;}
+    .expertise-solutions .tab-description p {font-size: 20px;line-height: 26px;}
+    .expertise-solutions .tab-image {height: 280px;}
+    .expertise-solutions.innovation .tab-image {width: 280px;height: 280px;}
+    .expertise-solutions.innovation .tab-description {width: calc(100% - 310px);}
+    .expertise-solutions .tab-description h2 {font-size: 26px;line-height: 34px;margin-bottom: 18px;}
+}
+@media only screen and (max-width:991px){
+    .expertise-solutions .tabs button {font-size: 18px;line-height: 24px;margin: 0 20px;}
+    .expertise-solutions .tabs {margin-bottom: 35px;}
+    .expertise-solutions .tab-image {height: 230px;width: 280px;margin-right: 18px;padding: 35px;}
+    .expertise-solutions .tab-description {width: calc(100% - 298px);}
+    .expertise-solutions.innovation .tab-image {width: 230px;height: 230px;}
+    .expertise-solutions.innovation .tab-description {width: calc(100% - 248px);}
+}
+@media only screen and (max-width:767px){
+    .expertise-solutions .tab-content {flex-direction: column;}
+    .expertise-solutions .tab-description, .expertise-solutions.innovation .tab-description {width: 100%;}
+    .expertise-solutions .tab-image {margin-right: 0px;margin-inline: auto;margin-bottom: 15px;}
+    .expertise-solutions .tab-image {height: 190px;}
+    .expertise-solutions .tabs button {font-size: 16px;line-height: 22px;margin: 0 14px;}
+    .expertise-solutions .tabs {margin-bottom: 25px;}
+}
+@media only screen and (max-width:575px){
+    .expertise-solutions .tabs {flex-wrap: wrap;}
+    .expertise-solutions .tabs button {margin: 0 14px 14px;}
+    .expertise-solutions .tab-description h2 {font-size: 22px;line-height: 30px;margin-bottom: 12px;}
+    .expertise-solutions .tab-description p {font-size: 16px;line-height: 22px;}
+}
+@media only screen and (max-width:479px){
+    .expertise-solutions .tabs button {margin: 0 12px 14px;}
+    .expertise-solutions .tab-description h2 {font-size: 18px;line-height: 26px;margin-bottom: 12px;}
+    .expertise-solutions .tab-description p {font-size: 14px;line-height: 20px;}
+    .expertise-solutions .tabs {margin-bottom: 15px;}
+}
+@media only screen and (max-width:319px){
+    .expertise-solutions .tab-image {width: 100%;height: 155px;}
+}

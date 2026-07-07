@@ -1,0 +1,55 @@
+.enterprise-solutions-page .page-banner p {max-width: 840px;}
+.enterprise-solutions-page .page-banner .banner-image {max-width: 693px;}
+.enterprise-solutions-page .what-we-do .section-heading p, 
+.enterprise-solutions-page .expertise-preconfig .section-heading p,
+.enterprise-solutions-page .multi-color-grid .section-heading p {max-width: 100%;}
+.enterprise-solutions-page .lets-discuss {margin-bottom: 0px;}
+.enterprise-solutions-page .multi-color-grid .feature-block {color: #11171F;padding: 55px 25px;}
+.enterprise-solutions-page .tech-stacks {background: #fff;padding: 0px 0px 43px;}
+.enterprise-solutions-page .tech-stacks .lottie-holder {display: none;}
+.enterprise-solutions-page .tech-stacks h3, .enterprise-solutions-page .tech-stacks p {color: #11171F;}
+.enterprise-solutions-page .tech-stacks .tech-stack-images{justify-content: start;}
+.enterprise-solutions-page .tech-stacks .tech-stack-images .stack-img {width: 25%;height: 250px;margin: 0 0 77px;padding: 0 60px;}
+.enterprise-solutions-page .development-solutions {position: relative;}
+/* responsive */
+@media only screen and (max-width:1699px){
+    .enterprise-solutions-page .page-banner .banner-image {max-width: 550px;margin-left: 30px;}
+    .enterprise-solutions-page .page-banner p {max-width: 640px;}
+    .enterprise-solutions-page .what-we-block {min-height: 294px;}
+    .enterprise-solutions-page .development-solutions .process-block {min-height: 260px;}
+    .enterprise-solutions-page .what-we-block {min-height: 324px;}
+    .enterprise-solutions-page .multi-color-grid h3 {font-size: 34px;}
+}
+@media only screen and (max-width:1399px){
+    .enterprise-solutions-page .what-we-block {min-height: 316px;}
+    .enterprise-solutions-page .multi-color-grid .feature-block {padding: 30px 25px;}
+    .enterprise-solutions-page .multi-color-grid h3 {font-size: 28px;}
+    .enterprise-solutions-page .development-solutions .process-block {min-height: 255px;}
+}
+@media only screen and (max-width:1199px){
+    .enterprise-solutions-page .page-banner .banner-image {max-width: 415px;margin-left: 30px;}
+    .enterprise-solutions-page .what-we-block {min-height: 298px;}
+    .enterprise-solutions-page .multi-color-grid h3 {font-size: 24px;}
+    .enterprise-solutions-page .tech-stacks .tech-stack-images .stack-img {margin: 0 0 65px;padding: 0 45px;}
+}
+@media only screen and (max-width:991px){
+    .enterprise-solutions-page .page-banner .banner-image {max-width: 75%;margin-left: 0px;margin-inline: auto;}
+    .enterprise-solutions-page .page-banner .banner-content {margin-bottom: 20px;}
+    .enterprise-solutions-page .what-we-block {min-height: 250px;}
+    .enterprise-solutions-page .development-solutions .process-block {min-height: 185px;}
+    .enterprise-solutions-page .tech-stacks .tech-stack-images .stack-img {height: 120px;margin: 0 0 50px;padding: 0 40px;}
+    .enterprise-solutions-page .tech-stacks {padding: 0px 0px 20px;}
+}
+@media only screen and (max-width:767px){
+    .enterprise-solutions-page .what-we-block {min-height: auto;}
+    .enterprise-solutions-page .page-banner .banner-image {max-width: 100%;}
+    .enterprise-solutions-page .tech-stacks .tech-stack-images .stack-img {height: 120px;margin: 0 0 40px; width: 50%; padding: 0 50px;}
+    .enterprise-solutions-page .development-solutions .process-block {min-height: auto;}
+}
+@media only screen and (max-width:575px){
+    .enterprise-solutions-page .multi-color-grid h3 {font-size: 16px;}
+}
+@media only screen and (max-width:479px){
+    .enterprise-solutions-page .what-we-block h3 {font-size: 17px;line-height: 21px;}
+    .enterprise-solutions-page .tech-stacks .tech-stack-images .stack-img {padding: 0 25px;}
+}

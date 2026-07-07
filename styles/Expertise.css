@@ -1,0 +1,46 @@
+.expertise .page-banner p {max-width: 840px;}
+.expertise .page-banner .banner-image {max-width: 693px;}
+.expertise .what-we-do .section-heading p, .expertise .multi-color-grid .section-heading p {max-width: 100%;}
+.expertise .multi-color-grid .feature-block .icon-holder {display: block;}
+.expertise .multi-color-grid .feature-block {flex-direction: row-reverse;padding: 60px 50px;background-color: #F2F5FC;align-items: center;color: #11171F;}
+.expertise .multi-color-grid .feature-block .icon-holder {width: 172px;height: 172px;margin-right: 48px;}
+.expertise .multi-color-grid .feature-block .text-holder {width: calc(100% - 220px);}
+.expertise .lets-discuss {margin-bottom: 0px;}
+/* responsive */
+@media only screen and (max-width:1699px){
+    .expertise .page-banner .banner-image {max-width: 550px;margin-left: 30px;}
+    .expertise .page-banner p {max-width: 640px;}
+    .expertise .multi-color-grid .feature-block {padding: 60px 25px;}
+    .expertise .multi-color-grid .feature-block .icon-holder {width: 155px;height: 155px;margin-right: 35px;}
+    .expertise .multi-color-grid .feature-block .text-holder {width: calc(100% - 190px);}
+    .expertise .multi-color-grid h3 {font-size: 38px;}
+}
+@media only screen and (max-width:1399px){
+    .expertise .multi-color-grid .feature-block .icon-holder {width: 120px;height: 120px;margin-right: 15px;}
+    .expertise .multi-color-grid .feature-block .text-holder {width: calc(100% - 135px);}
+    .expertise .multi-color-grid h3 {font-size: 32px;}
+    .expertise .multi-color-grid .feature-block {padding: 45px 25px;}
+}
+@media only screen and (max-width:1199px){
+    .expertise .page-banner .banner-image {max-width: 415px;margin-left: 30px;}
+    .expertise .multi-color-grid h3 {font-size: 26px;}
+}
+@media only screen and (max-width:991px){
+    .expertise .page-banner .banner-image {max-width: 75%;margin-left: 0px;margin-inline: auto;}
+    .expertise .page-banner .banner-content {margin-bottom: 20px;}
+    .expertise .multi-color-grid .feature-block {padding: 30px 25px;}
+}
+@media only screen and (max-width:767px){
+    .expertise .page-banner .banner-image {max-width: 100%;}
+}
+@media only screen and (max-width:575px){
+    .expertise .multi-color-grid .feature-block {flex-direction: row;}
+}
+@media only screen and (max-width:479px){
+    .expertise .what-we-block h3 {font-size: 17px;line-height: 21px;}
+    .expertise .multi-color-grid .feature-block {flex-direction: column;padding: 25px 15px;}
+    .expertise .multi-color-grid .feature-block .icon-holder {margin-right: 0px;}
+    .expertise .multi-color-grid .feature-block .text-holder {width: 100%;}
+    .expertise .multi-color-grid h3 {font-size: 20px;}
+    .expertise .multi-color-grid .feature-block:last-of-type {margin-bottom: 0px;}
+}

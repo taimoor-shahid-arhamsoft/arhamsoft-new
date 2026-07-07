@@ -1,0 +1,18 @@
+.empower-data .empower-block{min-height:475px;border: 1px solid #D3DEED;padding:40px 30px;border-radius:16px;}
+.empower-data .icon-holder{margin:0 0 25px}
+.empower-data h3{margin:0 0 25px;}
+.empower-data .key-points{font-size:20px;line-height:30px;font-weight:300;}
+.empower-data .key-points li{margin:0 0 7px;padding:0 0 0 15px;}
+.empower-data .key-points li:before{content:"";width:8px;height:8px;border-radius:50%;position: absolute;left:0;top:12px;background:#F07700;}
+@media(max-width:1699px){
+    .empower-data .empower-block{min-height:460px;padding:20px;}
+}
+@media(max-width:1399px){
+    .empower-data .empower-block{min-height:390px;}
+    .empower-data .icon-holder img{width:60px;height:60px;}
+    .empower-data .key-points{font-size:18px;line-height:22px;}
+    .empower-data .key-points li:before {top:8px;}
+}
+@media(max-width:991px){
+    .empower-data .empower-block{min-height:auto;margin:0 0 12px;}
+}

@@ -1,0 +1,56 @@
+.mad-services .service-col{min-height:456px;padding:20px 40px 40px;border-radius:16px;margin:0 0 20px;}
+.mad-services .service-col.ios-col{background:#F2F5FC;}
+.mad-services .service-col.android-col{background:#EDEDE8;}
+.mad-services .text-holder{width:calc(100% - 170px);}
+.mad-services h3{font-size:84px;line-height:84px;font-weight:500;color:#11171F;margin:0 0 30px;}
+.mad-services h3 span{font-size:56px;line-height:56px;font-weight:100;}
+.mad-services .key-points{font-size:18px;line-height:22px;font-weight:300;}
+.mad-services .key-points li{margin:0 0 10px;padding:0 0 0 15px;}
+.mad-services .key-points li:before{content:"";width:8px;height:8px;border-radius:50%;position:absolute;top:7px;left:0;background:#F07700;}
+.mad-services .image-holder{width:156px;}
+.mad-services .lottie-block{margin:0 0 20px;}
+.mad-services .lottie-block.ios{height:65px;}
+.mad-services .lottie-block.android{height:86px;}
+.mad-services .lottie-block.ios > div{-o-transform: translateY(-38px);-ms-transform: translateY(-38px);-moz-transform: translateY(-38px);-webkit-transform: translateY(-38px);transform: translateY(-38px);}
+.mad-services .lottie-block.android > div{-o-transform: translateY(-33px);-ms-transform: translateY(-33px);-moz-transform: translateY(-33px);-webkit-transform: translateY(-33px);transform: translateY(-33px);}
+.mad-services .image-holder .image-block{width:156px;height:290px;}
+.mad-services .image-holder .image-block img{width:100%;height: 100%;object-fit: contain;}
+.mad-services .section-heading p {max-width: 100%;}
+@media(max-width:1699px){
+    .mad-services .service-col{min-height:435px;}
+    .mad-services h3{font-size:75px;line-height:75px;}
+    .mad-services h3 span{font-size:45px;line-height:50px;}
+    .mad-services .image-holder,
+    .mad-services .image-holder .image-block{width:136px;}
+    .mad-services .image-holder .image-block{height:268px;}
+    .mad-services .text-holder{width:calc(100% - 150px);}
+}
+@media(max-width:1399px){
+    .mad-services .service-col{min-height:405px;}
+    .mad-services .service-col{padding:20px;}
+    .mad-services h3{font-size:65px;line-height:65px;margin:0 0 20px}
+    .mad-services h3 span{font-size:40px;line-height:40px;}
+    .mad-services .lottie-block.android {height:77px}
+    .mad-services .lottie-block.android > div{-o-transform: translateY(-29px);-ms-transform: translateY(-29px);-moz-transform: translateY(-29px);-webkit-transform: translateY(-29px);transform: translateY(-29px);}
+}
+@media(max-width:1199px){
+    .mad-services .service-col{min-height:310px;}
+    .mad-services h3{font-size:50px;line-height:50px;margin:0 0 15px;}
+    .mad-services h3 span{font-size:28px;line-height:28px;}
+    .mad-services .key-points{font-size:16px;line-height:20px;}
+    .mad-services .image-holder, .mad-services .image-holder .image-block{width:96px;}
+    .mad-services .image-holder .image-block {height:191px;}
+    .mad-services .text-holder{width:calc(100% - 110px);}
+    .mad-services .lottie-block.ios{height:40px;}
+    .mad-services .lottie-block.ios > div{-o-transform: translateY(-23px);-ms-transform: translateY(-23px);-moz-transform: translateY(-23px);-webkit-transform: translateY(-23px);transform: translateY(-23px);}
+    .mad-services .lottie-block.android{height:57px;}
+    .mad-services .lottie-block.android > div{-o-transform: translateY(-20px);-ms-transform: translateY(-20px);-moz-transform: translateY(-20px);-webkit-transform: translateY(-20px);transform: translateY(-20px);}
+}
+@media(max-width:991px){
+    .mad-services .service-col{min-height:auto;align-items: center !important;}
+    .mad-services .image-holder{margin:0 auto 30px;}
+    .mad-services .text-holder{width:100%;}
+}
+@media(max-width:479px){
+    .mad-services h3 {font-size: 40px;line-height: 46px;}
+}

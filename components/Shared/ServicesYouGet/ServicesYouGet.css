@@ -1,0 +1,67 @@
+.services-you-get .lottie-holder {max-width: 503px;margin-bottom: 65px;position: relative;}
+.services-you-get .lottie-holder-two {position: absolute;top: 0;left: 0;right: 0;bottom: 0;z-index: -1;}
+.services-you-get .services-boxes {/*max-height: 806px;overflow-x: hidden;overflow-y: auto;*/padding-right: 12px;}
+.services-you-get .services-box {border: 1px solid #D3DEED;border-radius: 4px;padding: 27px 24px 39px;display: flex;align-items: center;margin: 0 0 20px;}
+.services-you-get .services-box:last-of-type {margin: 0;}
+.services-you-get .services-box .service-image {width: 80px;height: 80px;margin-right: 29px;}
+.services-you-get .services-box .service-image img {width: 100%;height: 100%;object-fit: contain;}
+.services-you-get .services-box .service-content {width: calc(100% - 109px);}
+.services-you-get .services-box .service-content h3 {font-weight: 600;}
+.services-you-get .services-box .service-content p {margin: 0;font: normal normal 300 20px/30px Outfit;}
+.services-you-get .services-box.no-icon .service-content{width:100%;}
+.case-study-detail.mi-ryde .services-you-get .services-box.no-icon .service-content{text-align: center;}
+.services-you-get .lottie-holder.image-area {margin-inline: auto;height: 400px;width: 100%;max-width: 400px;margin-bottom: 170px;}
+.services-you-get .lottie-holder.image-area img {width: 100%;height: 100%;object-fit: contain;}
+.services-you-get .lottie-holder.image-area .lottie-holder-two {top: -35px;left: -35px;right: -35px;bottom: -35px;}
+.services-you-get .blue-box {background-color: #0a1b4a;padding: 40px 24px;border-radius: 16px;max-width: 595px;color: white;}
+.services-you-get .blue-box h2 {font-size: 32px;line-height: 40px;font-weight: 600;margin: 0 0 30px;}
+.services-you-get .blue-box ul {margin: 0 0 30px;}
+.services-you-get .blue-box li {font-size: 20px;line-height: 27px;font-weight: 300;margin: 0 0 15px;}
+.services-you-get .blue-box .orange-btn {background-color: #F07700;border-color: #F07700;color: #fff;}
+.services-you-get .blue-box .orange-btn:hover {background-color: #fff;border-color: #fff;color: #F07700;}
+.services-you-get .stick-content{-webkit-position: sticky;position: sticky;top:130px;}
+.case-study-detail.biiview .services-you-get .lottie-holder,
+.case-study-detail.gig-jobs .services-you-get .lottie-holder{min-height:500px;}
+/*responsiveness*/
+@media(max-width:1399px){
+    .services-you-get .services-box{padding:20px 15px 27px;}
+    .services-you-get .services-box .service-image {width: 60px;height: 60px;margin-right: 20px;}
+    .services-you-get .services-box .service-content {width: calc(100% - 79px);}
+    .services-you-get .services-box .service-content p {margin: 0;font-size:16px;line-height:20px;}
+    .services-you-get .blue-box {padding: 30px 20px;max-width: 470px;}
+    .services-you-get .blue-box h2 {font-size: 26px;line-height: 36px;margin: 0 0 20px;}
+    .services-you-get .blue-box li {font-size: 16px;line-height: 22px;}
+    .services-you-get .lottie-holder{margin-bottom: 45px;}
+    .services-you-get .lottie-holder.image-area {margin-bottom: 80px;max-width: 300px;height: 300px;}
+}
+@media(max-width:1199px){
+    .case-study-detail.gig-jobs .services-you-get .lottie-holder{min-height:440px;}
+}
+@media only screen and (max-width:991px){
+    .services-you-get .services-box .service-content p {font: normal normal 300 16px/26px Outfit;}
+    .services-you-get .btn-holder {margin-bottom: 20px;text-align: center;}
+    .services-you-get .lottie-holder{max-width: 400px;margin-inline: auto;margin-bottom: 30px;}
+    .services-you-get .lottie-holder.image-area {margin-bottom: 45px;max-width: 250px;height: 250px;}
+    .services-you-get .blue-box {padding: 30px 20px;max-width: 470px;margin-bottom: 30px;}
+    .services-you-get .blue-box h2 {font-size: 21px;line-height: 30px;margin: 0 0 15px;}
+    .services-you-get .blue-box li {font-size: 14px;line-height: 19px;margin: 0 0 12px;}
+    .services-you-get .blue-box {margin-inline: auto;}
+}
+@media only screen and (max-width:767px){
+    .services-you-get .services-box .service-content p {font: normal normal 300 14px/24px Outfit;}
+    .services-you-get .services-boxes {padding-right: 0px;}
+}
+@media(max-width:575px){
+    .case-study-detail.biiview .services-you-get .lottie-holder{min-height:310px;}
+}
+@media only screen and (max-width:479px){
+    .services-you-get .services-box .service-content p {font: normal normal 300 12px/22px Outfit;}
+    .services-you-get .services-box {flex-direction: column;}
+    .services-you-get .services-box .service-content {width: 100%;text-align: center;}
+    .services-you-get .services-box .service-image {margin: 0 auto 10px;width: 60px;height: 60px;}
+    .services-you-get .blue-box h2 {font-size: 18px;line-height: 24px;margin: 0 0 12px;}
+    .services-you-get .blue-box li {font-size: 12px;line-height: 18px;margin: 0 0 10px;}
+    .services-you-get .blue-box {padding: 20px 15px;max-width: 100%;}
+    .services-you-get .lottie-holder.image-area {max-width:180px;height:auto;}
+    .services-you-get .section-heading{text-align: center;}
+}

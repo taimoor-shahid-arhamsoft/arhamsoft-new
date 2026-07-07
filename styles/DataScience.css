@@ -1,0 +1,20 @@
+.data-science .three-boxes{background-color: #F0F4F5;}
+.data-science .services-you-get .lottie-holder {max-width: 400px;margin-left: 30px;margin-bottom: 120px;}
+.data-science .services-you-get .lottie-holder-two {left: -30px;right: -30px;}
+/*responsiveness*/
+@media(max-width: 1699px){
+    .data-science .colored-box h3 {font-size: 26px;line-height: 32px;}
+}
+@media(max-width:1399px) {
+    .data-science .services-you-get .lottie-holder {max-width: 370px;}
+    .data-science .colored-box h3 {font-size: 22px;line-height: 28px;}
+    .data-science .colored-box .colored-box-link {margin-top: 25px;}
+}
+@media(max-width:1199px) {
+    .data-science .services-you-get .lottie-holder {max-width: 340px;}
+    .data-science .colored-box h3 {font-size: 19px;line-height: 25px;}
+    .data-science .colored-box {font-size: 15px;line-height: 21px;}
+}
+@media(max-width:991px) {
+    .data-science .services-you-get .lottie-holder {margin-left: auto;margin-bottom: 90px;}
+}

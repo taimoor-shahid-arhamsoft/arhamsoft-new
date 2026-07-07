@@ -1,0 +1,77 @@
+.team-augmentation .what-we-block h3 {font-weight: 500;}
+.team-augmentation .section-heading {margin: 0 0 46px;}
+.team-augmentation .what-we-block {height: 100%;margin: 0;}
+.team-augmentation .section-bottom-margin {margin: 0 0 24px;}
+.team-augmentation .engagement-model .engagement-block:hover h2 {top: 35%;}
+.team-augmentation .engagement-model .engagement-block:hover p {top: 50%;}
+.team-augmentation .engagement-model .engagement-block p {font-size: 32px;line-height: 42px;}
+.team-augmentation .engagement-model .heading-block p {max-width: 80%;margin: 0 auto;}
+.team-augmentation .our-skillset .whats-in-for-content .nav h2 {font-size: 56px;line-height: 66px;max-width: 80%;}
+.team-augmentation .our-skillset .whats-in-for-content .nav{width: 400px;background: #091A4A;}
+.team-augmentation .our-skillset .whats-in-for-content .tab-content {width: calc(100% - 400px);}
+.team-augmentation .our-skillset .tab-content {padding: 60px 0 55px 70px;}
+.team-augmentation .our-skillset .tab-data .tab-image {margin: 0 auto 41px;border-radius: 16px;overflow: hidden;}
+.team-augmentation .our-skillset .tab-data .head {max-width: 712px;}
+.team-augmentation .our-skillset .tab-data .head h3 {font-size: 48px;line-height: 52px;font-weight: bold;margin: 0 0 30px;}
+.team-augmentation .our-skillset .tab-data .head p {font-size: 20px;line-height: 30px;font-weight: 300;margin: 0;}
+.team-augmentation .our-skillset .tab-data .btn-get-touch {background: #F07700;color: #fff;border: 1px solid #F07700;}
+.team-augmentation .our-skillset .tab-data .btn-get-touch:hover {background: #fff;color: #F07700;border: 1px solid #F07700;}
+.team-augmentation .our-skillset .nav{padding:75px 30px 130px 0;max-width:400px}
+/* responsivness */
+@media(max-width:1699px){
+	.team-augmentation .engagement-model .engagement-block h2 {font-size: 45px;line-height: 55px;}
+	.team-augmentation .engagement-model .engagement-block p {font-size: 26px;line-height: 32px;}
+	.team-augmentation .our-skillset .tab-data .head {max-width:650px;}
+	.team-augmentation .our-skillset .whats-in-for-content .nav h2{font-size:50px;line-height:60px;}
+}
+@media(max-width:1599px){
+	.team-augmentation .our-skillset .whats-in-for-content .nav {padding-bottom: 70px;padding-top:50px;}
+	.team-augmentation .our-skillset .whats-in-for-content .nav h2{font-size:46px;line-height: 56px;}
+	.team-augmentation .our-skillset .tab-data .head {max-width: 600px;}
+}
+@media(max-width:1399px){
+	.team-augmentation .engagement-model .engagement-block h2 {font-size: 35px;line-height: 45px;}
+	.team-augmentation .engagement-model .engagement-block p {font-size: 22px;line-height: 28px;}
+	.team-augmentation .our-skillset .tab-data-content {flex-direction: column;}
+	.team-augmentation .our-skillset .whats-in-for-content .nav {width: 360px;}
+	.team-augmentation .our-skillset .whats-in-for-content .tab-content{width:calc(100% - 360px);}
+	.team-augmentation .our-skillset .tab-data .head {max-width: 100%;margin: 0 0 30px;}
+}
+@media(max-width:1199px){
+	.team-augmentation .engagement-model .engagement-block{min-height:200px;}
+	.team-augmentation .engagement-model .engagement-block h2 {font-size: 38px;line-height: 42px;}	
+	.team-augmentation .engagement-model .engagement-block p {font-size: 26px;line-height: 32px;}
+	.team-augmentation .how-we-block .icon-holder {margin: 0 0 25px;}
+	.team-augmentation .our-skillset .whats-in-for-content .nav h2 {font-size: 42px;line-height: 54px;max-width: 74%;}
+	.team-augmentation .our-skillset .whats-in-for-content .nav {width: 350px;padding-bottom: 50px;}
+	.team-augmentation .our-skillset .whats-in-for-content .tab-content {width: calc(100% - 350px);padding: 30px 0;}
+	.team-augmentation .our-skillset .tab-data .head h3 {font-size: 38px;line-height: 44px;}
+}
+@media(max-width:991px){
+	.team-augmentation .how-we-block {min-height: auto;}
+	.team-augmentation .banner-content {margin: 0 0 20px;}
+	.team-augmentation .engagement-model .heading-block p {max-width: 100%;}
+	.team-augmentation .our-skillset .whats-in-for-content {flex-direction: column;}
+	.team-augmentation .our-skillset .whats-in-for-content .nav {width: 100%;max-width:100%;padding: 30px 0;padding-bottom: 15px;}
+	.team-augmentation .our-skillset .whats-in-for-content .nav h2 {font-size: 36px;line-height: 46px;max-width: 100%;margin: 0 0 10px;}
+	.team-augmentation .our-skillset .whats-in-for-content .tab-content {width: 100%;}
+	.team-augmentation .our-skillset .tab-data .head h3 {font-size: 30px;line-height: 36px;margin: 0 0 15px;}
+	.team-augmentation .our-skillset .tab-data .tab-image {margin: 0 auto 20px;}
+	.team-augmentation .our-skillset .tab-data .head p {font-size: 18px;line-height: 26px;}
+}
+@media(max-width:767px){
+	.team-augmentation .engagement-model .engagement-block h2 {font-size: 35px;line-height: 45px;}
+	.team-augmentation .engagement-model .engagement-block p {font-size: 22px;line-height: 28px;}
+}
+@media(max-width:575px){
+	.team-augmentation .engagement-model .engagement-block p {font-size: 17px;line-height: 24px;display: block;left: 20px;padding: 0;margin:0;}
+	.team-augmentation .our-skillset .whats-in-for-content .nav h2 {font-size: 28px;line-height: 36px;}
+	.team-augmentation .our-skillset .tab-data .head h3 {font-size: 24px;line-height: 30px;}
+	.team-augmentation .our-skillset .tab-data .head p {font-size: 14px;line-height: 22px;}
+	.team-augmentation .engagement-model .engagement-block{display:flex;justify-content: center; align-items: center}
+}
+@media(max-width:479px){
+	.team-augmentation .engagement-model .engagement-block h2 {font-size: 22px;line-height: 32px;}
+	.team-augmentation .engagement-model .engagement-block p {font-size: 12px;line-height: 20px;display: block;left: 20px;padding: 0;}
+	.team-augmentation .our-skillset .whats-in-for-content .tab-content {padding: 20px 0;}
+}

@@ -1,0 +1,28 @@
+/* fixed price */
+.fixed-price .page-banner h1 {max-width: 601px;}
+.fixed-price .page-banner p {max-width: 804px;}
+.fixed-price .how-we-do-block h3 {padding-bottom: 12px;position: relative;}
+.fixed-price .how-we-do-block h3::after {content: "";position: absolute;left: 0;top: 100%;width: 100%;background-image: url("https://d2g5gf76vk4es3.cloudfront.net/images/arrow.svg");height: 17px;background-repeat: no-repeat;background-size: contain;}
+.fixed-price .column:nth-child(04) .how-we-do-block h3::after {display: none;}
+.fixed-price .featured-clients {padding-bottom: 40px;}
+/* responsivness */
+@media(max-width:1699px){
+    .fixed-price .what-you-get .what-you-get-block h3{font-size:24px;line-height:28px;}
+}
+@media(max-width:1399px){
+    .fixed-price .page-banner p {max-width: 635px;}
+}
+@media(max-width:1199px){
+   .fixed-price .page-banner p {max-width: 500px;}
+}
+@media(max-width:991px){
+    .fixed-price .page-banner .banner-content {z-index: 2;}
+    .fixed-price .page-banner p {max-width: 100%;}
+}
+@media(max-width:767px){
+    .fixed-price .what-you-get .what-you-get-block{padding:20px 15px;}
+    .fixed-price .how-we-do-block h3 {padding: 0;}
+    .fixed-price .how-we-do-block h3{margin:0 0 25px;}
+}
+@media(max-width: 479px) {
+}

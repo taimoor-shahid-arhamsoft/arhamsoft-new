@@ -1,0 +1,25 @@
+.how-we-do{background:#F0F4F5;}
+.how-we-block{padding:25px 20px;border-radius:16px;font-size:20px;line-height:26px;font-weight:300;height: 100%;}
+.how-we-block.bg-orange{background:#F07700;}
+.how-we-block.bg-blue{background:#091A4A;}
+.how-we-block.bg-farozi{background:#64BECD;}
+.how-we-block .counter{font-size:100px;line-height:100px;color:#fff;opacity:0.15;position:absolute;top:10px;right:15px;}
+.how-we-block .icon-holder{margin:0 0 25px;}
+.how-we-block .icon-holder img{width:88px;height:88px;}
+.how-we-block h3{font-weight:400;margin:0 0 12px;}
+.how-we-block .key-points{font-size:16px;line-height:20px;}
+.how-we-block .key-points li{margin:0 0 5px;padding:0 0 0 10px;}
+.how-we-block .key-points li:before{content:"";width:7px;height:7px;position:absolute;left:0;top:7px;background:#fff;border-radius:50%;}
+@media(max-width:1399px){
+    .how-we-block{font-size:18px;line-height:26px;}
+    .how-we-block .key-points {font-size:14px;line-height:18px;}
+}
+@media(max-width:1199px){
+    .how-we-block{min-height:295px;padding:15px;font-size:16px;line-height:22px;}
+    .how-we-block .icon-holder{margin:0 0 15px;}
+    .how-we-block .counter {font-size:50px;line-height:50px;}
+    .how-we-block .icon-holder img{width:50px;height:50px;}
+}
+@media(max-width:991px){
+    .how-we-block{min-height:auto;height: auto;}
+}

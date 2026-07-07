@@ -1,0 +1,15 @@
+.cloud-engineering .page-banner{background: #F0F4F5;}
+.cloud-engineering .what-you-get{background-color: transparent;padding-top: 0;}
+.cloud-engineering .what-you-get .lottie-holder{display: none;}
+.cloud-engineering .what-you-get .what-you-get-block{background-color: #FAFAFA;padding: 19px 16px 24px;}
+.cloud-engineering .what-you-get .section-heading h2, .cloud-engineering .what-you-get .section-heading p{color: #11171F;}
+.cloud-engineering .what-you-get .what-you-get-block .counter {font-weight: 500;}
+.cloud-engineering .what-you-get .what-you-get-block h3 {font-size: 23px;line-height: 1.3;}
+.cloud-engineering .three-boxes .colored-box .counter {display: none;}
+@media(max-width:1699px){
+    .cloud-engineering .what-you-get .what-you-get-block h3 {font-size: 19px;line-height: 1.3;}
+    .cloud-engineering .what-you-get .what-you-get-block p {font-size: 18px;}
+}
+@media(max-width:767px){
+    .cloud-engineering .what-you-get .what-you-get-block p {font-size: 16px;}
+}

@@ -1,0 +1,40 @@
+.lets-discuss .lets-discuss-outer{border-radius:16px;padding:18px 17px;background:#F07700;}
+.lets-discuss .lets-discuss-outer .btn{font-weight: 400;}
+.lets-discuss .lets-discuss-inner{font-size:24px;line-height:36px;padding:26px 40px;border:1px solid #FFBD7C;border-radius:16px;box-shadow: inset 0px 0px 36px #FF9329;}
+.lets-discuss .text-block{max-width:730px;}
+.lets-discuss h2{font-size:56px;line-height:62px;font-weight:600;margin:0 0 15px;}
+.lets-discuss .btn-white-outline:hover{background:#fff;border-color:#fff;}
+.lets-discuss .lottie-outer{width:149px;height:149px;border-radius:50%;background:#fff;margin:0 0 0 50px;padding:10px;}
+.lets-discuss .lottie-inner{border:1px solid #F07700;border-radius:50%;}
+.lets-discuss .btn-solid-white:hover{border-color:#fff;color:#fff;background:#F07700;}
+@media(max-width:1699px){
+    .lets-discuss h2{font-size:45px;line-height:50px;}
+    .lets-discuss .text-block{max-width:700px;}
+}
+@media(max-width:1399px){
+    .lets-discuss .text-block{max-width:550px;padding:0 15px 0 0;}
+    .lets-discuss h2{font-size:44px;line-height:50px;}
+    .lets-discuss .lets-discuss-inner{font-size:20px;line-height:28px;}
+}
+@media(max-width:1199px){
+    .lets-discuss .text-block{max-width:428px;}
+    .lets-discuss h2 {font-size:34px;line-height:40px;}
+    .lets-discuss .lets-discuss-inner{font-size:18px;line-height:24px;}
+    .lets-discuss .lottie-outer{width:100px;height:100px;padding:7px;}
+}
+@media(max-width:991px){
+    .lets-discuss .text-block{width:100%;max-width:100%;padding:0;margin:0 0 30px;}
+    .lets-discuss .lets-discuss-inner {padding:15px 20px}
+}
+@media(max-width:767px){
+    .lets-discuss h2 {font-size:35px;line-height:42px;margin:0 0 10px;}
+}
+@media(max-width:575px){
+    .lets-discuss h2 {font-size:30px;line-height:35px;}
+    .lets-discuss .lottie-outer{display: none;}
+    .lets-discuss .text-block {margin: 0 0 15px;}
+}
+@media(max-width:479px){
+    .lets-discuss h2 {font-size:20px;line-height:24px;}
+    .lets-discuss .lets-discuss-inner {font-size:14px;line-height:20px;}
+}

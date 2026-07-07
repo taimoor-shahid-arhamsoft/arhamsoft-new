@@ -1,0 +1,45 @@
+.services-solutions .service-block{font-size:20px;line-height:27px;border:1px solid #D3DEED;border-radius:16px;margin:0 0 24px;padding:40px 30px;}
+.services-solutions .service-block .service-header{padding:0 50px 0 0;overflow:hidden}
+.services-solutions .service-block .service-count{width:50px;height:80px;font-size:48px;line-height:48px;display:flex;justify-content:center;align-items:center;color:#fff;position: absolute;top:20px;right:-1px;}
+.services-solutions .service-block .service-count:before{width:20px;height:80px;content:"";position:absolute;left:-20px;top:0;border-style: solid;border-width: 40px 20px 40px 0;}
+.services-solutions .service-block .service-count.bg-orange{background:#F07700;}
+.services-solutions .service-block .service-count.bg-orange:before{border-color: transparent #F07700 transparent transparent;}
+.services-solutions .service-block .service-count.bg-light-black{background:#091A4A;}
+.services-solutions .service-block .service-count.bg-light-black:before{border-color: transparent #091A4A transparent transparent;}
+.services-solutions .service-block .service-count.bg-farozi{background:#64BECD;}
+.services-solutions .service-block .service-count.bg-farozi:before{border-color: transparent #64BECD transparent transparent;}
+.services-solutions .service-block .service-count.bg-grey{background:#9DA5BE;}
+.services-solutions .service-block .service-count.bg-grey:before{border-color: transparent #9DA5BE transparent transparent;}
+.services-solutions .service-block .service-count.bg-green{background:#B2BE29;}
+.services-solutions .service-block .service-count.bg-green:before{border-color: transparent #B2BE29 transparent transparent;}
+.services-solutions .service-block .service-count.bg-blue{background:#2E73E2;}
+.services-solutions .service-block .service-count.bg-blue:before{border-color: transparent #2E73E2 transparent transparent;}
+.services-solutions h3{font-size:32px;line-height:36px;font-weight: 500;margin:0 0 25px;}
+.services-solutions h3 span{color:#F07700;}
+.services-solutions .description{color: #424E5D;}
+@media(max-width:1699px){
+    .services-solutions .service-block{min-height:250px;}
+    .services-solutions .service-block .service-count {height:70px;font-size:38px;line-height:38px;}
+    .services-solutions .service-block .service-count:before {height:70px;border-width:35px 20px 35px 0}
+    .services-solutions .service-block .service-header{padding:0 35px 0 0;}
+    .services-solutions h3{font-size:26px;line-height:30px;}
+}
+@media(max-width:1599px){
+    .services-solutions .service-block{min-height:245px;}
+}
+@media(max-width:1399px){
+    .services-solutions .service-block{min-height:235px;padding:20px 15px;}
+    .services-solutions .service-block .service-count {width:40px;height:50px;font-size:30px;line-height:30px;}
+    .services-solutions .service-block .service-count:before {height:50px;border-width:25px 15px 25px 0}
+}
+@media(max-width:991px){
+    .services-solutions .service-block{min-height:225px;}
+    .services-solutions .service-block{font-size:16px;line-height:24px;}
+}
+@media(max-width:767px){
+    .services-solutions .service-block{min-height:auto;}
+    .services-solutions h3 {font-size:22px;line-height:26px;}
+}
+@media(max-width:479px){
+    .services-solutions h3 {font-size:20px;line-height:24px;}
+}

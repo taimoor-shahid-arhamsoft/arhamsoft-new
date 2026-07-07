@@ -1,0 +1,8 @@
+.it-consultancy .textual-content {padding-top: 0px;}
+.it-consultancy .textual-content .text-holder {margin-bottom: 0px;}
+.it-consultancy .textual-content .collab-points li:last-of-type {margin-bottom: 0px;}
+/*responsive*/
+@media(max-width:991px){
+    .it-consultancy .how-we-block {min-height: auto;}
+    .it-consultancy .textual-content .image-holder{margin-top: 20px;}
+}

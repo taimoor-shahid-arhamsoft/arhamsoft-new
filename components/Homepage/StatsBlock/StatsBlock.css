@@ -1,0 +1,45 @@
+.stats-block{padding:0 0 100px;}
+.stats-block h2{font-size:48px;line-height:60px;color:#0F0F0F;font-weight:bold;margin:0 0 20px;}
+.stats-block h2 span{color:#F07700;}
+.stats-block .btn-solid-blue{min-width:178px;}
+.stats-block .stats-outer{padding:70px 50px;font-size:24px;line-height:36px;font-weight:100;background:url('https://d2g5gf76vk4es3.cloudfront.net/images/bg-stats.webp');background-size:cover;background-position: 50% 50%;border-radius: 16px;overflow:hidden;}
+.stats-block .stats-outer:after{content:"";width:100%;height:100%;position:absolute;left:0;top:0;background:linear-gradient(269deg, #F07700D8 0%, #3C1E00D6 100%) 0% 0% no-repeat padding-box;}
+.stats-block .content-holder{z-index:1;}
+.stats-block .stats-outer p{margin:0 0 30px;}
+.stats-block .stats-list li{width:25%;padding:0 10px;}
+.stats-block .stats-list strong{font-size:54px;line-height:58px;font-weight: 300;}
+.stats-block .stats-list span{font-size:20px;line-height:24px;font-weight:100;}
+@media(max-width:1699px){
+	.stats-block{padding:0 0 80px;}
+	.stats-block h2 {font-size:38px;line-height:46px;}
+	.stats-block .stats-list strong{font-size:40px;line-height:45px;}
+}
+@media(max-width:1399px){
+	.stats-block{padding:0 0 70px;}
+	.stats-block .stats-outer{padding:50px 30px;border-radius:10px;}
+	.stats-block h2 {font-size:30px;line-height:40px;}
+	.stats-block .stats-outer{padding:50px 30px;}
+	.stats-block .stats-list strong{font-size:35px;line-height:40px;}
+	.stats-block .stats-list span{font-size:18px;line-height:22px;}
+}
+@media(max-width: 1199px) {
+	
+}
+@media(max-width:991px){
+	.stats-block{padding:0 0 50px;}
+	.stats-block .stats-outer{padding:30px;font-size:20px;line-height: 26px;}
+	.stats-block .stats-list strong {font-size:30px;line-height:35px;}
+	.stats-block .stats-list span {font-size:16px;line-height:20px;}
+}
+@media(max-width:767px) {
+	.stats-block{padding:0 0 30px;}	
+	.stats-block h2{font-size:24px;line-height:32px;}
+	.stats-block .stats-outer{font-size:16px;line-height:22px;}
+	.stats-block .stats-list li{width:50%;margin:0 0 12px;}
+}
+@media(max-width:479px){
+	.stats-block .stats-outer{padding:15px 10px;}
+	.stats-block .stats-list li{width:100%;}
+	.stats-block .stats-list li:last-child{margin:0;}
+	.stats-block h2{font-size:20px;line-height:28px;}
+}
