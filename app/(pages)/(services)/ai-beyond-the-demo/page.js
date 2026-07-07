@@ -21,7 +21,7 @@ import "@/styles/AIML.css";
 export async function generateMetadata() {
 	return {
 		title: "AI Beyond the Demo | Our Approach | DataOnMatrix",
-		description: "A demo is built to win a meeting. We build AI that works with real data, real users and real workflows. See how we do it.",
+		description: "Discover how DataOnMatrix takes AI beyond the demo with a proven approach to strategy, implementation, and scalable AI solutions that deliver measurable business results.",
 		keywords: ["AI Beyond the Demo"],
 		alternates: {
 			canonical: "https://www.dataonmatrix.com/ai-beyond-the-demo",

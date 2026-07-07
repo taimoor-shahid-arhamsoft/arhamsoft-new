@@ -20,8 +20,8 @@ import "@/styles/AIML.css";
 
 export async function generateMetadata() {
 	return {
-		title: "AI Consulting Services & Machine Learning Consulting Company | DataOnMatrix",
-		description: "Most AI gets bought and never used. DataOnMatrix builds AI that changes how work gets done: workflow automation, custom models and production-ready systems. Get a free consultation.",
+		title: "AI & Machine Learning Development Services | Custom AI Development",
+		description: "Accelerate innovation with AI and machine learning development services. We deliver custom AI development services, intelligent automation, predictive analytics, and scalable AI solutions.",
 		keywords: [
 			"AI & Machine Learning Services",
 			"ai and machine learning development services",

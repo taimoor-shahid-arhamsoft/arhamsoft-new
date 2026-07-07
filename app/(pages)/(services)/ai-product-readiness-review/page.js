@@ -21,8 +21,8 @@ import "@/styles/AIML.css";
 export async function generateMetadata() {
 	return {
 		title: "AI Product Readiness Review | AI Audit Services | DataOnMatrix",
-		description: "Scaling an AI product? We review retrieval, evaluation, guardrails, cost and monitoring to find what breaks first. Get a free consultation.",
-		keywords: ["AI Product Readiness Review"],
+		description: "Prepare your business for AI success with our AI Product Readiness Review and AI Audit Services. Discover gaps, optimize processes, and implement AI with confidence.",
+		keywords: ["AI Product Readiness Review", "AI Audit Services"],
 		alternates: {
 			canonical: "https://www.dataonmatrix.com/ai-product-readiness-review",
 		}

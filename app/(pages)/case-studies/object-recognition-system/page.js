@@ -32,7 +32,7 @@ import "@/styles/CaseStudies/CaseStudiesDetail.css";
 export async function generateMetadata() {
 	return {
 		title: "Object Recognition System - Data on Matrix",
-		description: "How DataOnMatrix built an AI video analysis platform: the pipeline, backend, testing and infrastructure that turn an object-recognition model into a product.",
+		description: "Explore our AI-powered Object Recognition System that uses advanced computer vision to identify objects, automate workflows, and improve operational efficiency.",
 	};
 }
 

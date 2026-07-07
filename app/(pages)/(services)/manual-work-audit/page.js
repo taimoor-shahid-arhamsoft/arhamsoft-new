@@ -21,8 +21,8 @@ import "@/styles/AIML.css";
 export async function generateMetadata() {
 	return {
 		title: "Manual Work Audit | Business Workflow Automation Services | DataOnMatrix",
-		description: "Send us one workflow your team repeats every week. We show where the time goes, what to automate and what should stay human. Get a free consultation.",
-		keywords: ["Manual Work Audit"],
+		description: " Identify inefficiencies with our manual work audit and business workflow automation services. Optimize processes, reduce costs, and improve productivity with AI-driven solutions.",
+		keywords: ["Manual Work Audit", "Business Workflow Automation Services"],
 		alternates: {
 			canonical: "https://www.dataonmatrix.com/manual-work-audit",
 		}
