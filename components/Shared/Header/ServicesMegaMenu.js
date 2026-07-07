@@ -100,7 +100,7 @@ export default function ServicesMegaMenu(props) {
 							</div>
 							<div className="links-col mb-3 mb-md-0">
 								<strong className="col-heading d-block">Data &amp; Intelligence</strong>
-								<ul className="links-list list-unstyled mb-3 data-links-spacing">
+								<ul className="links-list list-unstyled data-links-spacing">
 									{dataLinks.map((datalink, index) => {
 										return (
 											<li key={index} className="position-relative">
