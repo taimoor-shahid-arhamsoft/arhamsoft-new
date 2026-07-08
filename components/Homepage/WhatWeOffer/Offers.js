@@ -9,6 +9,17 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 export default function Offers() {
 	const offers = [
 		{
+			title: "Artificial",
+			subTitle: "Intelligence",
+			icon: Images.iconOfferArtificial,
+			description: "Most AI gets bought and never used. We build the kind that gets used, starting with:",
+			offerKeyServices: [
+				{ title: "AI Development", link: "/ai-and-machine-learning" },
+				{ title: "AI PoC & MVP", link: "/ai-poc-mvp" },
+				{ title: "MLOps", link: "/ml-ops" },
+			]
+		},
+		{
 			title: "Software",
 			subTitle: "Development",
 			icon: Images.iconOfferSoftware,
@@ -32,17 +43,6 @@ export default function Offers() {
 				{ title: "Blockchain", link: "/blockchain-development" },
 				{ title: "DevOps", link: "/devops" },
 				{ title: "AR/VR", link: "/ar-vr-and-metaverse" },
-			]
-		},
-		{
-			title: "Artificial",
-			subTitle: "Intelligence",
-			icon: Images.iconOfferArtificial,
-			description: "Most AI gets bought and never used. We build the kind that gets used, starting with:",
-			offerKeyServices: [
-				{ title: "AI Development", link: "/ai-and-machine-learning" },
-				{ title: "AI PoC & MVP", link: "/ai-poc-mvp" },
-				{ title: "MLOps", link: "/ml-ops" },
 			]
 		},
 		{

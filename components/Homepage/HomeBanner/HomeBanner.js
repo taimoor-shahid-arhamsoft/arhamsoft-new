@@ -43,21 +43,21 @@ export default function HomeBanner() {
     };
     const subHeadings = [
         "Intelligent Business Solutions",
-        "Innovative, Scalable Solutions",
         "Optimize Operations, Automate Processes",
-        "Future-Proof Your Operations",
-        "Greater Agility & Efficiency",
-        "Elevate Performance & Scalability",
         "Powerful Data-Centric Solutions",
+        "Future-Proof Your Operations",
+        "Elevate Performance & Scalability",
+        "Innovative, Scalable Solutions",
+        "Greater Agility & Efficiency",
     ];
     const mainHeadings = [
         { title: "AI", highlight: "Development" },
-        { title: "Custom", highlight: "Development" },
+        { title: "AI", highlight: "Solutions" },
+        { title: "Data", highlight: "Science" },
         { title: "Enterprise", highlight: "Solutions" },
         { title: "Cloud", highlight: "Enablement" },
         { title: "Dev", highlight: "Ops" },
         { title: "Agile", highlight: "Transformation" },
-        { title: "Data", highlight: "Science" },
     ];
     const slidesImages = [
         Images.mathleteClientsLogo,

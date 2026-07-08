@@ -16,6 +16,7 @@ import "./Contact.css";
 import { countryDropdownConfig, emailRegex, tokenRefreshTime } from "@/config";
 import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
 import { useToken } from "@/app/context/tokenContext";
+import { PopupButton } from "react-calendly";
 const { defaultCountry, preferredCountries, separateDialCode } =
   countryDropdownConfig;
 
@@ -316,6 +317,22 @@ export default function Contact() {
             </div>
           </Col>
           <Col lg={6} id="contact-us">
+            <PopupButton
+              url="https://calendly.com/ayesha-shaukat-arhamsoft/30min"
+              rootElement={typeof document !== "undefined" ? document.body : undefined}
+              prefill={{
+                name: formData.name || undefined,
+                email: formData.email || undefined,
+              }}
+              utm={{
+                utmSource: "arhamsoft-website",
+                utmMedium: "contact-section",
+                utmCampaign: "book-consultation",
+              }}
+              text=""
+              className="calendly-btn"
+              aria-label="Schedule a meeting on Calendly"
+            />
             <div className="share-section contact-section">
               <div className="heading-block position-relative pt-0 text-white">
                 <h3>

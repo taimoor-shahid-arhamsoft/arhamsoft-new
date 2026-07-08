@@ -83,7 +83,7 @@ export default function BiiView() {
 				resultSliderImages={resultSliderImages}
 			/>
 			<TeamDetailBlock
-				industry="Advertising & Marketing"
+				industry="AI Advertising"
 				teamDetails={teamDetails}
 				expertiseDetails={expertiseDetails}
 				techStackText="We used the following technology stack to deliver this project."

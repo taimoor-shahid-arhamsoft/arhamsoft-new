@@ -2,6 +2,8 @@
 .contact-area .container > .row > *{padding-top:89px;padding-bottom:115px;}
 .contact-area #contact-us{position: relative;}
 .contact-area #contact-us::after{content: "";position: absolute;top: 0;bottom: 0;left: 0;width: 5000px;background: #000C2E;z-index: 1;}
+.contact-area .calendly-btn{position:absolute;top:30px;right:0;z-index:3;width:48px;height:48px;border-radius:50%;background-color:#F07700;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='4' width='18' height='18' rx='2' ry='2'%3E%3C/rect%3E%3Cline x1='16' y1='2' x2='16' y2='6'%3E%3C/line%3E%3Cline x1='8' y1='2' x2='8' y2='6'%3E%3C/line%3E%3Cline x1='3' y1='10' x2='21' y2='10'%3E%3C/line%3E%3C/svg%3E");background-repeat:no-repeat;background-position:center;background-size:22px 22px;border:none;cursor:pointer;transition:background-color .2s ease;}
+.contact-area .calendly-btn:hover{background-color:#fff;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23F07700' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='4' width='18' height='18' rx='2' ry='2'%3E%3C/rect%3E%3Cline x1='16' y1='2' x2='16' y2='6'%3E%3C/line%3E%3Cline x1='8' y1='2' x2='8' y2='6'%3E%3C/line%3E%3Cline x1='3' y1='10' x2='21' y2='10'%3E%3C/line%3E%3C/svg%3E");}
 .contact-area .heading-block h3 {color: #fff;}
 .contact-area .heading-block {margin: 0 0 40px;}
 .contact-area .bg-image{width:56%;position: absolute;left:0;bottom:90px;z-index: 2;}

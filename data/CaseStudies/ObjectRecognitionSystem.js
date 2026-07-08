@@ -73,16 +73,15 @@ const feedbackText = [
 ];
 const teamDetails = [
     { counter: "2", detail: "Python Developers" },
-    { counter: "2", detail: "React Developers" },
-    { counter: "1", detail: "Frontend Developer" },
-    { counter: "1", detail: "UX/UI Designer" },
+    { counter: "1", detail: "AI Developer" },
+    { counter: "1", detail: "Fullstack Developer" },
     { counter: "1", detail: "QA Engineer" },
     { counter: "1", detail: "Project Manager" }
 ];
 const expertiseDetails = [
-    { text: "Technology Consulting " },
-    { text: "Product Design" },
-    { text: "Web Development" }
+    { text: "AI & Machine Learning" },
+    { text: "Computer Vision" },
+    { text: "Video Data Processing" },
 ];
 const techStacks = [
     { stackName: "HTML5", image: Images.BiiviewStack01 },
