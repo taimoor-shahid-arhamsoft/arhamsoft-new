@@ -35,7 +35,7 @@ import "@/styles/CaseStudies/CaseStudiesDetail.css";
 
 export async function generateMetadata() {
 	return {
-		title: "DeFi Solution - Data on Matrix",
+		title: "DeFi Solution - DataOnMatrix",
 	};
 }
 

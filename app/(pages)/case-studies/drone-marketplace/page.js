@@ -26,7 +26,7 @@ import "@/styles/CaseStudies/CaseStudiesDetail.css";
 
 export async function generateMetadata() {
 	return {
-		title: "Drone Marketplace - Data on Matrix",
+		title: "Drone Marketplace - DataOnMatrix",
 	};
 }
 

@@ -30,7 +30,7 @@ import "@/styles/CaseStudies/CaseStudiesDetail.css";
 
 export async function generateMetadata() {
 	return {
-		title: "Multi-Vendor Marketplace - Data on Matrix",
+		title: "Multi-Vendor Marketplace - DataOnMatrix",
 	};
 }
 

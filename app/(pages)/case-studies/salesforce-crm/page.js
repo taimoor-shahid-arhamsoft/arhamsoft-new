@@ -28,7 +28,7 @@ import "@/styles/CaseStudies/CaseStudiesDetail.css";
 
 export async function generateMetadata() {
 	return {
-		title: "Salesforce CRM - Data on Matrix",
+		title: "Salesforce CRM - DataOnMatrix",
 	};
 }
 

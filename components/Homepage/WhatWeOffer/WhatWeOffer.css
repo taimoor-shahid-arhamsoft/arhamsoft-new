@@ -2,6 +2,7 @@
 .what-we-offer .heading-img-block h2{font-size:57px;line-height:62px;font-weight:300;position: absolute;top:110px;left:50%;-o-transform: translateX(-50%);-ms-transform: translateX(-50%);-moz-transform: translateX(-50%);-webkit-transform: translateX(-50%);transform: translateX(-50%);}
 .what-we-offer .heading-img-block .image-holder{max-width:90%;margin:0 auto;}
 .what-we-offer .offers .row > *{margin:0 0 40px;}
+.what-we-offer .offers .offer-block > div{flex: none;}
 .what-we-offer .offers .offer-block{height:100%;padding:40px 32px 47px;border-radius: 16px 0px 16px 16px;background:#fff;font-size:20px;line-height:27px;color:#424E5D;font-weight:300;}
 .what-we-offer .offers .offer-block.browse-block{border-radius:16px;}
 .what-we-offer .offers .offer-block:after{content:"";width:96px;height:89px;border-style: solid;border-width: 0 96px 89px 0;border-color: transparent #DDE1E2 transparent transparent;position:absolute;top:0;right:0;}
@@ -9,7 +10,6 @@
 .what-we-offer .offer-block .offer-header{z-index: 1;}
 .what-we-offer .offer-block h2{font-size:32px;line-height:36px;color:#11171F;font-weight:400;margin:0 0 20px;}
 .what-we-offer .offer-block h2 span{color:#F07700;}
-/* .what-we-offer .offer-block h2 span{color:#853F00;} */
 .what-we-offer .offer-header{padding:0 60px 0 0;overflow: hidden;}
 .what-we-offer .offer-header .icon-holder{position: absolute;top:20px;right:20px;z-index:1;}
 .what-we-offer .text-holder{margin:0 0 15px;overflow: hidden;}
@@ -24,6 +24,7 @@
 .what-we-offer .browse-block a{font-size:24px;line-height:27px;color:#F07700;font-weight:500;border-radius:16px;overflow: hidden;}
 .what-we-offer .browse-block .icon-holder{padding:0 0 0 10px;-o-transform: scale(0);-ms-transform: scale(0);-moz-transform: scale(0);-webkit-transform: scale(0);transform: scale(0);transform-origin:0 50%;}
 .what-we-offer .browse-block:hover .icon-holder{padding:0 0 0 15px;-o-transform: scale(1);-ms-transform: scale(1);-moz-transform: scale(1);-webkit-transform: scale(1);transform: scale(1);}
+/*responsive*/
 @media(max-width:1699px){
 	.what-we-offer .heading-img-block h2{top:80px;}
 	.what-we-offer .offer-block h2{font-size:26px;line-height:30px;}

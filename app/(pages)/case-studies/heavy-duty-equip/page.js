@@ -26,7 +26,7 @@ import "@/styles/CaseStudies/CaseStudiesDetail.css";
 
 export async function generateMetadata() {
 	return {
-		title: "Heavy-Duty Equip - Data on Matrix",
+		title: "Heavy-Duty Equip - DataOnMatrix",
 	};
 }
 

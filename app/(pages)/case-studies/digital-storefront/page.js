@@ -24,7 +24,7 @@ import "@/styles/CaseStudies/CaseStudiesDetail.css";
 
 export async function generateMetadata() {
 	return {
-		title: "Digital Storefront - Data on Matrix",
+		title: "Digital Storefront - DataOnMatrix",
 	};
 }
 

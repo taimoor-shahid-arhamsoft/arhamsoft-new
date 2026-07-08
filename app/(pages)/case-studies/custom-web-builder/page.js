@@ -35,7 +35,7 @@ import "@/styles/CaseStudies/CaseStudiesDetail.css";
 
 export async function generateMetadata() {
 	return {
-		title: "Custom Web Builder - Data on Matrix",
+		title: "Custom Web Builder - DataOnMatrix",
 	};
 }
 

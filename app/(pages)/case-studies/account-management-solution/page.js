@@ -30,7 +30,7 @@ import "@/styles/CaseStudies/CaseStudiesDetail.css";
 
 export async function generateMetadata() {
 	return {
-		title: "Account Management System - Data on Matrix",
+		title: "Account Management System - DataOnMatrix",
 	};
 }
 

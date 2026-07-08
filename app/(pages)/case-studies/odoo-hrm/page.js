@@ -28,7 +28,7 @@ import "@/styles/CaseStudies/CaseStudiesDetail.css";
 
 export async function generateMetadata() {
 	return {
-		title: "Odoo HRM - Data on Matrix",
+		title: "Odoo HRM - DataOnMatrix",
 	};
 }
 

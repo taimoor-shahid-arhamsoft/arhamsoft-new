@@ -34,7 +34,7 @@ import "@/styles/CaseStudies/CaseStudiesDetail.css";
 
 export async function generateMetadata() {
 	return {
-		title: "Blockchain Solution - Data on Matrix",
+		title: "Blockchain Solution - DataOnMatrix",
 	};
 }
 

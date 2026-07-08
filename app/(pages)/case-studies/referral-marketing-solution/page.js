@@ -27,7 +27,7 @@ import "@/styles/CaseStudies/CaseStudiesDetail.css";
 
 export async function generateMetadata() {
 	return {
-		title: "Referral Marketing Solution - Data on Matrix",
+		title: "Referral Marketing Solution - DataOnMatrix",
 	};
 }
 

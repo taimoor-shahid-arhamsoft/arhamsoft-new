@@ -35,7 +35,7 @@ import "@/styles/CaseStudies/CaseStudiesDetail.css";
 
 export async function generateMetadata() {
 	return {
-		title: "RCRTCoin - Data on Matrix",
+		title: "RCRTCoin - DataOnMatrix",
 	};
 }
 export default function Page() {

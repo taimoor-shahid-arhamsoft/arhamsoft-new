@@ -17,7 +17,7 @@ const Footer = dynamic(() => import("@/components/Shared/Footer/Footer"));
 
 export const metadata = {
   title:
-    "Web and Mobile App Development Company | Expert IT Consulting - Data on Matrix",
+    "Web and Mobile App Development Company | Expert IT Consulting - DataOnMatrix",
   description:
     "Data on Matrix: Leading web and mobile app development company. Delivering emerging technology services and comprehensive software development solutions.",
   keywords: [

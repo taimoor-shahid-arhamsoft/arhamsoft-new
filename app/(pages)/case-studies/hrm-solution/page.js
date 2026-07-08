@@ -29,7 +29,7 @@ import "@/styles/CaseStudies/CaseStudiesDetail.css";
 
 export async function generateMetadata() {
 	return {
-		title: "HRM Solution - Data on Matrix",
+		title: "HRM Solution - DataOnMatrix",
 	};
 }
 

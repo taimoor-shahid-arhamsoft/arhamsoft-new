@@ -20,9 +20,7 @@
 .case-stufdy-filter-wrapper .react-select__option{background:#6C7696 !important;color:#fff !important}
 .case-stufdy-filter-wrapper .react-select__option:hover{background:#061c5a !important;cursor: pointer;}
 .case-stufdy-filter-wrapper .react-select__option.react-select__option--is-selected{background:#042274 !important;}
-
-
-
+/*responsive*/
 @media(max-width:1699px){
 	.what-we-offer .offer-block .image-holder{width:180px;}
 	.what-we-offer .offer-block .content-holder{width:calc(100% - 195px);}

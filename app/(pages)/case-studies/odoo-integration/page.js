@@ -28,7 +28,7 @@ import "@/styles/CaseStudies/CaseStudiesDetail.css";
 
 export async function generateMetadata() {
 	return {
-		title: "Odoo Integration - Data on Matrix",
+		title: "Odoo Integration - DataOnMatrix",
 	};
 }
 

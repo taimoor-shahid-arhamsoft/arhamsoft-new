@@ -9,7 +9,7 @@ import "@/styles/Custom.css";
 
 export const metadata = {
 	title: "Web and Mobile App Development Company",
-	description: "Expert IT Consulting - Data on Matrix",
+	description: "Expert IT Consulting - DataOnMatrix",
 };
 
 export default function RootLayout({ children }) {

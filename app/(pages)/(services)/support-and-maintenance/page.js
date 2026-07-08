@@ -20,7 +20,7 @@ import "@/styles/SupportAndMaintenance.css";
 export async function generateMetadata() {
   return {
     title:
-      "IT Support & App Maintenance Services | Software Maintenance Company | Data on Matrix",
+      "IT Support & App Maintenance Services | Software Maintenance Company | DataOnMatrix",
     description:
       "Data on Matrix offers IT support and maintenance services, including app and software maintenance, ensuring seamless performance and reliability for your business with expert solutions for continuous operations.",
     keywords: [

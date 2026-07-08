@@ -27,7 +27,7 @@ import "@/styles/CaseStudies/CaseStudiesDetail.css";
 
 export async function generateMetadata() {
 	return {
-		title: "Ecommerce Store - Data on Matrix",
+		title: "Ecommerce Store - DataOnMatrix",
 	};
 }
 

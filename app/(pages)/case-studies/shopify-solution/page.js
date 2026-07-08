@@ -27,7 +27,7 @@ import "@/styles/CaseStudies/CaseStudiesDetail.css";
 
 export async function generateMetadata() {
 	return {
-		title: "Shopify Solution - Data on Matrix",
+		title: "Shopify Solution - DataOnMatrix",
 	};
 }
 

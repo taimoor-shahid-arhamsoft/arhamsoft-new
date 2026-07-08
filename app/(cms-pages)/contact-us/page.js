@@ -3,7 +3,7 @@ const ContactWithReCaptcha = dynamic(() => import("@/components/CmsPage/ContactU
 
 export async function generateMetadata() {
   return {
-    title: "Contact Us | Data on Matrix - Get in Touch for Expert Solutions",
+    title: "Contact Us | DataOnMatrix - Get in Touch for Expert Solutions",
     description:
       "Reach out to Data on Matrix for personalized solutions and expert services. Our team is ready to assist you with your business needs, from consulting to development. Contact us today!",
   };
