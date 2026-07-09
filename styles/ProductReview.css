@@ -32,7 +32,7 @@
 	.ai-product-review .how-we-block .icon-holder {margin: 0 0 25px;}
 	.ai-product-review .our-skillset .whats-in-for-content .nav h2 {font-size: 42px;line-height: 54px;max-width: 74%;}
 	.ai-product-review .our-skillset .whats-in-for-content .nav {width: 350px;padding-bottom: 50px;}
-	.ai-product-review .our-skillset .whats-in-for-content .tab-content {width: calc(100% - 350px);padding: 30px 0;}
+	.ai-product-review .our-skillset .whats-in-for-content .tab-content {width: calc(100% - 350px);padding: 30px 0 30px 35px;}
 	.ai-product-review .our-skillset .tab-data .head h3 {font-size: 38px;line-height: 44px;}
 }
 @media(max-width:991px){
@@ -41,7 +41,7 @@
 	.ai-product-review .our-skillset .whats-in-for-content {flex-direction: column;}
 	.ai-product-review .our-skillset .whats-in-for-content .nav {width: 100%;max-width:100%;padding: 30px 0;padding-bottom: 15px;}
 	.ai-product-review .our-skillset .whats-in-for-content .nav h2 {font-size: 36px;line-height: 46px;max-width: 100%;margin: 0 0 10px;}
-	.ai-product-review .our-skillset .whats-in-for-content .tab-content {width: 100%;}
+	.ai-product-review .our-skillset .whats-in-for-content .tab-content {width: 100%;padding: 30px 0;}
 	.ai-product-review .our-skillset .tab-data .head h3 {font-size: 30px;line-height: 36px;margin: 0 0 15px;}
 	.ai-product-review .our-skillset .tab-data .tab-image {margin: 0 auto 20px;}
 	.ai-product-review .our-skillset .tab-data .head p {font-size: 18px;line-height: 26px;}

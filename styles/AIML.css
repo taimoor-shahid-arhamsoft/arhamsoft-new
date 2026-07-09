@@ -2,10 +2,8 @@
 .ai-mlearing .how-we-do {background: #fff;}
 .ai-mlearing .page-banner p {max-width: 804px;}
 .ai-mlearing .what-you-get h3 {font-size: 22px;line-height: 32px;font-weight: 500;}
-.ai-mlearing .tech-stacks .tech-stack-images .stack-img:nth-child(06) {width: 340px;}
 /* responsivness */
 @media(max-width:1399px){
-    .ai-mlearing .tech-stacks .tech-stack-images .stack-img:nth-child(06) {width: 275px;}
 }
 @media(max-width:1199px){
 	.ai-mlearing .how-we-do .column {margin-bottom: 24px;}
@@ -18,5 +16,4 @@
 }
 @media(max-width:479px){
     .ai-mlearing .page-banner p {max-width: 100%;}
-    .ai-mlearing .tech-stacks .tech-stack-images .stack-img:nth-child(06) {width: 200px;}
 }

@@ -1,16 +1,17 @@
 import { cloudinaryImages } from "@/assets/assets";
 import PageBanner from "@/components/Shared/PageBanner/PageBanner";
-import LetsDiscuss from "@/components/Shared/LetsDiscuss/LetsDiscuss";
 import WorkSlider from "@/components/Shared/WorkSlider/WorkSlider";
 import HowWeDo from "@/components/UiUx/HowWeDo/HowWeDo";
 import WhatInForYou from "@/components/Shared/WhatInForYou/WhatInForYou";
+import TechStacks from "@/components/Shared/TechStacks/TechStacks";
 import {
 	bannerHeading,
 	bannerText,
 	howWeDos,
 	skillTitle,
 	tabData,
-	workSliderData
+	workSliderData,
+	techImages
 } from "@/data/Services/AIProductReadinessReview";
 import "@/styles/ProductReview.css";
 
@@ -46,6 +47,11 @@ export default function AIProductReadinessReview() {
 				title={skillTitle}
 				tabData={tabData}
 				buttonLink={true}
+			/>
+			<TechStacks
+				title="Tools & "
+				subTitle="Tech We Use"
+				techImages={techImages}
 			/>
 			<WorkSlider
 				title="Case Studies"

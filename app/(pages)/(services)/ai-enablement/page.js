@@ -3,13 +3,15 @@ import PageBanner from "@/components/Shared/PageBanner/PageBanner";
 import HowWeDo from "@/components/UiUx/HowWeDo/HowWeDo";
 import WhatInForYou from "@/components/Shared/WhatInForYou/WhatInForYou";
 import WorkSlider from "@/components/Shared/WorkSlider/WorkSlider";
+import TechStacks from "@/components/Shared/TechStacks/TechStacks";
 import {
   bannerHeading,
   bannerText,
   howWeDos,
   skillTitle,
   tabData,
-  workSliderData
+  workSliderData,
+  techImages
 } from "@/data/Services/AiEnablement";
 import "@/styles/AiEnablement.css";
 
@@ -45,6 +47,11 @@ export default function AiEnablement() {
         tabData={tabData}
         buttonLink={true}
       />
+      <TechStacks
+				title="Tools & "
+				subTitle="Tech We Use"
+				techImages={techImages}
+			/>
       <WorkSlider
         title="Case Studies"
         description="Read through the following case studies to see how we've successfully addressed diverse IT challenges and delivered impactful solutions."

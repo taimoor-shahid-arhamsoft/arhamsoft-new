@@ -102,13 +102,12 @@ const workSliderData = [
     },
 ];
 const techImages = [
-    { id: 1, image: Images.techAiOne },
-    { id: 2, image: Images.techAiTwo },
-    { id: 3, image: Images.techAiThree },
-    { id: 4, image: Images.techAiFour },
-    { id: 5, image: Images.techAiFive },
-    { id: 6, image: Images.techAiSix },
-    { id: 7, image: Images.techAiSeven },
+    { id: 1, image: cloudinaryImages.techAiNewOne },
+    { id: 2, image: cloudinaryImages.techAiNewEight },
+    { id: 3, image: cloudinaryImages.techAiNewTen },
+    { id: 4, image: cloudinaryImages.techAiNewEleven },
+    { id: 5, image: cloudinaryImages.techAiNewTwelve },
+    { id: 6, image: cloudinaryImages.techAiNewThirteen },
 ];
 
 export { bannerHeading, bannerText, howWeDos, howWeDoText, howWeDosIt, workSliderData, fourBoxesContent, techImages };

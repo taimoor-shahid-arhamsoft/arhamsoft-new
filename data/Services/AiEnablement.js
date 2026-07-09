@@ -1,4 +1,4 @@
-import { Images } from "@/assets/assets";
+import { Images, cloudinaryImages } from "@/assets/assets";
 
 const bannerHeading = <h1>Put AI Inside<br /> Your Daily Operations</h1>;
 const bannerText = <p>Not a pilot and not a proof of concept. We build AI into the workflows your team already runs, connect it to the systems you already use, and stay for the monitoring and retraining that keeps it working.</p>;
@@ -81,5 +81,20 @@ const workSliderData = [
         ]
     },
 ];
+const techImages = [
+    { id: 1, image: cloudinaryImages.techAiNewOne },
+    { id: 2, image: cloudinaryImages.techAiNewTwo },
+    { id: 3, image: cloudinaryImages.techAiNewThree },
+    { id: 4, image: cloudinaryImages.techAiNewFour },
+    { id: 5, image: cloudinaryImages.techAiNewFive },
+    { id: 6, image: cloudinaryImages.techAiNewSix },
+    { id: 7, image: cloudinaryImages.techAiNewSeven },
+    { id: 8, image: cloudinaryImages.techAiNewEight },
+    { id: 9, image: cloudinaryImages.techAiNewNine },
+    { id: 10, image: cloudinaryImages.techAiNewTen },
+    { id: 11, image: cloudinaryImages.techAiNewEleven },
+    { id: 12, image: cloudinaryImages.techAiNewTwelve },
+    { id: 13, image: cloudinaryImages.techAiNewThirteen },
+];
 
-export { bannerHeading, bannerText, skillTitle, howWeDos, tabData, workSliderData };
+export { bannerHeading, bannerText, skillTitle, howWeDos, tabData, workSliderData, techImages };

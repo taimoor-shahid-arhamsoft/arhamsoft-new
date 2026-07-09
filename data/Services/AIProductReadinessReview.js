@@ -137,13 +137,23 @@ const workSliderData = [
     },
 ];
 const techImages = [
-    { id: 1, image: Images.techAiOne },
-    { id: 2, image: Images.techAiTwo },
-    { id: 3, image: Images.techAiThree },
-    { id: 4, image: Images.techAiFour },
-    { id: 5, image: Images.techAiFive },
-    { id: 6, image: Images.techAiSix },
-    { id: 7, image: Images.techAiSeven },
+    { id: 1, image: cloudinaryImages.techAiNewOne },
+    { id: 2, image: cloudinaryImages.techAiNewTwo },
+    { id: 3, image: cloudinaryImages.techAiNewThree },
+    { id: 4, image: cloudinaryImages.techAiNewFour },
+    { id: 5, image: cloudinaryImages.techAiNewFive },
+    { id: 6, image: cloudinaryImages.techAiNewSix },
+    { id: 7, image: cloudinaryImages.techAiNewSeven },
+    { id: 8, image: cloudinaryImages.techAiNewEight },
+    { id: 9, image: cloudinaryImages.techAiNewNine },
+    { id: 10, image: cloudinaryImages.techAiNewTen },
+    { id: 11, image: cloudinaryImages.techAiNewEleven },
+    { id: 12, image: cloudinaryImages.techAiNewTwelve },
+    { id: 13, image: cloudinaryImages.techAiNewThirteen },
+    { id: 14, image: cloudinaryImages.techAiNewFourteen },
+    { id: 15, image: cloudinaryImages.techAiNewFifteen },
+    { id: 16, image: cloudinaryImages.techAiNewSixteen },
+    { id: 17, image: cloudinaryImages.techAiNewSeventeen },
 ];
 
 export { bannerHeading, bannerText, howWeDos, skillTitle, tabData, howWeDosIt, workSliderData, fourBoxesContent, techImages };

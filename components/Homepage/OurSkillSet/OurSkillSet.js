@@ -6,7 +6,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Nav from "react-bootstrap/Nav";
 import Tab from "react-bootstrap/Tab";
-import { Images } from "@/assets/assets";
+import { Images, cloudinaryImages } from "@/assets/assets";
 import "./OurSkillSet.css";
 
 export default function OurSkillSet() {
@@ -67,7 +67,7 @@ export default function OurSkillSet() {
 									<div className="d-flex align-items-start flex-wrap">
 										<div className="image-holder">
 											<div className="image-block d-none d-xxl-block">
-												<Image className="img-fluid" src={Images.iconImgSkillIndustrial} width="360" height="509" alt="AI Enablement" />
+												<Image className="img-fluid" src={cloudinaryImages.AiEnablementSkillset} width="360" height="509" alt="AI Enablement" />
 											</div>
 											<div className="d-flex justify-content-center">
 												<Link className="btn btn-solid" href="#contact-us">Get In Touch</Link>
@@ -94,7 +94,7 @@ export default function OurSkillSet() {
 													<li className="position-relative">MLOps, Monitoring &amp; Scaling</li>
 												</ul>
 												<div className="image-block d-block d-xxl-none">
-													<Image className="img-fluid" src={Images.AiMl} width="360" height="509" alt="AI Enablement" />
+													<Image className="img-fluid" src={cloudinaryImages.AiEnablementSkillset} width="360" height="509" alt="AI Enablement" />
 												</div>
 											</div>
 										</div>

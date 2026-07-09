@@ -5,7 +5,6 @@ import WorkSlider from "@/components/Shared/WorkSlider/WorkSlider";
 import HowWeDo from "@/components/UiUx/HowWeDo/HowWeDo";
 import FourCounteredBoxes from "@/components/Shared/FourCounteredBoxes/FourCounteredBoxes";
 import HowItWorks from "@/components/Shared/HowWeDo/HowWeDo";
-import TechStacks from "@/components/Shared/TechStacks/TechStacks";
 import {
 	bannerHeading,
 	bannerText,
@@ -13,7 +12,6 @@ import {
 	howWeDoText,
 	howWeDos,
 	howWeDosIt,
-	techImages,
 	workSliderData
 } from "@/data/Services/AIBeyondTheDemo";
 import "@/styles/AIML.css";
@@ -62,11 +60,6 @@ export default function AIBeyondTheDemo() {
 				description="You're not behind. You just bought the demo. The useful version starts with one workflow, not a roadmap."
 				buttonText="Start With One Workflow"
 				buttonLink="#contact-us"
-			/>
-			<TechStacks
-				title="Tools & "
-				subTitle="Tech We Use"
-				techImages={techImages}
 			/>
 			<WorkSlider
 				title="Case Studies"
