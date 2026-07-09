@@ -48,6 +48,7 @@ export default function ServicesMegaMenu(props) {
 	];
 	const aiAutomationLinks = [
 		{ title: "AI & Machine Learning", link: "/ai-and-machine-learning" },
+		{ title: "AI Enablement", link: "/ai-enablement" },
 		{ title: "AI Product Readiness Review", link: "/ai-product-readiness-review" },
 		{ title: "AI Beyond the Demo", link: "/ai-beyond-the-demo" },
 		{ title: "Manual Work Audit", link: "/manual-work-audit" },

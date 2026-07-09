@@ -13,7 +13,7 @@ export default function WhatInForYou({ title, description, tabData = [], buttonL
                 <Tab.Container id="left-tabs-example" defaultActiveKey="first">
                     <div className="whats-in-for-content d-flex px-0">
                         <Nav variant="pills" className="flex-column position-relative navblock-left-col">
-                            <div className="text-block">
+                            <div className="text-block title">
                                 {title}
                             </div>
                             {description &&

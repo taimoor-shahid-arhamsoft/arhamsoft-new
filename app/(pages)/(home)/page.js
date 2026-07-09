@@ -39,7 +39,7 @@ export default function Home() {
 			<EnagagementModel
 				liteTitle="Suitable"
 				title="Engagement Models"
-				description="Reduce recruitment costs and save hours by accomplishing time-intensive tasks with people-powered & expertise-led technology."
+				description="Add people, fix the price, put AI to work, or check your product before it scales. Four ways to engage, depending on what the job needs."
 				engagementModels={engagementModels}
 			/>
 			<StatsBlock

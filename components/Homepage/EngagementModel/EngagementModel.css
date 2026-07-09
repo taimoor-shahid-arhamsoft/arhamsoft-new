@@ -1,5 +1,5 @@
 .engagement-model{padding:120px 0}
-.engagement-model .engagement-block{border-radius:10px;overflow:hidden;}
+.engagement-model .engagement-block{border-radius:10px;overflow:hidden;margin-bottom:24px;}
 .engagement-model .engagement-block:after{content:none;width:100%;height:100%;position:absolute;left:0;top:0;background: transparent linear-gradient(180deg, #11171F00 0%, #11171F 100%) 0% 0% no-repeat padding-box;}
 .engagement-model .engagement-block:hover:after{content:'';}
 .engagement-model .engagement-block h2{font-size:64px;line-height:68px;font-weight:400;position: absolute;left:40px;top:390px;z-index:1;}

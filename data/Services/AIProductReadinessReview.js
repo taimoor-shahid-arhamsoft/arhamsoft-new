@@ -1,7 +1,18 @@
 import { Images, cloudinaryImages } from "@/assets/assets";
 
-const bannerHeading = <h1>Find Where Your AI Cracks First</h1>;
-const bannerText = <p>Your prototype works because you're the only user. We find the weak points before your users do.</p>;
+const bannerHeading = (
+    <h1>
+        Find Where Your AI
+        <br /> Cracks First
+    </h1>
+);
+const bannerText = (
+    <p>
+        Your prototype works because you're the only user. Before you scale, we review
+        the whole system around your model and tell you what breaks first, so you can
+        fix it before your users find it.
+    </p>
+);
 const howWeDos = [
     {
         icon: cloudinaryImages.AiReviewOne,
@@ -22,8 +33,32 @@ const howWeDos = [
         description: "Latency and cost as architecture, monitoring after launch, and the escalation path to a human.",
     },
 ];
-const howWeDoText = [
-    { text: "The whole system around your model, the part demos never show." }
+const skillTitle = <h2 className="text-white"><span>Unlock The </span> Benefits</h2>;
+const tabData = [
+    {
+        eventKey: "first",
+        title: "A Straight Read",
+        iconDefault: Images.WhatForIconOne,
+        iconHover: Images.WhatForIconHoverOne,
+        image: Images.teamAugLargeIn01,
+        description: "You get a ranked list of what breaks first and what fixing it takes, written so your team can act on it. No deck padding."
+    },
+    {
+        eventKey: "second",
+        title: "Fixed Scope, Fixed Price",
+        iconDefault: Images.WhatForIconTwo,
+        iconHover: Images.WhatForIconHoverTwo,
+        image: Images.teamAugLargeIn02,
+        description: "A review with a start, an end and a price. You decide what to fix and who fixes it. No lock-in to us."
+    },
+    {
+        eventKey: "third",
+        title: "Cheaper Than An Outage",
+        iconDefault: Images.WhatForIconThree,
+        iconHover: Images.WhatForIconHoverThree,
+        image: Images.teamAugLargeIn03,
+        description: "Finding the weak point in a review costs a fraction of finding it in production with users watching."
+    },
 ];
 const fourBoxesContent = [
     {
@@ -111,4 +146,4 @@ const techImages = [
     { id: 7, image: Images.techAiSeven },
 ];
 
-export { bannerHeading, bannerText, howWeDos, howWeDoText, howWeDosIt, workSliderData, fourBoxesContent, techImages };
+export { bannerHeading, bannerText, howWeDos, skillTitle, tabData, howWeDosIt, workSliderData, fourBoxesContent, techImages };

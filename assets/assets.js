@@ -42,6 +42,8 @@ export const Images = {
     iconImgSkillIndustrial: `${awsS3ImgBaseUrl}img-skill-industrial.webp`,
     imgAugModelTeam: `${awsS3ImgBaseUrl}img-aug-model-team.webp`,
     imgAugModelFixed: `${awsS3ImgBaseUrl}img-aug-model-fixed.webp`,
+    imgAugModelAI: `${awsS3ImgBaseUrl}img-aug-model-ai.webp`,
+    imgAugModelProduct: `${awsS3ImgBaseUrl}img-aug-model-product.webp`,
     iconOfficeUSA: `${awsS3ImgBaseUrl}icon-office-usa.svg`,
     iconOfficePak1: `${awsS3ImgBaseUrl}icon-office-pak-1.svg`,
     iconOfficePak2: `${awsS3ImgBaseUrl}icon-office-pak-2.svg`,

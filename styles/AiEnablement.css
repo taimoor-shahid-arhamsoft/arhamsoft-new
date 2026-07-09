@@ -1,0 +1,56 @@
+.ai-enablement .how-we-do {background: #FFFFFF;}
+.ai-enablement .whats-in-for-content .title {margin: 0 0 20px;}
+.ai-enablement .section-heading {margin: 0 0 46px;}
+.ai-enablement .our-skillset .whats-in-for-content .nav h2 {font-size: 56px;line-height: 66px;max-width: 80%;}
+.ai-enablement .our-skillset .whats-in-for-content .nav{width: 470px;background: #091A4A;}
+.ai-enablement .our-skillset .whats-in-for-content .tab-content {width: calc(100% - 470px);}
+.ai-enablement .our-skillset .tab-content {padding: 60px 0 55px 70px;}
+.ai-enablement .our-skillset .tab-data .tab-image {margin: 0 auto 41px;border-radius: 16px;overflow: hidden;}
+.ai-enablement .our-skillset .tab-data .head {max-width: 712px;}
+.ai-enablement .our-skillset .tab-data .head h3 {font-size: 48px;line-height: 52px;font-weight: bold;margin: 0 0 30px;}
+.ai-enablement .our-skillset .tab-data .head p {font-size: 20px;line-height: 30px;font-weight: 300;margin: 0;}
+.ai-enablement .our-skillset .tab-data .btn-get-touch {background: #F07700;color: #fff;border: 1px solid #F07700;}
+.ai-enablement .our-skillset .tab-data .btn-get-touch:hover {background: #fff;color: #F07700;border: 1px solid #F07700;}
+.ai-enablement .our-skillset .nav{padding:75px 30px 130px 0;max-width:470px;height: stretch;}
+/* responsiveness */
+@media(max-width:1699px){
+	.ai-enablement .our-skillset .tab-data .head {max-width:650px;}
+	.ai-enablement .our-skillset .whats-in-for-content .nav h2{font-size:50px;line-height:60px;}
+}
+@media(max-width:1599px){
+	.ai-enablement .our-skillset .whats-in-for-content .nav {padding-bottom: 70px;padding-top:50px;}
+	.ai-enablement .our-skillset .whats-in-for-content .nav h2{font-size:46px;line-height: 56px;}
+	.ai-enablement .our-skillset .tab-data .head {max-width: 600px;}
+}
+@media(max-width:1399px){
+	.ai-enablement .our-skillset .tab-data-content {flex-direction: column;}
+	.ai-enablement .our-skillset .whats-in-for-content .nav {width: 360px;}
+	.ai-enablement .our-skillset .whats-in-for-content .tab-content{width:calc(100% - 360px);}
+	.ai-enablement .our-skillset .tab-data .head {max-width: 100%;margin: 0 0 30px;}
+}
+@media(max-width:1199px){
+	.ai-enablement .how-we-block .icon-holder {margin: 0 0 25px;}
+	.ai-enablement .our-skillset .whats-in-for-content .nav h2 {font-size: 42px;line-height: 54px;max-width: 74%;}
+	.ai-enablement .our-skillset .whats-in-for-content .nav {width: 350px;padding-bottom: 50px;}
+	.ai-enablement .our-skillset .whats-in-for-content .tab-content {width: calc(100% - 350px);padding: 30px 0;}
+	.ai-enablement .our-skillset .tab-data .head h3 {font-size: 38px;line-height: 44px;}
+}
+@media(max-width:991px){
+	.ai-enablement .how-we-block {min-height: auto;}
+	.ai-enablement .banner-content {margin: 0 0 20px;}
+	.ai-enablement .our-skillset .whats-in-for-content {flex-direction: column;}
+	.ai-enablement .our-skillset .whats-in-for-content .nav {width: 100%;max-width:100%;padding: 30px 0;padding-bottom: 15px;}
+	.ai-enablement .our-skillset .whats-in-for-content .nav h2 {font-size: 36px;line-height: 46px;max-width: 100%;margin: 0 0 10px;}
+	.ai-enablement .our-skillset .whats-in-for-content .tab-content {width: 100%;}
+	.ai-enablement .our-skillset .tab-data .head h3 {font-size: 30px;line-height: 36px;margin: 0 0 15px;}
+	.ai-enablement .our-skillset .tab-data .tab-image {margin: 0 auto 20px;}
+	.ai-enablement .our-skillset .tab-data .head p {font-size: 18px;line-height: 26px;}
+}
+@media(max-width:575px){
+	.ai-enablement .our-skillset .whats-in-for-content .nav h2 {font-size: 28px;line-height: 36px;}
+	.ai-enablement .our-skillset .tab-data .head h3 {font-size: 24px;line-height: 30px;}
+	.ai-enablement .our-skillset .tab-data .head p {font-size: 14px;line-height: 22px;}
+}
+@media(max-width:479px){
+	.ai-enablement .our-skillset .whats-in-for-content .tab-content {padding: 20px 0;}
+}

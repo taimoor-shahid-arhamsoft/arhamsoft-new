@@ -43,8 +43,9 @@ export default function HomeBanner() {
     };
     const subHeadings = [
         "Intelligent Business Solutions",
-        "Optimize Operations, Automate Processes",
-        "Powerful Data-Centric Solutions",
+        "Automate Workflows, Win Back Hours",
+        "Build With Large Language Models",
+        "See Next Quarter Coming",
         "Future-Proof Your Operations",
         "Elevate Performance & Scalability",
         "Innovative, Scalable Solutions",
@@ -52,8 +53,9 @@ export default function HomeBanner() {
     ];
     const mainHeadings = [
         { title: "AI", highlight: "Development" },
-        { title: "AI", highlight: "Solutions" },
-        { title: "Data", highlight: "Science" },
+        { title: "AI", highlight: "Automation" },
+        { title: "Generative", highlight: "AI" },
+        { title: "Predictive", highlight: "Analytics" },
         { title: "Enterprise", highlight: "Solutions" },
         { title: "Cloud", highlight: "Enablement" },
         { title: "Dev", highlight: "Ops" },

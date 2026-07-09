@@ -3,25 +3,21 @@ import PageBanner from "@/components/Shared/PageBanner/PageBanner";
 import LetsDiscuss from "@/components/Shared/LetsDiscuss/LetsDiscuss";
 import WorkSlider from "@/components/Shared/WorkSlider/WorkSlider";
 import HowWeDo from "@/components/UiUx/HowWeDo/HowWeDo";
-import FourCounteredBoxes from "@/components/Shared/FourCounteredBoxes/FourCounteredBoxes";
-import HowItWorks from "@/components/Shared/HowWeDo/HowWeDo";
-import TechStacks from "@/components/Shared/TechStacks/TechStacks";
+import WhatInForYou from "@/components/Shared/WhatInForYou/WhatInForYou";
 import {
 	bannerHeading,
 	bannerText,
-	fourBoxesContent,
-	howWeDoText,
 	howWeDos,
-	howWeDosIt,
-	techImages,
+	skillTitle,
+	tabData,
 	workSliderData
 } from "@/data/Services/AIProductReadinessReview";
-import "@/styles/AIML.css";
+import "@/styles/ProductReview.css";
 
 export async function generateMetadata() {
 	return {
-		title: "AI Product Readiness Review | AI Audit Services | DataOnMatrix",
-		description: "Prepare your business for AI success with our AI Product Readiness Review and AI Audit Services. Discover gaps, optimize processes, and implement AI with confidence.",
+		title: "AI Product Readiness Review | Find What Breaks Before Users Do | DataOnMatrix",
+		description: "A fixed-scope review of your AI product: retrieval, evaluation, guardrails, cost and monitoring. Know what breaks first, before you scale.",
 		keywords: ["AI Product Readiness Review", "AI Audit Services"],
 		alternates: {
 			canonical: "https://www.dataonmatrix.com/ai-product-readiness-review",
@@ -31,9 +27,9 @@ export async function generateMetadata() {
 
 export default function AIProductReadinessReview() {
 	return (
-		<div className="services ai-mlearing custom-ab-banner">
+		<div className="services ai-product-review custom-ab-banner">
 			<PageBanner
-				subHeading="AI Product Readiness Review"
+				subHeading="Product Readiness"
 				heading={bannerHeading}
 				text={bannerText}
 				buttonText="Book The Review"
@@ -43,30 +39,13 @@ export default function AIProductReadinessReview() {
 				bannerImgAlt="AI Product Readiness Review"
 			/>
 			<HowWeDo
-				title="What The Review Covers"
-				howWeDoText={howWeDoText}
+				title="What We Review"
 				howWeDos={howWeDos}
 			/>
-			<FourCounteredBoxes
-				title="Work Process"
-				description="To deliver the best result, we take the following strategic steps:"
-				fourBoxesContent={fourBoxesContent}
-			/>
-			<HowItWorks
-				items={howWeDosIt}
-				title="Where AI Products Break"
-				description="The failure points that surface after launch, not in the demo."
-			/>
-			<LetsDiscuss
-				title="Better You Find It Than Your Users"
-				description="Send us the one thing you're unsure about. The first read is free and useful either way."
-				buttonText="Book The Review"
-				buttonLink="#contact-us"
-			/>
-			<TechStacks
-				title="Tools & "
-				subTitle="Tech We Use"
-				techImages={techImages}
+			<WhatInForYou
+				title={skillTitle}
+				tabData={tabData}
+				buttonLink={true}
 			/>
 			<WorkSlider
 				title="Case Studies"

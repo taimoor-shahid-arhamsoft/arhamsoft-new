@@ -25,6 +25,18 @@ export default function OurSkillSet() {
 									<Nav.Item className="position-relative z-1">
 										<Nav.Link eventKey="first" className="transition position-relative">
 											<div className="d-flex align-items-center">
+												<div className="icon-holder">
+													<Image width="102" height="102" className="icon-default" src={Images.iconSSIndustrialBlack} alt='icon' />
+													<Image width="102" height="102" className="icon-hover" src={Images.iconSSIndustrialOrange} alt='icon' />
+													<span className="hover-circle">&nbsp;</span>
+												</div>
+												<span>AI Enablement</span>
+											</div>
+										</Nav.Link>
+									</Nav.Item>
+									<Nav.Item className="position-relative z-1">
+										<Nav.Link eventKey="second" className="transition position-relative">
+											<div className="d-flex align-items-center">
 												<div className="icon-holder position-relative">
 													<Image width="102" height="102" className="icon-default" src={Images.iconSSCustomBlack} alt='icon' />
 													<Image width="102" height="102" className="icon-hover" src={Images.iconSSCustomOrange} alt='icon' />
@@ -35,26 +47,14 @@ export default function OurSkillSet() {
 										</Nav.Link>
 									</Nav.Item>
 									<Nav.Item className="position-relative z-1">
-										<Nav.Link eventKey="second" className="transition position-relative">
-											<div className="d-flex align-items-center">
-												<div className="icon-holder">
-													<Image  width="102" height="102" className="icon-default" src={Images.iconSSEnterpriseBlack} alt='icon' />
-													<Image  width="102" height="102" className="icon-hover" src={Images.iconSSEnterpriseOrange} alt='icon' />
-													<span className="hover-circle">&nbsp;</span>
-												</div>
-												<span>Enterprise Solution</span>
-											</div>
-										</Nav.Link>
-									</Nav.Item>
-									<Nav.Item className="position-relative z-1">
 										<Nav.Link eventKey="third" className="transition position-relative">
 											<div className="d-flex align-items-center">
 												<div className="icon-holder">
-													<Image  width="102" height="102" className="icon-default" src={Images.iconSSIndustrialBlack} alt='icon' />
-													<Image  width="102" height="102" className="icon-hover" src={Images.iconSSIndustrialOrange} alt='icon' />
+													<Image width="102" height="102" className="icon-default" src={Images.iconSSEnterpriseBlack} alt='icon' />
+													<Image width="102" height="102" className="icon-hover" src={Images.iconSSEnterpriseOrange} alt='icon' />
 													<span className="hover-circle">&nbsp;</span>
 												</div>
-												<span>Industrial Solution</span>
+												<span>Enterprise Solution</span>
 											</div>
 										</Nav.Link>
 									</Nav.Item>
@@ -67,7 +67,44 @@ export default function OurSkillSet() {
 									<div className="d-flex align-items-start flex-wrap">
 										<div className="image-holder">
 											<div className="image-block d-none d-xxl-block">
-												<Image  width="307" height="509" className='img-fluid' src={Images.iconImgSkillCustom} alt="Skill Custom Icon" />
+												<Image className="img-fluid" src={Images.iconImgSkillIndustrial} width="360" height="509" alt="AI Enablement" />
+											</div>
+											<div className="d-flex justify-content-center">
+												<Link className="btn btn-solid" href="#contact-us">Get In Touch</Link>
+											</div>
+										</div>
+										<div className="content-holder">
+											<h2>AI <span>Enablement</span></h2>
+											<p>Most companies have plenty of data and at least one AI subscription. Few
+												have either doing real work. That's the job we take on. Our engineers train machine
+												learning models on your data, build LLM applications with OpenAI and Anthropic APIs,
+												and wire automation into the tools your team already uses, with Python, PyTorch,
+												LangChain, YOLO and OpenCV underneath. Then we stick around for the
+												unglamorous part: monitoring, retraining and scaling, so the thing still works in month
+												six.</p>
+											<p>Major sectors that we cover include:</p>
+											<div className="d-block d-sm-flex align-items-start justify-content-between mb-5 mb-xxl-0">
+												<ul className="service-key-points list-unstyled mb-5 mb-sm-0">
+													<li className="position-relative">AI Workflow Automation</li>
+													<li className="position-relative">Generative AI &amp; LLM Applications</li>
+													<li className="position-relative">Custom Machine Learning Models</li>
+													<li className="position-relative">Computer Vision &amp; Video Intelligence</li>
+													<li className="position-relative">Predictive Analytics &amp; Forecasting</li>
+													<li className="position-relative">AI Chatbots &amp; RAG Systems</li>
+													<li className="position-relative">MLOps, Monitoring &amp; Scaling</li>
+												</ul>
+												<div className="image-block d-block d-xxl-none">
+													<Image className="img-fluid" src={Images.AiMl} width="360" height="509" alt="AI Enablement" />
+												</div>
+											</div>
+										</div>
+									</div>
+								</Tab.Pane>
+								<Tab.Pane eventKey="second">
+									<div className="d-flex align-items-start flex-wrap">
+										<div className="image-holder">
+											<div className="image-block d-none d-xxl-block">
+												<Image width="307" height="509" className='img-fluid' src={Images.iconImgSkillCustom} alt="Skill Custom Icon" />
 											</div>
 											<div className="d-flex justify-content-center">
 												<Link className="btn btn-solid" href="#contact-us">Get In Touch</Link>
@@ -93,7 +130,7 @@ export default function OurSkillSet() {
 										</div>
 									</div>
 								</Tab.Pane>
-								<Tab.Pane eventKey="second">
+								<Tab.Pane eventKey="third">
 									<div className="d-flex align-items-start flex-wrap">
 										<div className="image-holder">
 											<div className="image-block d-none d-xxl-block">
@@ -119,37 +156,6 @@ export default function OurSkillSet() {
 												</ul>
 												<div className="image-block d-block d-xxl-none">
 													<Image className="img-fluid" src={Images.iconImgSkillEnterprise} width="360" height="509" alt="Skill Enterprise Icon" />
-												</div>
-											</div>
-										</div>
-									</div>
-								</Tab.Pane>
-								<Tab.Pane eventKey="third">
-									<div className="d-flex align-items-start flex-wrap">
-										<div className="image-holder">
-											<div className="image-block d-none d-xxl-block">
-												<Image className="img-fluid" src={Images.iconImgSkillIndustrial} width="360" height="509" alt="Skill Industrial Icon" />
-											</div>
-											<div className="d-flex justify-content-center">
-												<Link className="btn btn-solid" href="#contact-us">Get In Touch</Link>
-											</div>
-										</div>
-										<div className="content-holder">
-											<h2>Industrial Solution <span>Integration</span></h2>
-											<p>Every sector has its own unique technical needs due to varying objectives and operations. We offer technical support and talent that deliver on distinct demands. Understanding that no two sectors are the same, we dive deeply into the technical bottlenecks to identify areas for improvement.</p>
-											<p>Major sectors that we cover include:</p>
-											<div className="d-block d-sm-flex align-items-start justify-content-between mb-5 mb-xxl-0">
-												<ul className="service-key-points list-unstyled mb-5 mb-sm-0">
-													<li className="position-relative">Media &amp; Entertainment</li>
-													<li className="position-relative">Retail &amp; E-commerce</li>
-													<li className="position-relative">Real Estate</li>
-													<li className="position-relative">Technology</li>
-													<li className="position-relative">Healthcare</li>
-													<li className="position-relative">Education</li>
-													<li className="position-relative">Finance</li>
-												</ul>
-												<div className="image-block d-block d-xxl-none">
-													<Image className="img-fluid" src={Images.iconImgSkillIndustrial} width="360" height="509" alt="Skill Industrial Icon" />
 												</div>
 											</div>
 										</div>

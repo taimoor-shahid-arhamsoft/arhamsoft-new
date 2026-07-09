@@ -16,6 +16,22 @@ const engagementModels = [
         link: "/fixed-price",
         button: true,
     },
+    {
+        // imgSrc: Images.imgAugModelAI,
+        imgSrc: Images.imgAugModelTeam,
+        title: "AI Enablement",
+        description: "Not a project with an end date. We build AI into your operations and stay for the monitoring, retraining and scaling that keeps it working.",
+        link: "/ai-enablement",
+        button: true,
+    },
+    {
+        // imgSrc: Images.imgAugModelProduct,
+        imgSrc: Images.imgAugModelFixed,
+        title: "Product Readiness",
+        description: "A fixed-scope review before you scale. We go through your AI product and tell you what breaks first, then you decide what to fix and who fixes it.",
+        link: "/ai-product-readiness-review",
+        button: true,
+    },
 ];
 const stats = [
     { value: "1.5+", description: "decades of growth" },
