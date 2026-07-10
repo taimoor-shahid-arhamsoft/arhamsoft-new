@@ -40,7 +40,7 @@ const tabData = [
         title: "A Straight Read",
         iconDefault: Images.WhatForIconOne,
         iconHover: Images.WhatForIconHoverOne,
-        image: Images.teamAugLargeIn01,
+        image: cloudinaryImages.AiReviewBenifits01,
         description: "You get a ranked list of what breaks first and what fixing it takes, written so your team can act on it. No deck padding."
     },
     {
@@ -48,7 +48,7 @@ const tabData = [
         title: "Fixed Scope, Fixed Price",
         iconDefault: Images.WhatForIconTwo,
         iconHover: Images.WhatForIconHoverTwo,
-        image: Images.teamAugLargeIn02,
+        image: cloudinaryImages.AiReviewBenifits02,
         description: "A review with a start, an end and a price. You decide what to fix and who fixes it. No lock-in to us."
     },
     {
@@ -56,7 +56,7 @@ const tabData = [
         title: "Cheaper Than An Outage",
         iconDefault: Images.WhatForIconThree,
         iconHover: Images.WhatForIconHoverThree,
-        image: Images.teamAugLargeIn03,
+        image: cloudinaryImages.AiReviewBenifits03,
         description: "Finding the weak point in a review costs a fraction of finding it in production with users watching."
     },
 ];

@@ -5,19 +5,19 @@ const bannerText = <p>Not a pilot and not a proof of concept. We build AI into t
 const skillTitle = <h2 className="text-white"><span>Unlock The </span> Benefits</h2>;
 const howWeDos = [
     {
-        icon: Images.AiWhatOne,
+        icon: cloudinaryImages.AiBoxes01,
         boxColor: "orange",
         title: "Workflow Automation",
         description: "The reports, follow-ups and checks your team repeats every week, handed to machines while the judgment stays with people.",
     },
     {
-        icon: Images.AiWhatTwo,
+        icon: cloudinaryImages.AiBoxes02,
         boxColor: "blue",
         title: "Generative AI & LLM Apps",
         description: "Chatbots, RAG systems and LLM applications built on OpenAI and Anthropic APIs, grounded in your business data.",
     },
     {
-        icon: Images.AiWhatThree,
+        icon: cloudinaryImages.AiBoxes03,
         boxColor: "farozi",
         title: "Production ML Systems",
         description: "Custom models with the pipelines, evaluation and monitoring that keep them accurate after launch.",
@@ -29,7 +29,7 @@ const tabData = [
         title: "Hours Back Every Week",
         iconDefault: Images.WhatForIconOne,
         iconHover: Images.WhatForIconHoverOne,
-        image: Images.teamAugLargeIn01,
+        image: cloudinaryImages.AiBenifits01,
         description: "The Friday report, the invoice checks, the support answers on a loop. Once automated, that time goes back to work only people can do. For most teams the first workflow pays for the build."
     },
     {
@@ -37,7 +37,7 @@ const tabData = [
         title: "Systems That Keep Working",
         iconDefault: Images.WhatForIconTwo,
         iconHover: Images.WhatForIconHoverTwo,
-        image: Images.teamAugLargeIn02,
+        image: cloudinaryImages.AiBenifits02,
         description: "Most AI stalls after the demo. Ours ships with monitoring, retraining and cost ceilings, so quality holds in month six, not just week one."
     },
     {
@@ -45,7 +45,7 @@ const tabData = [
         title: "Judgment Stays Human",
         iconDefault: Images.WhatForIconThree,
         iconHover: Images.WhatForIconHoverThree,
-        image: Images.teamAugLargeIn03,
+        image: cloudinaryImages.AiBenifits03,
         description: "We automate the copy-paste, not the decisions. Approvals, edge cases and anything that needs a person stay with your people, by design."
     },
 ];

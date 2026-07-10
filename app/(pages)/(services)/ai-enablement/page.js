@@ -1,4 +1,4 @@
-import { Images } from "@/assets/assets";
+import { cloudinaryImages } from "@/assets/assets";
 import PageBanner from "@/components/Shared/PageBanner/PageBanner";
 import HowWeDo from "@/components/UiUx/HowWeDo/HowWeDo";
 import WhatInForYou from "@/components/Shared/WhatInForYou/WhatInForYou";
@@ -35,7 +35,7 @@ export default function AiEnablement() {
         text={bannerText}
         buttonText="Start With One Workflow"
         buttonLink="#contact-us"
-        bannerImage={Images.AiMl}
+        bannerImage={cloudinaryImages.AiEnabledBanner}
         bannerImgAlt="AI Enablement Services"
       />
       <HowWeDo
