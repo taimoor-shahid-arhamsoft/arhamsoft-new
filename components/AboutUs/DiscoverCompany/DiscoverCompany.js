@@ -2,7 +2,7 @@ import Image from "next/image";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { Images } from "@/assets/assets";
+import { cloudinaryImages, Images } from "@/assets/assets";
 import "@/styles/DiscoverCompany.css";
 
 export default function DiscoverCompany() {
@@ -90,7 +90,7 @@ export default function DiscoverCompany() {
                         </Col>
                         <Col lg={4}>
                             <div className="image-holder">
-                                <Image className="img-fluid" width="518" height="720" src={Images.discoverCompany} alt="Company Building" />
+                                <Image className="img-fluid" width="518" height="720" src={cloudinaryImages.companyDataonMAtrix} alt="Company Building" />
                             </div>
                         </Col>
                     </Row>

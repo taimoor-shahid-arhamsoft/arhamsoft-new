@@ -6,7 +6,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Select from "react-select"; // Import React Select
-import { Images } from "@/assets/assets";
+import { cloudinaryImages, Images } from "@/assets/assets";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import "@/styles/CaseStudiesWhatWeOffer.css";
@@ -21,7 +21,7 @@ export default function WhatWeOfferCases() {
 
 	const offers = [
 		{
-			logo: Images.logoCaseStudies01,
+			logo: cloudinaryImages.BiViewLogoImage,
 			image: Images.imgCaseStudies01,
 			heading: "Object Recognition System",
 			description: "Learn how Data on Matrix’s dedicated team developed and released an AI-powered video-sharing platform that improves video marketing campaigns for businesses.",

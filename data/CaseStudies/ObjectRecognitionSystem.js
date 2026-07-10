@@ -1,4 +1,4 @@
-import { Images } from "@/assets/assets";
+import { Images, cloudinaryImages } from "@/assets/assets";
 
 const bannerHeading = <h1>AI-Powered Object<br /> Recognition MVP</h1>;
 const bannerText = <p>A fully functional, market-ready MVP designed to automate the process of detecting, recognizing, extracting, and analyzing objects from video content.</p>;
@@ -152,7 +152,7 @@ const secondSection = {
     ],
 };
 const resultSliderImages = [
-    { image: Images.ImgBiiViewResult01 },
+    { image: cloudinaryImages.BiViewMobileImage },
     { image: Images.ImgBiiViewResult02 },
     { image: Images.ImgBiiViewResult03 },
     { image: Images.ImgBiiViewResult04 },

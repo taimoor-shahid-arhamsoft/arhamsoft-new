@@ -3,7 +3,7 @@ import Image from "next/image";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { Images } from "@/assets/assets";
+import { Images, cloudinaryImages } from "@/assets/assets";
 import "@/styles/CompanyPageBanner.css";
 
 export default function CompanyPageBanner() {
@@ -21,7 +21,7 @@ export default function CompanyPageBanner() {
         {
             title: "Top B2B Company Award",
             year: "2021",
-            image: Images.ImgAward02
+            image: cloudinaryImages.clutchPicture
         },
     ];
     return (

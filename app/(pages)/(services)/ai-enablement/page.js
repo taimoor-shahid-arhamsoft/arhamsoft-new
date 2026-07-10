@@ -4,6 +4,7 @@ import HowWeDo from "@/components/UiUx/HowWeDo/HowWeDo";
 import WhatInForYou from "@/components/Shared/WhatInForYou/WhatInForYou";
 import WorkSlider from "@/components/Shared/WorkSlider/WorkSlider";
 import TechStacks from "@/components/Shared/TechStacks/TechStacks";
+import LetsDiscuss from "@/components/Shared/LetsDiscuss/LetsDiscuss";
 import {
   bannerHeading,
   bannerText,
@@ -47,11 +48,17 @@ export default function AiEnablement() {
         tabData={tabData}
         buttonLink={true}
       />
+      <LetsDiscuss
+        title="Let’s Discuss Your Project"
+        description="Book a free consultation, or just send us one workflow your team repeats every week. A sentence is enough to start."
+        buttonText="Schedule Consultation"
+        buttonLink="/contact-us"
+      />
       <TechStacks
-				title="Tools & "
-				subTitle="Tech We Use"
-				techImages={techImages}
-			/>
+        title="Tools & "
+        subTitle="Tech We Use"
+        techImages={techImages}
+      />
       <WorkSlider
         title="Case Studies"
         description="Read through the following case studies to see how we've successfully addressed diverse IT challenges and delivered impactful solutions."

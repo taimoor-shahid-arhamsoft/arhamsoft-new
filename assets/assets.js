@@ -2603,6 +2603,11 @@ export const cloudinaryImages = {
     AiReviewBenifits01: `${cloudinaryBaseUrl}/v1783682779/Arhamsoft%20rewamp/ai-readniess-03_ufoi6b.webp`,
     AiReviewBenifits02: `${cloudinaryBaseUrl}/v1783682779/Arhamsoft%20rewamp/ai-readniess-02_tbyxlo.webp`,
     AiReviewBenifits03: `${cloudinaryBaseUrl}/v1783682779/Arhamsoft%20rewamp/ai-readniess-01_xl7ljx.webp`,
+    companyDataonMAtrix: `${cloudinaryBaseUrl}/v1783696581/Arhamsoft%20rewamp/company-picture_ik5ngi.webp`,
+    clutchPicture: `${cloudinaryBaseUrl}/v1783693689/Arhamsoft%20rewamp/clutch_xgrqkg.png`,
+    BiViewMobileImage: `${cloudinaryBaseUrl}/v1783696580/Arhamsoft%20rewamp/AiviewMobileImage_kezfv2.webp`,
+    BiViewCardsImage: `${cloudinaryBaseUrl}/v1783696580/Arhamsoft%20rewamp/AiviewMobileImage_kezfv2.webp`,
+    BiViewLogoImage: `${cloudinaryBaseUrl}/v1783696581/Arhamsoft%20rewamp/Image_228_fpyra1.webp`,
 }
 
 export const Videos = {

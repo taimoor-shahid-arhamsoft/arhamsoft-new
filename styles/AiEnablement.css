@@ -12,10 +12,12 @@
 .ai-enablement .our-skillset .tab-data .btn-get-touch {background: #F07700;color: #fff;border: 1px solid #F07700;}
 .ai-enablement .our-skillset .tab-data .btn-get-touch:hover {background: #fff;color: #F07700;border: 1px solid #F07700;}
 .ai-enablement .our-skillset .nav{padding:75px 30px 130px 0;max-width:470px;height: stretch;}
+.ai-enablement .lets-discuss {margin-top:100px;}
 /* responsiveness */
 @media(max-width:1699px){
 	.ai-enablement .our-skillset .tab-data .head {max-width:650px;}
 	.ai-enablement .our-skillset .whats-in-for-content .nav h2{font-size:50px;line-height:60px;}
+	.ai-enablement .lets-discuss {margin-top:80px;}
 }
 @media(max-width:1599px){
 	.ai-enablement .our-skillset .whats-in-for-content .nav {padding-bottom: 70px;padding-top:50px;}
@@ -27,6 +29,7 @@
 	.ai-enablement .our-skillset .whats-in-for-content .nav {width: 360px;}
 	.ai-enablement .our-skillset .whats-in-for-content .tab-content{width:calc(100% - 360px);}
 	.ai-enablement .our-skillset .tab-data .head {max-width: 100%;margin: 0 0 30px;}
+	.ai-enablement .lets-discuss {margin-top:60px;}
 }
 @media(max-width:1199px){
 	.ai-enablement .how-we-block .icon-holder {margin: 0 0 25px;}
@@ -45,6 +48,7 @@
 	.ai-enablement .our-skillset .tab-data .head h3 {font-size: 30px;line-height: 36px;margin: 0 0 15px;}
 	.ai-enablement .our-skillset .tab-data .tab-image {margin: 0 auto 20px;}
 	.ai-enablement .our-skillset .tab-data .head p {font-size: 18px;line-height: 26px;}
+	.ai-enablement .lets-discuss {margin-top:40px;}
 }
 @media(max-width:575px){
 	.ai-enablement .our-skillset .whats-in-for-content .nav h2 {font-size: 28px;line-height: 36px;}
