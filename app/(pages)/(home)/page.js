@@ -15,8 +15,8 @@ import {
 
 export async function generateMetadata() {
 	return {
-		title: "AI Development Services in USA | Custom AI Software Development",
-		description: "Looking for AI development services in USA? We build custom AI software, AI-powered applications, machine learning solutions, and enterprise AI systems.",
+		title: "AI & Software That Gets Used - DataonMatrix",
+		description: "DataonMatrix builds AI automation and software that changes how work gets done: workflow automation for operations teams and AI products built for real users.",
 		keywords: ["software development, Web and Mobile App Development Company, ai development services in usa, ai automation services"],
 		alternates: {
 			canonical: "https://www.dataonmatrix.com/",
