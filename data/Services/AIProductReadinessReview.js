@@ -30,7 +30,7 @@ const howWeDos = [
         icon: cloudinaryImages.AiReviewThree,
         boxColor: "farozi",
         title: "Cost & Monitoring",
-        description: "Latency and cost as architecture, monitoring after launch, and the escalation path to a human.",
+        description: "Latency and cost as architecture, monitoring after launch, and the escalation path to a person.",
     },
 ];
 const skillTitle = <h2 className="text-white"><span>Unlock The </span> Benefits</h2>;
