@@ -11,12 +11,12 @@ export default function CompanyPageBanner() {
         {
             title: "PD Award",
             year: "2023",
-            image: Images.ImgAward03
+            image: cloudinaryImages.pdAWard
         },
         {
             title: "Best Software House Award",
             year: "2022",
-            image: Images.ImgAward01
+            image: cloudinaryImages.BestSoftwareAward
         },
         {
             title: "Top B2B Company Award",

@@ -1,4 +1,4 @@
-import { Images } from "@/assets/assets";
+import { Images, cloudinaryImages } from "@/assets/assets";
 import { Container } from "react-bootstrap";
 import SliderComponent from "@/components/Shared/WorkSlider/SliderComponent";
 import "@/styles/WorkSlider.css";
@@ -6,7 +6,7 @@ import "@/styles/WorkSlider.css";
 const WorkSlider = ({ title, description }) => {
     const workSliderData = [
         {
-            image: Images.WorkSlider01,
+            image: cloudinaryImages.BiViewCardsImage,
             platform: "Advertising & Marketing",
             title: "Object Recognition System",
             url: "/case-studies/object-recognition-system",
