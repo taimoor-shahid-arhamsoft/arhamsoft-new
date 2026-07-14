@@ -2610,6 +2610,9 @@ export const cloudinaryImages = {
     clutchPicture: `${cloudinaryBaseUrl}/v1783930680/Arhamsoft%20rewamp/clutch-arawd_v9sjxy.webp`,
     pdAWard: `${cloudinaryBaseUrl}/v1783930680/Arhamsoft%20rewamp/pda-award_dtruo3.webp`,
     BestSoftwareAward: `${cloudinaryBaseUrl}/v1783930680/Arhamsoft%20rewamp/bestSoftware_aqhhh7.webp`,
+    smartIrigationLogo: `${cloudinaryBaseUrl}/v1784029902/Arhamsoft%20rewamp/logo_2x_ybfy6c.webp`,
+    smartIrigationImage: `${cloudinaryBaseUrl}/v1784029489/Arhamsoft%20rewamp/smart-farm-circle_zr5ksm.webp`,
+    smartIrigationBanner: `${cloudinaryBaseUrl}/v1784029489/Arhamsoft%20rewamp/smar-farm-slider_q92bng.webp`,
 }
 
 export const Videos = {

@@ -6,6 +6,22 @@ import "@/styles/WorkSlider.css";
 const WorkSlider = ({ title, description }) => {
     const workSliderData = [
         {
+            image: cloudinaryImages.smartIrigationBanner,
+            platform: "Agriculture & AgriTech",
+            title: "Smart Farm Irrigation System",
+            url: "/case-studies/smart-farm-irrigation-system",
+            description: "Real-time monitoring lets large farms catch stalled or off-schedule pivots the moment they happen, so the team responds fast and the fields keep running.",
+            techStacks: [
+                Images.BiiviewStack01,
+                Images.BiiviewStack02,
+                Images.BiiviewStack03,
+                Images.BiiviewStack04,
+                Images.BiiviewStack05,
+                Images.BiiviewStack06,
+                Images.BiiviewStack07,
+            ]
+        },
+        {
             image: cloudinaryImages.BiViewCardsImage,
             platform: "Advertising & Marketing",
             title: "Object Recognition System",

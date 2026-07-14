@@ -21,6 +21,14 @@ export default function WhatWeOfferCases() {
 
 	const offers = [
 		{
+			logo: cloudinaryImages.smartIrigationLogo,
+			image: cloudinaryImages.smartIrigationImage,
+			heading: "Smart Farm Irrigation System",
+			description: "Real-time monitoring lets large farms catch stalled or off-schedule pivots the moment they happen, so the team responds fast and the fields keep running.",
+			industry: "Agriculture & AgriTech",
+			caseStudyUrl: "/smart-farm-irrigation-system"
+		},
+		{
 			logo: cloudinaryImages.BiViewLogoImage,
 			image: Images.imgCaseStudies01,
 			heading: "Object Recognition System",
