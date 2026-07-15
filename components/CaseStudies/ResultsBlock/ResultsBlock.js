@@ -21,8 +21,8 @@ export default function ResultsBlock(props) {
 					<Col lg={8}>
 						<div className="content-holder">
 							<h2>{props.firstSection?.heading}</h2>
-							{props.firstSection?.contentTexts.map((contentText,index)=>{
-								return(
+							{props.firstSection?.contentTexts.map((contentText, index) => {
+								return (
 									<div key={index} dangerouslySetInnerHTML={{ __html: contentText.text }}></div>
 								);
 							})}
@@ -31,13 +31,13 @@ export default function ResultsBlock(props) {
 							<h2>{props.secondSection?.heading}</h2>
 							{props.secondSection?.paraBulletsContent ?
 								<>
-									{props.secondSection?.paraBulletsContent.map((paraBullet,index)=>{
-										return(
+									{props.secondSection?.paraBulletsContent.map((paraBullet, index) => {
+										return (
 											<div className="content-block" key={index}>
 												<p key={index} dangerouslySetInnerHTML={{ __html: paraBullet.paragraph }}></p>
 												<ul className="list-unstyled mb-0 bullet-points">
-													{paraBullet.bullets?.map((bullet,index)=>{
-														return(
+													{paraBullet.bullets?.map((bullet, index) => {
+														return (
 															<li key={index}>
 																<div key={index} dangerouslySetInnerHTML={{ __html: bullet.text }}></div>
 															</li>
@@ -48,18 +48,18 @@ export default function ResultsBlock(props) {
 										);
 									})}
 								</>
-							:
+								:
 								""
 							}
-							{props.secondSection?.contentTexts?.map((contentText,index)=>{
-								return(
+							{props.secondSection?.contentTexts?.map((contentText, index) => {
+								return (
 									<div key={index} dangerouslySetInnerHTML={{ __html: contentText.text }}></div>
 								);
 							})}
 						</div>
 					</Col>
 					<Col lg={4}>
-					<ResultSlider resultSliderImages={props.resultSliderImages}/>
+						<ResultSlider resultSliderImages={props.resultSliderImages} />
 					</Col>
 				</Row>
 			</Container>

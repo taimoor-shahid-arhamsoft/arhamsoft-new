@@ -34,7 +34,10 @@ import "@/styles/CaseStudies/CaseStudiesDetail.css";
 
 export async function generateMetadata() {
 	return {
-		title: "Blockchain Solution - DataOnMatrix",
+		title: "Blockchain Solution - Data on Matrix",
+		alternates: {
+			canonical: "https://www.dataonmatrix.com/case-studies/blockchain-solution",
+		},
 	};
 }
 

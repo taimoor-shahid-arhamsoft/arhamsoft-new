@@ -30,7 +30,10 @@ import "@/styles/CaseStudies/CaseStudiesDetail.css";
 
 export async function generateMetadata() {
 	return {
-		title: "Multi-Vendor Marketplace - DataOnMatrix",
+		title: "Multi-Vendor Marketplace - Data on Matrix",
+		alternates: {
+			canonical: "https://www.dataonmatrix.com/case-studies/multi-vendor-marketplace",
+		},
 	};
 }
 

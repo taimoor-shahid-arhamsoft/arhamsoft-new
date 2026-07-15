@@ -30,7 +30,10 @@ import "@/styles/CaseStudies/CaseStudiesDetail.css";
 
 export async function generateMetadata() {
 	return {
-		title: "Account Management System - DataOnMatrix",
+		title: "Account Management System - Data on Matrix",
+		alternates: {
+			canonical: "https://www.dataonmatrix.com/case-studies/account-management-solution",
+		},
 	};
 }
 

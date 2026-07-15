@@ -27,7 +27,10 @@ import "@/styles/CaseStudies/CaseStudiesDetail.css";
 
 export async function generateMetadata() {
 	return {
-		title: "Ecommerce Store - DataOnMatrix",
+		title: "Ecommerce Store - Data on Matrix",
+		alternates: {
+			canonical: "https://www.dataonmatrix.com/case-studies/ecommerce-store",
+		},
 	};
 }
 

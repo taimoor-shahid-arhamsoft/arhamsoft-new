@@ -13,7 +13,7 @@ export const metadata = {
   description: "Ensure system uptime and performance with expert support and maintenance services—prevent downtime and protect your investment.",
   keywords: ["Support and Maintenance Services"],
   alternates: {
-    canonical: "https://www.dataonmatrix.com/support-and-main",
+    canonical: "https://www.dataonmatrix.com/",
   },
   other: {
     "google-site-verification": googleSiteVerificationKey,

@@ -37,6 +37,9 @@ import "@/styles/CaseStudies/CaseStudiesDetail.css";
 export async function generateMetadata() {
 	return {
 		title: "Ride-Sharing App by Data on Matrix",
+		alternates: {
+			canonical: "https://www.dataonmatrix.com/case-studies/ride-sharing-app",
+		},
 	};
 }
 

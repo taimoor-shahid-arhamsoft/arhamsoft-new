@@ -28,6 +28,9 @@ export async function generateMetadata() {
       "app maintenance and support",
       "software maintenance company",
     ],
+    alternates: {
+      canonical: "https://www.dataonmatrix.com/support-and-maintenance",
+    },
   };
 }
 

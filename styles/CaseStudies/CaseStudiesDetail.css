@@ -122,6 +122,12 @@
 .case-study-detail .lets-discuss {margin-bottom: 100px;}
 .case-study-detail.reverse-life .services-you-get .lottie-holder-two div {height: 100%;width: 100%;}
 :is(.annex-finance, .reverse-life, .recruit-coin, .odoo-hrm, .odoo-integration) .results-block-colored {padding-top: 100px;}
+
+.case-study-detail .results-block .tab-image-holder {width: 518px;}
+.case-study-detail .results-block .tab-image-holder img{width:100%;height:auto;}
+.case-study-detail .results-block .result-main-slider-tab {width: 474px;position: absolute;top: 42px;left: 50%;border-radius: 10px;overflow: hidden;transform: translateX(-50%);}
+.case-study-detail .results-block .result-main-slider-tab img{width:100%;height:auto;}
+.case-study-detail .results-block .result-main-slider-tab .slick-slide > div > div {vertical-align:top;}
 /*responsiveness*/
 @media(max-width:1699px){
     .case-study-detail .results-block .result-main-slider{width:279px;top:30px;}
@@ -137,6 +143,7 @@
     :is(.topsun-bazar, .control-panda, .dayta, .lynx-hrm) .results-block-colored{padding: 100px 0 60px;}
     .case-study-detail .lets-discuss {margin-bottom: 80px;}
     :is(.annex-finance, .reverse-life, .recruit-coin, .odoo-hrm, .odoo-integration) .results-block-colored {padding-top: 80px;}
+    .case-study-detail .results-block .result-main-slider-tab {width: 366px;}
 }
 @media(max-width:1599px){
     .case-study-detail .challenge-block h2{font-size:50px;line-height:66px;}
@@ -180,6 +187,7 @@
     .case-study-detail .challenge-block ul li:before{top: 11px;}
     .case-study-detail .lets-discuss {margin-bottom: 70px;}
     :is(.annex-finance, .reverse-life, .recruit-coin, .odoo-hrm, .odoo-integration) .results-block-colored {padding-top: 70px;}
+    .case-study-detail .results-block .result-main-slider-tab {width: 316px;top: 35px;}
 }
 @media(max-width:1199px){
     .case-study-detail .prjscp-col{padding:30px;font-size:16px;line-height:24px;}
@@ -224,6 +232,7 @@
     .case-study-detail .our-solutions-taber .tab-content .key-points li:before{top: 7px;}
     .case-study-detail .lets-discuss {margin-bottom: 50px;}
     :is(.annex-finance, .reverse-life, .recruit-coin, .odoo-hrm, .odoo-integration) .results-block-colored {padding-top: 50px;}
+    .case-study-detail .results-block .result-main-slider-tab {width: 264px;top: 30px;}
 }
 @media(max-width:991px){
     .case-study-detail .challenge-block h2{font-size:35px;line-height:42px;}
@@ -245,6 +254,7 @@
     :is(.topsun-bazar, .control-panda, .dayta, .lynx-hrm) .results-block-colored{padding: 60px 0 20px;}
     .control-panda .services-you-get .lottie-holder.image-area img{max-width: 200px;}
     :is(.annex-finance, .reverse-life, .recruit-coin, .odoo-hrm, .odoo-integration) .results-block-colored {padding-top: 40px;}
+    .case-study-detail .results-block .result-main-slider-tab {width: 478px;top: 39px;}
 }
 @media(max-width:767px){
     .case-study-detail .challenge-block h2{font-size:30px;line-height:38px;}
@@ -310,6 +320,8 @@
     .case-study-detail.gig-jobs .cs-miryde-image.animation-center-image{width:305px;}
     .case-study-detail .services-you-get .services-box.no-icon{padding: 20px 15px;}
     :is(.topsun-bazar, .control-panda, .dayta, .lynx-hrm) .results-block-colored{padding: 30px 0 10px;}
+    .case-study-detail .results-block .tab-image-holder {width: 400px;}
+    .case-study-detail .results-block .result-main-slider-tab {width: 365px;top: 35px;}
 }
 @media(max-width:479px){
     .case-study-detail .challenge-block h2{font-size:22px;line-height:30px;}
@@ -318,9 +330,13 @@
     .case-study-detail.biiview .cs-miryde-image.animation-center-image,
     .case-study-detail.gig-jobs .cs-miryde-image.animation-center-image{width:240px;}
     .case-study-detail .results-block-colored .result-block{flex-direction: column-reverse;}
+    .case-study-detail .results-block .tab-image-holder {width: 270px;}
+    .case-study-detail .results-block .result-main-slider-tab {width: 246px;top: 30px;}
 }
 @media(max-width:319px){
     .case-study-detail .results-block .mobile-image-holder,
     .case-study-detail .results-block .thumb-slider{width:240px;}
     .case-study-detail .results-block .result-main-slider{width:166px;top:25px;border-radius:29px;}
+    .case-study-detail .results-block .tab-image-holder {width: 230px;}
+    .case-study-detail .results-block .result-main-slider-tab {width: 211px;top: 28px;}
 }

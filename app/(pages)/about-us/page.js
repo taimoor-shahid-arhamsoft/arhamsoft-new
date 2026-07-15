@@ -9,6 +9,9 @@ export async function generateMetadata() {
 		title: "About Us | DataOnMatrix",
 		description: "Discover DataOnMatrix, a trusted AI development company helping businesses innovate with custom software, AI solutions, automation, and scalable technology services.",
 		keywords: ["Data on Matrix" , "IT Solution Provider"],
+		alternates: {
+			canonical: "https://www.dataonmatrix.com/about-us",
+		},
 	};
 }
 

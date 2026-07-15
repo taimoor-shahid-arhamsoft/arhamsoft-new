@@ -18,6 +18,9 @@ export async function generateMetadata() {
     title: "Careers at Data on Matrix - Join Our Team of Experts",
     description:
       "Explore exciting career opportunities at Data on Matrix. Join our innovative team and contribute to cutting-edge projects in technology, development, and consulting. Apply today!",
+    alternates: {
+      canonical: "https://www.dataonmatrix.com/careers",
+    },
   };
 }
 

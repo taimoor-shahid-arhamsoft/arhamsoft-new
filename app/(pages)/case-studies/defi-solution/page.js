@@ -35,7 +35,10 @@ import "@/styles/CaseStudies/CaseStudiesDetail.css";
 
 export async function generateMetadata() {
 	return {
-		title: "DeFi Solution - DataOnMatrix",
+		title: "DeFi Solution - Data on Matrix",
+		alternates: {
+			canonical: "https://www.dataonmatrix.com/case-studies/defi-solution",
+		},
 	};
 }
 

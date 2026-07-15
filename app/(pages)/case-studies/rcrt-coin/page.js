@@ -35,7 +35,10 @@ import "@/styles/CaseStudies/CaseStudiesDetail.css";
 
 export async function generateMetadata() {
 	return {
-		title: "RCRTCoin - DataOnMatrix",
+		title: "RCRTCoin - Data on Matrix",
+		alternates: {
+			canonical: "https://www.dataonmatrix.com/case-studies/rcrt-coin",
+		},
 	};
 }
 export default function Page() {

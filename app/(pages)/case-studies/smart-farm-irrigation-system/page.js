@@ -1,4 +1,4 @@
-import { Animations, Images, Videos } from "@/assets/assets";
+import { Animations, cloudinaryImages, Images, Videos } from "@/assets/assets";
 import PageBanner from "@/components/Shared/PageBanner/PageBanner";
 import ProjectAbout from "@/components/CaseStudies/ProjectAbout/ProjectAbout";
 import ChallengeBlock from "@/components/CaseStudies/ChallengeBlock/ChallengeBlock";
@@ -45,7 +45,8 @@ export default function SmartFarmIrrigationSystem() {
 				text={bannerText}
 				buttonText="Get Your Custom IoT Solution"
 				buttonLink="#contact-us"
-				banneVideo={Videos.caseStudyBiiView}
+				bannerImgAlt="Smart Farm Irrigation System"
+				bannerImage={cloudinaryImages.SmartFarmBanner}
 			/>
 			<ProjectAbout
 				title="Problem Statement"
@@ -62,7 +63,7 @@ export default function SmartFarmIrrigationSystem() {
 					sectionText="We built a real-time monitoring and alerting platform that watches every irrigation machine and helps the team act on problems sooner."
 					animationTwo={Animations.servicesAnimationTwo}
 					servicesBoxesContent={servicesBoxesContent}
-					animationCenterImage={Images.imgCSBiiViewAnimation}
+					animationCenterImage={cloudinaryImages.SmartFarmSolution}
 				/>
 			</div>
 			<ChallengeBlock

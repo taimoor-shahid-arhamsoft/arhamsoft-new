@@ -34,7 +34,10 @@ import "@/styles/CaseStudies/CaseStudiesDetail.css";
 
 export async function generateMetadata() {
   return {
-    title: "Job Posting Portal - DataOnMatrix",
+    title: "Job Posting Portal - Data on Matrix",
+    alternates: {
+      canonical: "https://www.dataonmatrix.com/case-studies/job-posting-portal",
+    },
   };
 }
 export default function Page() {

@@ -28,7 +28,10 @@ import "@/styles/CaseStudies/CaseStudiesDetail.css";
 
 export async function generateMetadata() {
 	return {
-		title: "Salesforce CRM - DataOnMatrix",
+		title: "Salesforce CRM - Data on Matrix",
+		alternates: {
+			canonical: "https://www.dataonmatrix.com/case-studies/salesforce-crm",
+		},
 	};
 }
 

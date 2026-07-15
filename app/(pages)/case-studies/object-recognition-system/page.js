@@ -31,8 +31,10 @@ import "@/styles/CaseStudies/CaseStudiesDetail.css";
 
 export async function generateMetadata() {
 	return {
-		title: "Object Recognition System - DataOnMatrix",
-		description: "Explore our AI-powered Object Recognition System that uses advanced computer vision to identify objects, automate workflows, and improve operational efficiency.",
+		title: "Object Recognition System - Data on Matrix",
+		alternates: {
+			canonical: "https://www.dataonmatrix.com/case-studies/object-recognition-system",
+		},
 	};
 }
 

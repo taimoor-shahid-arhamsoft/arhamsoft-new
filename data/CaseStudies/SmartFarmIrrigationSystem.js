@@ -5,14 +5,14 @@ const bannerText = <p>A real-time monitoring and alerting platform for large far
 const whatWeDoTitle = <h2><span className="d-block">Client Request</span></h2>;
 const whatWeDos = [
     {
-        iconDefault: Images.iconBiiViewWWDDefault01,
-        iconHover: Images.iconBiiViewWWDHover01,
+        iconDefault: cloudinaryImages.SmartFarmClient01,
+        iconHover: cloudinaryImages.SmartFarmClientHover01,
         title: "Real-Time",
         description: "Show what every machine is doing the moment it changes — not at the next field check."
     },
     {
-        iconDefault: Images.iconBiiViewWWDDefault02,
-        iconHover: Images.iconBiiViewWWDHover02,
+        iconDefault: cloudinaryImages.SmartFarmClient02,
+        iconHover: cloudinaryImages.SmartFarmClientHover02,
         title: "Reliable",
         description: "Catch the faults that matter without burying the team in false alarms."
     },
@@ -25,42 +25,42 @@ const whatWeDos = [
 ];
 const servicesBoxesContent = [
     {
-        iconDefault: Images.iconCSBiiViewSol01,
+        iconDefault: cloudinaryImages.SmartFarmSolutionImages01,
         title: "Live Machine Monitoring",
         description: "Watches every pivot machine as it runs and turns raw telemetry into signals a person can actually read."
     },
     {
-        iconDefault: Images.iconCSBiiViewSol02,
+        iconDefault: cloudinaryImages.SmartFarmSolutionImages02,
         title: "Unified Farm Dashboard",
         description: "Brings the whole operation into one view, so any field's status is a glance away."
     },
     {
-        iconDefault: Images.iconCSBiiViewSol03,
+        iconDefault: cloudinaryImages.SmartFarmSolutionImages03,
         title: "Early Problem Detection",
         description: "Flags operational issues automatically — before they turn into wasted water or a damaged crop."
     },
     {
-        iconDefault: Images.iconCSBiiViewSol04,
+        iconDefault: cloudinaryImages.SmartFarmSolutionImages04,
         title: "Real-Time Data Sync",
         description: "Keeps telemetry and schedules current, so the dashboard always reflects what's happening right now."
     },
     {
-        iconDefault: Images.iconCSBiiViewSol05,
+        iconDefault: cloudinaryImages.SmartFarmSolutionImages05,
         title: "Oscar Lite Rules Engine",
         description: "Compares what each machine should be doing against what it's actually doing, and catches anomalies on its own."
     },
     {
-        iconDefault: Images.iconCSBiiViewSol06,
+        iconDefault: cloudinaryImages.SmartFarmSolutionImages06,
         title: "Intelligent Alert System",
         description: "Notifies the team the moment something's wrong, ranks alerts by severity, and suggests what to do next."
     },
     {
-        iconDefault: Images.iconCSBiiViewSol07,
+        iconDefault: cloudinaryImages.SmartFarmSolutionImages07,
         title: "Actionable Insights",
         description: "Turns all of it into decisions backed by live data instead of hunches — so the team fixes the right thing first."
     },
     {
-        iconDefault: Images.iconCSBiiViewSol03,
+        iconDefault: cloudinaryImages.SmartFarmSolutionImages08,
         title: "Schedule Compliance",
         description: "Checks actual runs against the planned schedule and surfaces any machine that's drifting from it."
     }
@@ -155,11 +155,11 @@ const secondSection = {
     ],
 };
 const resultSliderImages = [
-    { image: cloudinaryImages.BiViewMobileImage },
-    { image: Images.ImgBiiViewResult02 },
-    { image: Images.ImgBiiViewResult03 },
-    { image: Images.ImgBiiViewResult04 },
-    { image: Images.ImgBiiViewResult05 },
+    { image: cloudinaryImages.SmartResultImage01 },
+    { image: cloudinaryImages.SmartResultImage02 },
+    { image: cloudinaryImages.SmartResultImage03 },
+    { image: cloudinaryImages.SmartResultImage04 },
+    { image: cloudinaryImages.SmartResultImage05 },
 ];
 const workSliderData = [
     {

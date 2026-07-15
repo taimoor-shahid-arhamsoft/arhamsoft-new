@@ -21,7 +21,7 @@ export async function generateMetadata() {
 		description: "Hire agile transformation services to help businesses adopt agile practices—faster results with lasting impact.",
 		keywords: ["Agile Transformation Services"],
 		alternates: {
-			canonical: "https://arhamsoft.u-server.arhamsoft.dev/agile-transformation",
+			canonical: "https://www.dataonmatrix.com/agile-transformation",
 		}
 	};
 }

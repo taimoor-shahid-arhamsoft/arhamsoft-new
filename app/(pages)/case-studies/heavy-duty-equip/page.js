@@ -26,7 +26,10 @@ import "@/styles/CaseStudies/CaseStudiesDetail.css";
 
 export async function generateMetadata() {
 	return {
-		title: "Heavy-Duty Equip - DataOnMatrix",
+		title: "Heavy-Duty Equip - Data on Matrix",
+		alternates: {
+			canonical: "https://www.dataonmatrix.com/case-studies/heavy-duty-equip",
+		},
 	};
 }
 

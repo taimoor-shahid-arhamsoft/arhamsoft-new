@@ -29,7 +29,10 @@ import "@/styles/CaseStudies/CaseStudiesDetail.css";
 
 export async function generateMetadata() {
 	return {
-		title: "HRM Solution - DataOnMatrix",
+		title: "HRM Solution - Data on Matrix",
+		alternates: {
+			canonical: "https://www.dataonmatrix.com/case-studies/hrm-solution",
+		},
 	};
 }
 
