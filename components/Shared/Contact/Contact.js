@@ -318,7 +318,7 @@ export default function Contact() {
           </Col>
           <Col lg={6} id="contact-us">
             <PopupButton
-              url="https://calendly.com/ayesha-shaukat-arhamsoft/30min"
+              url="https://calendly.com/sajal-dataonmatrix/30min"
               rootElement={typeof document !== "undefined" ? document.body : undefined}
               prefill={{
                 name: formData.name || undefined,
