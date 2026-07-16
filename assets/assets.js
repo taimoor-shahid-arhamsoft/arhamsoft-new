@@ -2633,6 +2633,8 @@ export const cloudinaryImages = {
     SmartResultImage03: `${cloudinaryBaseUrl}/v1784124635/Arhamsoft%20rewamp/farm-result-03_z5qaoc.webp`,
     SmartResultImage04: `${cloudinaryBaseUrl}/v1784124635/Arhamsoft%20rewamp/farm-result-04_reknap.webp`,
     SmartResultImage05: `${cloudinaryBaseUrl}/v1784124635/Arhamsoft%20rewamp/farm-result-05_lrcfd3.webp`,
+    dockerImage: `${cloudinaryBaseUrl}/v1784206249/Arhamsoft%20rewamp/docker_yy40jf.svg`,
+    mqttImage: `${cloudinaryBaseUrl}/v1784207427/Arhamsoft%20rewamp/MQTT_ecoaox.svg`,
 }
 
 export const Videos = {

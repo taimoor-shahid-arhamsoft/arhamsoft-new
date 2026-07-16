@@ -92,15 +92,15 @@ const techStacks = [
     { stackName: "React", image: Images.BiiviewStack04 },
     { stackName: "HTML5", image: Images.BiiviewStack01 },
     { stackName: "CSS3", image: Images.BiiviewStack02 },
-    { stackName: "Node.js", image: Images.BiiviewStack03 },
+    { stackName: "Node.js", image: Images.iconAnnexFinanceTech06 },
     { stackName: "Express.js", image: Images.BiiviewStack05 },
     { stackName: "Socket.io", image: Images.BiiviewStack06 },
     { stackName: "MongoDB", image: Images.BiiviewStack07 },
     { stackName: "Redis", image: Images.BiiviewStack08 },
     { stackName: "Python", image: Images.BiiviewStack10 },
-    { stackName: "MQTT", image: Images.BiiviewStack11 },
-    { stackName: "AWS", image: Images.BiiviewStack12 },
-    { stackName: "Docker", image: Images.BiiviewStack13 },
+    { stackName: "MQTT", image: cloudinaryImages.mqttImage },
+    { stackName: "AWS", image: Images.iconControlPandaTech08 },
+    { stackName: "Docker", image: cloudinaryImages.dockerImage },
 ];
 const solutionTabContent = [
     {
